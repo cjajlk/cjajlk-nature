@@ -1,0 +1,18 @@
+CJAJLK NATURE V1.4 — CATALOGUE ENRICHI / DOSAGES COHÉRENTS
+
+30 recettes ou méthodes simples, 5 guides séparés. Les nouvelles fiches sont surtout des usages d’entretien, pas 30 formulations inédites.
+Aucune formule non testée de gel douche, shampoing, dentifrice ou protection solaire. L'application n'est pas une certification de produit.
+
+NOUVEAUTÉS :
+- 13 fiches supplémentaires (ménage, deux usages du linge, deux gestes de soin sans eau).
+- Les doses écrites dans les étapes sont liées aux quantités du tableau, dans les deux modes.
+- Conseils neutres pour trouver les ingrédients dans les rayons ou boutiques de son choix (pas de lien affilié ni de commission).
+- Matériel, profils, historique, sécurité et design bleu nuit conservés.
+
+INSTALLATION :
+- Sur PC : ouvrir index.html via VS Code / Live Server, avec tous les fichiers et assets.
+- Sur Samsung : ouvrir CJAJLK_Nature_V1_4_Standalone.html avec Chrome et non avec une visionneuse.
+- Android content:// et localhost utilisent des stockages séparés : exporter la sauvegarde avant de changer d'origine, puis réimporter si nécessaire.
+- Le mode hors ligne installable complet nécessite une publication HTTPS (GitHub Pages).
+
+SÉCURITÉ : tous les produits nécessitent vérification de compatibilité, instructions du fabricant et précautions. Ne jamais mélanger des produits nettoyants, en particulier de l'eau de Javel et des acides. Pas de désinfection garantie. Les soins sont destinés à la peau saine uniquement, après essai prudent ; un test local n'exclut pas une allergie.
