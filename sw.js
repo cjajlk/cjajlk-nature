@@ -1,4 +1,4 @@
-const CACHE = 'cjajlk-nature-v1-4-catalogue-2026-11-10';
+const CACHE = 'cjajlk-nature-v1-5-catalogue-2026-11-11';
 const ASSETS = ['./','./index.html','./style.css','./data.js','./app.js','./manifest.webmanifest','./assets/icon-192.png','./assets/icon-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting()));

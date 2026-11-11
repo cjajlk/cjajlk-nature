@@ -1,4 +1,4 @@
-/* CJAJLK Nature V1.4 — catalogue étendu. Prix purement indicatifs modifiables. */
+/* CJAJLK Nature V1.5 — catalogue enrichi : 46 méthodes et 6 guides. Prix purement indicatifs modifiables. */
 window.NATURE_DATA = {
  ingredients: [
   {id:'eau', name:'Eau', unit:'ml', pack:1000, price:0.004, note:'Eau du robinet ; coût indicatif.',buyTip:"À trouver : robinet domestique ; utiliser de l’eau potable pour les surfaces alimentaires."},
@@ -19,7 +19,9 @@ window.NATURE_DATA = {
   {id:'smitom',name:'SMITOM-LOMBRIC – Lessive au savon de Marseille',url:'https://www.lombric.com/reduire-mes-dechets/tutos-et-recettes/lessive-maison/'},
   {id:'dgccrf',name:'DGCCRF – Sécurité des produits cosmétiques',url:'https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/les-produits-cosmetiques'},
   {id:'ameli',name:'Assurance Maladie – Hygiène bucco-dentaire',url:'https://www.ameli.fr/assure/sante/bons-gestes/quotidien/brosser-dents'},
-  {id:'anses',name:'ANSES – Précautions avec les huiles essentielles',url:'https://vigilanses.anses.fr/fr/node/2146'}
+  {id:'anses',name:'ANSES – Précautions avec les huiles essentielles',url:'https://vigilanses.anses.fr/fr/node/2146'},
+  {id:'ademe-air',name:'ADEME – Qualité de l’air et ménage sans parfums',url:'https://www.ademe.fr/presse/communique-national/qualiteair-interieur-3-questions-a-isabelle-augeven-bour/'},
+  {id:'anses-hygiene',name:'ANSES – Hygiène domestique (nettoyage et désinfection)',url:'https://www.anses.fr/fr/system/files/MIC2012sa0005Fi.pdf'}
  ],
  recipes: [
   {
@@ -821,6 +823,902 @@ window.NATURE_DATA = {
     "note": "Cette fiche décrit un geste de soin simple, pas une crème formulée en laboratoire."
   }
 },
+  {
+    "id": "miroir_eau",
+    "title": "Miroir : eau et microfibre",
+    "category": "maison",
+    "type": "recette",
+    "icon": "window",
+    "level": "Facile",
+    "minutes": 3,
+    "desc": "Nettoyage léger sans parfum ni produit supplémentaire.",
+    "base": 100,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        100
+      ]
+    ],
+    "steps": [
+      "Humidifier légèrement une microfibre propre avec {{eau}} d’eau.",
+      "Essuyer le miroir, sans détremper ses bords.",
+      "Terminer avec une seconde microfibre propre et sèche."
+    ],
+    "safety": [
+      "Ne pas laisser l’eau pénétrer dans le cadre ou derrière le tain du miroir.",
+      "Pour miroir chauffant ou traité, suivre la notice.",
+      "Nettoyage seul, pas de désinfection."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe-air",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Sans détergent",
+      "Petit budget"
+    ],
+    "sensitivity": "house",
+    "equipment": {
+      "essential": [
+        "Deux microfibres propres, une humide et une sèche",
+        "Petit récipient d’eau potable"
+      ],
+      "optional": [
+        "Raclette de vitre adaptée et propre"
+      ],
+      "container": "Aucun contenant de stockage ; l’eau est utilisée immédiatement.",
+      "note": "Ne pas utiliser d’éponge abrasive ni trop mouiller les bords."
+    }
+  },
+  {
+    "id": "poignees_portes",
+    "title": "Poignées et interrupteurs : chiffon doux",
+    "category": "maison",
+    "type": "recette",
+    "icon": "home",
+    "level": "Facile",
+    "minutes": 7,
+    "desc": "Dépoussiérer les zones fréquemment touchées sans pulvériser.",
+    "base": 252,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        250
+      ],
+      [
+        "savon_noir",
+        2
+      ]
+    ],
+    "steps": [
+      "Débrancher ou couper le courant si la notice le recommande ; ne jamais mouiller les mécanismes.",
+      "Préparer {{eau}} d’eau et {{savon_noir}} de savon noir dans un bol.",
+      "Passer un chiffon à peine humide sur les surfaces compatibles, sans pénétration de liquide.",
+      "Essuyer avec un linge humidifié à l’eau claire puis sécher complètement."
+    ],
+    "safety": [
+      "Ne jamais pulvériser sur prises, interrupteurs ou mécanismes électriques.",
+      "Ne garantit pas une désinfection ; respecter la notice et tester un endroit discret."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Surfaces fréquemment touchées",
+      "Sans spray"
+    ],
+    "sensitivity": "house",
+    "equipment": {
+      "essential": [
+        "Bol dédié au ménage",
+        "Petit doseur gradué",
+        "Deux microfibres dont une presque sèche"
+      ],
+      "optional": [
+        "Gants si peau sensible"
+      ],
+      "container": "Bol utilisé pour la session uniquement.",
+      "note": "Ne tremper ni interrupteur ni poignée électrique ; très peu de liquide."
+    }
+  },
+  {
+    "id": "plinthes",
+    "title": "Plinthes lavables : entretien doux",
+    "category": "maison",
+    "type": "recette",
+    "icon": "floor",
+    "level": "Facile",
+    "minutes": 10,
+    "desc": "Nettoyer des plinthes résistantes et peintures compatibles.",
+    "base": 1005,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        1000
+      ],
+      [
+        "savon_noir",
+        5
+      ]
+    ],
+    "steps": [
+      "Dépoussiérer les plinthes avec un chiffon sec.",
+      "Mélanger {{eau}} d’eau tiède et {{savon_noir}} de savon noir ménager.",
+      "Passer une lavette essorée sur une petite zone d’essai puis continuer si le revêtement résiste.",
+      "Essuyer puis sécher ; vider le récipient après usage."
+    ],
+    "safety": [
+      "Éviter bois brut, plinthes gonflées ou peintures fragiles.",
+      "Ne pas mouiller les jointures ni laisser la solution stagner."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Entretien courant",
+      "Maison"
+    ],
+    "sensitivity": "house",
+    "equipment": {
+      "essential": [
+        "Seau ou bassine de 2 L",
+        "Chiffon sec et lavette humide",
+        "Doseur gradué"
+      ],
+      "optional": [
+        "Brosse souple pour les angles"
+      ],
+      "container": "Dans la bassine, sans mise en bouteille.",
+      "note": "Utiliser un linge bien essoré pour limiter l’humidité."
+    }
+  },
+  {
+    "id": "joints_ceramique",
+    "title": "Joints de carrelage : brossage doux",
+    "category": "maison",
+    "type": "recette",
+    "icon": "bowl",
+    "level": "Facile",
+    "minutes": 12,
+    "desc": "Retirer les salissures ordinaires sur joints minéraux compatibles.",
+    "base": 255,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        250
+      ],
+      [
+        "savon_noir",
+        5
+      ]
+    ],
+    "steps": [
+      "Préparer {{eau}} d’eau tiède et {{savon_noir}} de savon noir dans une coupelle.",
+      "Brosser délicatement une petite zone test de joint à l’aide d’une brosse souple.",
+      "Rincer avec un chiffon humide à l’eau claire.",
+      "Sécher et renouveler uniquement si nécessaire."
+    ],
+    "safety": [
+      "Ne traite pas les moisissures et ne désinfecte pas ; en cas de moisissure persistante, rechercher la cause d’humidité.",
+      "Ne pas abraser joints friables, silicone ou pierres sensibles.",
+      "Ne jamais mélanger des produits de nettoyage."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Salle de bains",
+      "Brosse douce"
+    ],
+    "sensitivity": "house",
+    "equipment": {
+      "essential": [
+        "Bol ou petit seau",
+        "Brosse à poils souples réservée aux joints",
+        "Chiffon humide pour le rinçage"
+      ],
+      "optional": [
+        "Gants de ménage"
+      ],
+      "container": "Bol pour une seule utilisation.",
+      "note": "Éviter les brosses métalliques et les joints dégradés."
+    }
+  },
+  {
+    "id": "baignoire_email",
+    "title": "Baignoire compatible : lavage doux",
+    "category": "maison",
+    "type": "recette",
+    "icon": "drop",
+    "level": "Facile",
+    "minutes": 8,
+    "desc": "Lavage courant d’une baignoire lavable sans détartrant acide.",
+    "base": 1005,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        1000
+      ],
+      [
+        "savon_noir",
+        5
+      ]
+    ],
+    "steps": [
+      "Vérifier la compatibilité du matériau et préparer {{eau}} d’eau tiède avec {{savon_noir}} de savon noir.",
+      "Nettoyer doucement avec une lavette non abrasive.",
+      "Rincer abondamment à l’eau claire.",
+      "Sécher les rebords et vider la bassine."
+    ],
+    "safety": [
+      "Émail ancien, acrylique et revêtements antidérapants exigent des précautions spécifiques : suivre la notice.",
+      "Attention au risque de glissade ; bien rincer toute trace savonneuse.",
+      "Ne pas mélanger avec du détartrant, de l’eau de Javel ou d’autres produits."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Salle de bains",
+      "Sans acide"
+    ],
+    "sensitivity": "house",
+    "equipment": {
+      "essential": [
+        "Petite bassine",
+        "Lavette douce non abrasive",
+        "Doseur de 5 ml"
+      ],
+      "optional": [
+        "Gants de ménage"
+      ],
+      "container": "À utiliser dans la bassine puis jeter.",
+      "note": "Rincer soigneusement pour éviter un fond glissant."
+    }
+  },
+  {
+    "id": "microondes",
+    "title": "Micro-ondes : nettoyage intérieur à froid",
+    "category": "maison",
+    "type": "recette",
+    "icon": "bowl",
+    "level": "Facile",
+    "minutes": 9,
+    "desc": "Entretien simple d’une cavité compatible, appareil débranché.",
+    "base": 503,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        500
+      ],
+      [
+        "savon_noir",
+        3
+      ]
+    ],
+    "steps": [
+      "Débrancher l’appareil et attendre qu’il soit froid.",
+      "Mélanger {{eau}} d’eau et {{savon_noir}} de savon noir dans un récipient.",
+      "Sur les parois compatibles, passer une lavette légèrement humide sans toucher les aérations ni les composants sensibles.",
+      "Rincer au chiffon humidifié d’eau potable, puis sécher avant de rebrancher."
+    ],
+    "safety": [
+      "Ne jamais mettre le récipient ou la préparation en chauffe pour ce nettoyage.",
+      "Ne pas arroser les commandes, ouïes ou composants ; respecter la notice.",
+      "Ce procédé ne désinfecte pas."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Cuisine",
+      "Appareil électrique"
+    ],
+    "sensitivity": "house",
+    "equipment": {
+      "essential": [
+        "Bol de préparation",
+        "Doseur gradué",
+        "Deux lavettes propres non abrasives"
+      ],
+      "optional": [
+        "Gants de ménage"
+      ],
+      "container": "Solution minute, sans stockage.",
+      "note": "Nettoyer appareil froid et débranché ; ne pas chauffer le mélange."
+    }
+  },
+  {
+    "id": "grilles_four",
+    "title": "Grilles de four amovibles : lavage doux",
+    "category": "maison",
+    "type": "recette",
+    "icon": "bowl",
+    "level": "Facile",
+    "minutes": 15,
+    "desc": "Lavage ponctuel de grilles compatibles, entièrement refroidies.",
+    "base": 1010,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        1000
+      ],
+      [
+        "savon_noir",
+        10
+      ]
+    ],
+    "steps": [
+      "Retirer la grille seulement lorsque le four est froid et éteint.",
+      "Préparer {{eau}} d’eau tiède et {{savon_noir}} de savon noir dans une bassine.",
+      "Nettoyer la grille avec une brosse douce ou un chiffon sur un support protégé.",
+      "Rincer complètement puis sécher avant remise en place."
+    ],
+    "safety": [
+      "Suivre la notice du four ; ne pas abîmer un traitement antiadhésif ou chromé.",
+      "Ne jamais appliquer de produit sur les résistances ou parties électriques.",
+      "Porter des gants en cas de bords métalliques coupants."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Four",
+      "Dégraissage doux"
+    ],
+    "sensitivity": "house",
+    "equipment": {
+      "essential": [
+        "Grande bassine adaptée à la grille",
+        "Doseur gradué",
+        "Brosse douce et éponge non abrasive"
+      ],
+      "optional": [
+        "Gants de protection adaptés"
+      ],
+      "container": "Bain de lavage à éliminer après usage.",
+      "note": "Ne pas employer de laine d’acier sur grille traitée."
+    }
+  },
+  {
+    "id": "carafe_verre",
+    "title": "Carafe en verre : traces de calcaire",
+    "category": "maison",
+    "type": "recette",
+    "icon": "drop",
+    "level": "Facile",
+    "minutes": 8,
+    "desc": "Détartrage ponctuel de verre ordinaire, sans décor fragile.",
+    "base": 500,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        400
+      ],
+      [
+        "vinaigre",
+        100
+      ]
+    ],
+    "steps": [
+      "Vérifier que la carafe n’a ni décor métallique, ni cristal, ni revêtement sensible.",
+      "Mélanger {{eau}} d’eau et {{vinaigre}} de vinaigre blanc dans la carafe.",
+      "Laisser agir brièvement sur les traces légères, sans bouchon hermétique.",
+      "Vider, rincer plusieurs fois à l’eau potable puis sécher."
+    ],
+    "safety": [
+      "Jamais avec eau de Javel ou autre nettoyant, même utilisé juste avant sans rinçage.",
+      "Ne pas utiliser sur cristal, pierres décoratives, métaux ni matériaux incompatibles.",
+      "Rincer minutieusement avant utilisation alimentaire."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Anticalcaire",
+      "Verre"
+    ],
+    "sensitivity": "house",
+    "equipment": {
+      "essential": [
+        "Verre doseur",
+        "Carafe en verre ordinaire compatible",
+        "Accès à l’eau potable pour rinçage"
+      ],
+      "optional": [
+        "Brosse souple pour carafe"
+      ],
+      "container": "Mélanger dans la carafe, ne pas stocker.",
+      "note": "N’utiliser qu’un vinaigre ménager dilué, de concentration usuelle et clairement étiquetée."
+    }
+  },
+  {
+    "id": "tasse_ceramique",
+    "title": "Tasse en céramique : traces de thé",
+    "category": "maison",
+    "type": "recette",
+    "icon": "bowl",
+    "level": "Facile",
+    "minutes": 7,
+    "desc": "Retrait doux des taches superficielles sur céramique non décorée.",
+    "base": 20,
+    "yieldUnit": "g",
+    "ingredients": [
+      [
+        "bicarbonate",
+        10
+      ],
+      [
+        "eau",
+        10
+      ]
+    ],
+    "steps": [
+      "Mettre {{bicarbonate}} de bicarbonate de soude ménager et {{eau}} d’eau dans une coupelle.",
+      "Déposer une petite noisette de pâte sur la trace avec une éponge douce.",
+      "Frotter sans insister ; rincer très abondamment à l’eau potable.",
+      "Sécher et jeter le reste de la pâte."
+    ],
+    "safety": [
+      "Ne pas utiliser sur décors peints, dorures, matériau poreux ou émail abîmé.",
+      "Le bicarbonate est légèrement abrasif : tester sans frotter fortement.",
+      "Bicarbonate ménager uniquement pour nettoyer, jamais à consommer."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Tasse",
+      "Bicarbonate"
+    ],
+    "sensitivity": "house",
+    "equipment": {
+      "essential": [
+        "Balance de cuisine",
+        "Petit bol",
+        "Éponge douce non abrasive"
+      ],
+      "optional": [
+        "Gants pour peau sensible"
+      ],
+      "container": "Pâte faite sur place ; ne pas conserver.",
+      "note": "Rinçage alimentaire minutieux après usage."
+    }
+  },
+  {
+    "id": "planche_plastique",
+    "title": "Planche à découper en plastique : lavage",
+    "category": "maison",
+    "type": "recette",
+    "icon": "bowl",
+    "level": "Facile",
+    "minutes": 8,
+    "desc": "Nettoyage courant d’une planche lavable, après utilisation.",
+    "base": 503,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        500
+      ],
+      [
+        "savon_noir",
+        3
+      ]
+    ],
+    "steps": [
+      "Retirer les résidus alimentaires.",
+      "Mélanger {{eau}} d’eau tiède et {{savon_noir}} de savon noir dans une bassine.",
+      "Nettoyer la planche plastique intacte avec une lavette propre.",
+      "Rincer abondamment à l’eau potable et laisser sécher complètement."
+    ],
+    "safety": [
+      "Ne pas confondre lavage et désinfection ; suivre les exigences d’hygiène alimentaire, surtout après viande crue.",
+      "Une planche profondément rayée doit être remplacée.",
+      "Éviter les produits parfumés ; ne pas mélanger plusieurs nettoyants."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "anses-hygiene",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Cuisine",
+      "Rinçage obligatoire"
+    ],
+    "sensitivity": "house",
+    "equipment": {
+      "essential": [
+        "Bassine et lavette propres",
+        "Doseur gradué",
+        "Zone de séchage propre"
+      ],
+      "optional": [
+        "Brosse souple réservée aux planches"
+      ],
+      "container": "Préparer le bain puis jeter après usage.",
+      "note": "Pour une utilisation alimentaire, bien éliminer tout résidu de savon."
+    }
+  },
+  {
+    "id": "peigne_plastique",
+    "title": "Peignes en plastique : lavage des résidus",
+    "category": "hygiene",
+    "type": "recette",
+    "icon": "shampoo",
+    "level": "Facile",
+    "minutes": 8,
+    "desc": "Entretien d’accessoires capillaires lavables, sans soin appliqué sur la peau.",
+    "base": 503,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        500
+      ],
+      [
+        "marseille",
+        3
+      ]
+    ],
+    "steps": [
+      "Retirer les cheveux retenus par le peigne.",
+      "Mélanger {{eau}} d’eau tiède avec {{marseille}} de copeaux de savon de Marseille sans parfum, complètement dissous.",
+      "Nettoyer le peigne plastique avec une petite brosse douce.",
+      "Rincer abondamment puis sécher avant réutilisation."
+    ],
+    "safety": [
+      "Ne pas immerger un accessoire en bois, électrique ou comportant de la colle.",
+      "Ne pas utiliser pour traiter une infestation de poux ou une infection.",
+      "Ne pas appliquer le bain préparé sur cuir chevelu ou visage."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Accessoires",
+      "Sans parfum"
+    ],
+    "sensitivity": "house",
+    "equipment": {
+      "essential": [
+        "Petit bol",
+        "Brosse souple dédiée",
+        "Doseur/mini-balance pour savon"
+      ],
+      "optional": [
+        "Petite passoire pour retenir les débris avant élimination"
+      ],
+      "container": "Bol, utilisé pendant le nettoyage puis jeté.",
+      "note": "Bien dissoudre les copeaux, rincer puis sécher entièrement."
+    }
+  },
+  {
+    "id": "brosse_maquillage",
+    "title": "Pinceaux cosmétiques synthétiques : rinçage",
+    "category": "hygiene",
+    "type": "recette",
+    "icon": "sparkles",
+    "level": "Facile",
+    "minutes": 12,
+    "desc": "Nettoyage limité des manches et fibres compatibles, sans désinfection.",
+    "base": 252,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        250
+      ],
+      [
+        "marseille",
+        2
+      ]
+    ],
+    "steps": [
+      "Vérifier la notice du pinceau et exclure les modèles non lavables.",
+      "Dissoudre {{marseille}} de savon de Marseille sans parfum dans {{eau}} d’eau tiède.",
+      "Laver doucement uniquement les poils synthétiques, en gardant la virole et le manche aussi secs que possible.",
+      "Rincer abondamment les fibres puis laisser sécher à plat, sans humidifier la colle."
+    ],
+    "safety": [
+      "Ne pas partager le matériel entre personnes en cas d’infection cutanée ou oculaire.",
+      "Ce lavage ne constitue pas une stérilisation ; remplacer un accessoire abîmé ou présentant une odeur suspecte.",
+      "Ne pas immerger les manches ou tremper la colle ; suivre les recommandations de la marque."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Accessoires beauté",
+      "Entretien"
+    ],
+    "sensitivity": "house",
+    "equipment": {
+      "essential": [
+        "Petit bol",
+        "Serviette propre pour séchage à plat",
+        "Balance précise"
+      ],
+      "optional": [
+        "Tapis silicone souple dédié aux pinceaux"
+      ],
+      "container": "Préparation minute ; jeter l’eau de lavage.",
+      "note": "Éviter un stockage humide des pinceaux."
+    }
+  },
+  {
+    "id": "chaussures_toile",
+    "title": "Chaussures en toile : nettoyage localisé",
+    "category": "linge",
+    "type": "recette",
+    "icon": "shirt",
+    "level": "Facile",
+    "minutes": 12,
+    "desc": "Pour les zones textiles lavables, sans tremper la chaussure entière.",
+    "base": 503,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        500
+      ],
+      [
+        "marseille",
+        3
+      ]
+    ],
+    "steps": [
+      "Dépoussiérer les chaussures sèches.",
+      "Dissoudre {{marseille}} de savon de Marseille dans {{eau}} d’eau tiède.",
+      "Faire un essai discret puis tamponner délicatement une petite zone avec un chiffon.",
+      "Retirer les résidus avec un linge humide et laisser sécher à l’air loin d’une source de chaleur."
+    ],
+    "safety": [
+      "Ne pas employer sur cuir, daim, tissu imperméabilisé ou chaussure non lavable.",
+      "Une humidification importante peut décoller les semelles et décolorer les tissus.",
+      "Essayer sur une zone cachée et ne pas promettre un détachage complet."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Textile",
+      "Chaussures"
+    ],
+    "sensitivity": "laundry",
+    "equipment": {
+      "essential": [
+        "Bol de préparation",
+        "Chiffon doux et brosse souple",
+        "Balance pour 3 g de savon"
+      ],
+      "optional": [
+        "Vieux chiffon de protection"
+      ],
+      "container": "Bol temporaire, pas de conservation.",
+      "note": "Ne pas immerger la chaussure ; respecter la notice."
+    }
+  },
+  {
+    "id": "lacets_coton",
+    "title": "Lacets en coton blanc : lavage à la main",
+    "category": "linge",
+    "type": "recette",
+    "icon": "shirt",
+    "level": "Facile",
+    "minutes": 10,
+    "desc": "Petit bain de lavage pour lacets ordinaires amovibles.",
+    "base": 503,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        500
+      ],
+      [
+        "marseille",
+        3
+      ]
+    ],
+    "steps": [
+      "Retirer les lacets des chaussures.",
+      "Préparer {{eau}} d’eau tiède avec {{marseille}} de savon de Marseille sans parfum dissous.",
+      "Laver les lacets coton lavables doucement et sans brossage brutal.",
+      "Rincer jusqu’à disparition du savon et laisser sécher complètement."
+    ],
+    "safety": [
+      "Éviter lacets en cuir, matières teintes fragiles ou modèles avec traitement spécifique.",
+      "Laver séparément des tissus susceptibles de déteindre.",
+      "En cas de peau très sensible, bien rincer avant réutilisation."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Petit linge",
+      "Sans parfum"
+    ],
+    "sensitivity": "laundry",
+    "equipment": {
+      "essential": [
+        "Petit récipient",
+        "Doseur et mini-balance",
+        "Linge propre pour séchage"
+      ],
+      "optional": [
+        "Brosse souple"
+      ],
+      "container": "Bain de lavage à jeter après usage.",
+      "note": "Laisser sécher à l’air libre, ne pas conserver la solution."
+    }
+  },
+  {
+    "id": "sac_coton",
+    "title": "Sac réutilisable en coton : lavage manuel",
+    "category": "linge",
+    "type": "recette",
+    "icon": "shirt",
+    "level": "Facile",
+    "minutes": 15,
+    "desc": "Nettoyage occasionnel d’un sac textile explicitement lavable.",
+    "base": 2005,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        2000
+      ],
+      [
+        "marseille",
+        5
+      ]
+    ],
+    "steps": [
+      "Vérifier l’étiquette de lavage et vider complètement le sac.",
+      "Dissoudre {{marseille}} de copeaux de savon de Marseille dans {{eau}} d’eau tiède.",
+      "Laver délicatement l’intérieur et l’extérieur du sac en coton résistant.",
+      "Rincer soigneusement puis sécher entièrement avant de ranger."
+    ],
+    "safety": [
+      "Ne pas utiliser sur sac plastifié, collé, cuir ou avec impression fragile.",
+      "Ce lavage ne désinfecte pas ; ne pas mélanger avec désinfectants ou Javel.",
+      "Un sac transportant de la viande crue souillée peut nécessiter des mesures d’hygiène adaptées."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Réutilisable",
+      "Coton"
+    ],
+    "sensitivity": "laundry",
+    "equipment": {
+      "essential": [
+        "Bassine d’au moins 3 L",
+        "Balance pour copeaux",
+        "Espace de séchage propre"
+      ],
+      "optional": [
+        "Gants ménagers si nécessaires"
+      ],
+      "container": "Bassine uniquement, usage immédiat.",
+      "note": "Ne pas ranger le sac humide."
+    }
+  },
+  {
+    "id": "tapette_inox",
+    "title": "Écumoire inox : entretien courant",
+    "category": "maison",
+    "type": "recette",
+    "icon": "bowl",
+    "level": "Facile",
+    "minutes": 7,
+    "desc": "Nettoyage d’un ustensile amovible en inox compatible.",
+    "base": 503,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        500
+      ],
+      [
+        "marseille",
+        3
+      ]
+    ],
+    "steps": [
+      "Retirer les résidus alimentaires de l’ustensile refroidi.",
+      "Dissoudre {{marseille}} de savon de Marseille dans {{eau}} d’eau tiède.",
+      "Laver toutes les surfaces avec une éponge douce adaptée à l’inox.",
+      "Rincer abondamment à l’eau potable et laisser sécher."
+    ],
+    "safety": [
+      "Ne pas utiliser sur accessoires électriques ou à poignées en matériaux fragiles.",
+      "Une éponge abrasive peut rayer l’inox poli.",
+      "Ce mélange ne désinfecte pas ; respecter les exigences d’hygiène alimentaire."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "anses-hygiene",
+      "ademe"
+    ],
+    "tags": [
+      "Cuisine",
+      "Inox"
+    ],
+    "sensitivity": "house",
+    "equipment": {
+      "essential": [
+        "Bol ou bassine",
+        "Éponge douce",
+        "Doseur et balance"
+      ],
+      "optional": [
+        "Chiffon de séchage"
+      ],
+      "container": "Préparation à jeter après le lavage.",
+      "note": "Ne pas utiliser sur revêtements antiadhésifs endommagés."
+    }
+  },
+  {
+    "id": "desinfection",
+    "title": "Nettoyer n’est pas désinfecter",
+    "category": "maison",
+    "type": "guide",
+    "icon": "shield",
+    "tags": [
+      "Désinfection",
+      "Hygiène",
+      "Microbes"
+    ],
+    "desc": "Quand un produit ménager maison ne suffit pas.",
+    "guide": "Le vinaigre, le bicarbonate et le savon noir servent surtout à nettoyer. Ils ne doivent pas être présentés comme des désinfectants validés. En cas de vomissements, diarrhée, maladie contagieuse, souillure biologique ou recommandation sanitaire particulière, appliquer un protocole adapté et choisir un produit autorisé pour cet usage. Ne jamais mélanger des produits, surtout Javel et vinaigre.",
+    "safety": [
+      "Ne jamais mélanger de Javel avec du vinaigre, des acides, de l’ammoniaque ou un autre produit.",
+      "Ne pas chercher à fabriquer des désinfectants maison à base de mélanges chimiques.",
+      "Nettoyer et rincer les surfaces alimentaires ; respecter les notices et recommandations sanitaires."
+    ],
+    "source": [
+      "anses-hygiene",
+      "ademe-sec"
+    ],
+    "sensitivity": "none"
+  },
   {
    id:'gel',title:'Gel douche : choisir une base sûre',category:'hygiene',type:'guide',icon:'shower',desc:'Comprendre les bases lavantes sans parfum et leurs limites.',
    guide:'Pour la V1, aucune recette de gel douche aqueux conservé n’est proposée. Les produits contenant de l’eau exigent une maîtrise du pH, des conservateurs et une vérification de la stabilité microbiologique. Choisir une base lavante prête à l’emploi adaptée à sa peau et suivre sa notice, sans dilution ni ajout improvisé.',

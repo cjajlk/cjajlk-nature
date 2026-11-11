@@ -1,0 +1,2005 @@
+<!doctype html>
+<html lang="fr">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+ <meta name="theme-color" content="#101826">
+ <meta name="description" content="CJAJLK Nature — recettes de soins et d'entretien, guidage de fabrication, profils et calcul des coûts, en local.">
+ <meta name="color-scheme" content="dark">
+ <link rel="icon" href="assets/icon-192.png" sizes="192x192">
+ <link rel="apple-touch-icon" href="assets/icon-192.png">
+
+ <style>
+:root{--bg:#0B1019;--surface:#141B27;--surface2:#1B2635;--surface3:#26334A;--card:#182332;--line:#324055;--text:#F2F6FC;--muted:#ACBACC;--dim:#8194AB;--sage:#85E3EB;--sage2:#6B9FAF;--lime:#BAADFF;--orange:#F2BB85;--danger:#FF929C;--cream:#E2E8F2;--radius:20px;--shadow:0 18px 60px #03071294;font-synthesis:none}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100vh;background:radial-gradient(circle at 85% 0%,#2c323b3d,transparent 37%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;font-size:14px;line-height:1.5}button,input,select,textarea{font:inherit}button{cursor:pointer}button:disabled{opacity:.45;cursor:not-allowed}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #93dced;outline-offset:3px}a{color:#9cd0dc}h1,h2,h3,h4,p{margin:0}h1{font-size:clamp(30px,4vw,49px);letter-spacing:-.055em;line-height:1.09}h2{font-size:24px;letter-spacing:-.035em;line-height:1.22}h3{font-size:16px;letter-spacing:-.02em}small{font-size:12px}.muted{color:var(--muted)}.subtle{color:var(--dim)}.eyebrow{text-transform:uppercase;letter-spacing:.18em;font-size:10px;font-weight:850;color:var(--sage)}.strong{font-weight:780}.hide{display:none!important}
+#app{display:flex;max-width:1450px;margin:0 auto;min-height:100vh}.sidebar{width:244px;flex:0 0 244px;padding:30px 18px 20px;position:sticky;top:0;height:100vh;border-right:1px solid #2f3236;background:#181a1e;display:flex;flex-direction:column}.brand{display:flex;align-items:center;gap:11px;min-width:0}.brand-icon{height:43px;width:43px;display:grid;place-items:center;border-radius:14px;background:linear-gradient(135deg,#55636d,#2d343e);color:#a9e5f3;box-shadow:inset 0 0 0 1px #ffffff1c}.brand-name{font-size:18px;font-weight:850;letter-spacing:-.055em;line-height:1.1}.brand-tag{font-size:10px;color:var(--muted);letter-spacing:.03em}.side-nav{margin-top:44px;display:grid;gap:6px}.nav-item{display:flex;align-items:center;gap:11px;border:0;background:transparent;color:var(--muted);border-radius:14px;padding:13px 15px;font-weight:680;text-align:left;width:100%;transition:.2s}.nav-item.active{background:#353a43;color:#ace3ef}.nav-item:hover{background:#2c2f34}.side-bottom{margin-top:auto}.aside-note{background:linear-gradient(135deg,#31353b,#22252b);border:1px solid #434952;border-radius:18px;padding:17px;margin-bottom:16px}.aside-note strong{font-size:13px}.aside-note p{color:var(--muted);font-size:12px;margin-top:9px}.aside-note .icon{color:var(--sage)}.aside-link{background:transparent;color:var(--muted);border:0;padding:11px;text-align:left;display:flex;align-items:center;gap:9px;width:100%}.content{min-width:0;flex:1;padding:28px clamp(20px,4vw,55px) 100px}.topbar{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:48px;margin-bottom:26px}.mobile-brand{display:none}.topright{display:flex;align-items:center;gap:10px;margin-left:auto}.pill{border:1px solid var(--line);padding:8px 12px;border-radius:999px;color:#adccd3;background:#25282c;display:inline-flex;align-items:center;gap:7px;max-width:100%}.pill.small{font-size:12px;padding:6px 10px}.pill.alert{color:#ffcf94;border-color:#665037;background:#352a1e}.pill.success{color:#a1d1dc;border-color:#515c64;background:#2c3036}.small-button{border:1px solid var(--line);background:#25272b;color:#cde9ef;border-radius:13px;height:40px;min-width:40px;display:inline-flex;align-items:center;justify-content:center;gap:7px;padding:0 12px}.small-button:hover{background:#33363b}.profile-chip{font-weight:650}.icon{width:20px;height:20px;display:inline-flex;vertical-align:middle;flex:none}.icon svg{width:100%;height:100%;stroke:currentColor;stroke-width:1.8;fill:none;stroke-linecap:round;stroke-linejoin:round}.icon.sm{width:16px;height:16px}.icon.lg{width:24px;height:24px}.icon.xl{width:29px;height:29px}
+.hero{position:relative;overflow:hidden;border-radius:29px;display:grid;grid-template-columns:1.2fr .8fr;min-height:284px;background:linear-gradient(115deg,#2e333c 0%,#3c434e 58%,#22272e 100%);border:1px solid #515c64;box-shadow:var(--shadow);margin-bottom:26px}.hero::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 82% 30%,#99ccd822,transparent 46%);pointer-events:none}.hero-copy{position:relative;z-index:1;padding:35px 0 32px 36px;display:flex;flex-direction:column;align-items:flex-start;gap:15px}.hero .eyebrow{color:#a6e0ed}.hero h1{max-width:520px;color:#f8f8eb}.hero p{max-width:430px;color:#b4d0d7;font-size:14px}.hero-art{position:relative;align-self:stretch;min-height:200px}.hero-art svg{position:absolute;right:0;bottom:0;width:100%;height:100%;max-height:330px;min-width:280px;filter:drop-shadow(0 20px 20px #0a0d1072)}.btn{border-radius:14px;padding:12px 17px;border:1px solid transparent;display:inline-flex;align-items:center;justify-content:center;gap:9px;font-weight:760;transition:background .2s,transform .2s;text-align:center;line-height:1.2}.btn:hover{transform:translateY(-1px)}.btn-primary{color:#222831;background:linear-gradient(125deg,#a6e2ef,#9ac9d4)}.btn-primary:hover{background:#b8eaf5}.btn-secondary{color:#c9e7ee;background:#32353b;border-color:#515a61}.btn-ghost{color:var(--sage);background:transparent;border-color:var(--line)}.btn-danger{color:#ffdad5;background:#42272a;border-color:#794449}.btn.wide{width:100%}.btn.tiny{font-size:12px;padding:9px 11px;border-radius:10px}.btn-row{display:flex;gap:9px;flex-wrap:wrap}.section-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:30px 0 15px}.section-heading h2{font-size:20px}.text-link{border:none;background:none;color:#a7d8e3;font-weight:750;display:flex;gap:5px;align-items:center}.categories{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}.category-card{position:relative;text-align:left;border:1px solid #3c4147;background:linear-gradient(135deg,#292d32,#1f2226);border-radius:18px;padding:19px 15px;min-height:132px;overflow:hidden;color:#edf2e8;transition:.15s}.category-card:hover{transform:translateY(-2px);border-color:#818c94}.category-card .icon{color:#a1cbd4;width:29px;height:29px}.category-card strong{display:block;margin:16px 0 2px;font-size:14px}.category-card small{color:#90adb3}.category-card:after{content:"";position:absolute;right:-13px;top:-22px;width:92px;height:92px;border:1px solid #789fa824;border-radius:48% 52% 35% 60%;transform:rotate(-25deg)}.dashboard-cards{display:grid;grid-template-columns:1.2fr 1fr;gap:13px}.feature{background:linear-gradient(120deg,#303339,#212429);border:1px solid #404449;border-radius:18px;padding:19px;display:flex;gap:15px;align-items:flex-start}.feature-icon{display:grid;place-items:center;flex:0 0 43px;width:43px;height:43px;border-radius:13px;color:#a5d3de;background:#444a54}.feature h3{margin-bottom:5px}.feature p{color:var(--muted);font-size:12px}.metrics{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}.metric{flex:1;min-width:100px;background:#25272b;border:1px solid #393d43;border-radius:15px;padding:15px}.metric .value{font-weight:850;font-size:23px;letter-spacing:-.05em}.metric .label{font-size:11px;color:var(--muted)}
+.recipe-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}.recipe-card{background:linear-gradient(150deg,#26282d,#1d1f23);border:1px solid #404349;border-radius:19px;overflow:hidden;text-align:left;color:inherit;display:flex;flex-direction:column;transition:.2s}.recipe-card:hover{transform:translateY(-2px);border-color:#7f8b94}.recipe-image{height:126px;background:radial-gradient(circle at 68% 45%,#619eac40,transparent 53%),linear-gradient(110deg,#3e434a,#292d33);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}.recipe-image:before,.recipe-image:after{content:"";position:absolute;border:1px solid #e5d6ab18;width:155px;height:155px;border-radius:50%;right:-30px;top:-53px}.recipe-image:after{right:auto;left:-65px;top:65px}.recipe-image .icon{width:58px;height:58px;color:#b5dde6;opacity:.9}.recipe-image.linge{background:radial-gradient(circle at 60% 30%,#8eabbaa0,transparent 75%),linear-gradient(120deg,#2d3a3e,#2b2f34)}.recipe-image.soins{background:radial-gradient(circle at 70% 35%,#c8a18480,transparent 70%),linear-gradient(120deg,#574037,#2b2e31)}.recipe-image.hygiene{background:radial-gradient(circle at 60% 40%,#84acb58a,transparent 75%),linear-gradient(120deg,#383e46,#2b2f34)}.recipe-card-body{padding:16px;display:flex;flex-direction:column;flex:1;gap:9px}.recipe-card-title{font-size:15px;font-weight:820;line-height:1.24;letter-spacing:-.03em}.recipe-card-desc{font-size:12px;color:#a3bcc2;line-height:1.45;flex:1}.meta-row{display:flex;align-items:center;justify-content:space-between;gap:6px;margin-top:4px;border-top:1px solid #41454a;padding-top:10px;color:#b7d7de;font-size:11px}.badge-list{display:flex;flex-wrap:wrap;gap:6px}.tag{font-size:10px;font-weight:760;color:#b0dfe9;background:#3a3f46;border:1px solid #4f5961;border-radius:99px;padding:4px 8px}.tag.conditional{color:#f2ce98;background:#493823;border-color:#786044}.tag.guide{color:#b9d4d4;background:#2d3b40;border-color:#41676b}.tag.pale{color:#aed4dc;background:#35393f;border-color:#4a545c}.search-area{background:#1f2227;border:1px solid #3d4249;border-radius:18px;padding:15px;display:flex;gap:12px;align-items:center;margin:20px 0 16px}.search-area input{flex:1;border:0;color:var(--text);background:transparent;min-width:0;outline:none}.filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:20px}.chip{border-radius:100px;border:1px solid #494e56;background:#26292e;color:#9ab7be;font-size:12px;font-weight:740;padding:8px 12px}.chip.active{background:#9ac8d2;color:#232831;border-color:#afdee9}.empty{padding:30px 20px;text-align:center;border:1px dashed #555c60;border-radius:18px;background:#202226;color:var(--muted)}
+.page-title{display:flex;justify-content:space-between;align-items:end;gap:14px;flex-wrap:wrap;margin:5px 0 21px}.page-title p{margin-top:7px;color:var(--muted)}.back{display:flex;align-items:center;gap:5px;border:0;background:transparent;color:var(--sage);font-weight:750;margin-bottom:17px;padding:2px 0}.detail-head{display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:22px;margin-bottom:20px}.detail-head p{color:var(--muted);margin-top:9px}.detail-art{height:174px;border:1px solid #4c555b;border-radius:22px;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle,#52606a,#292c32)}.detail-art .icon{width:83px;height:83px;color:#b9e1ea}.detail-layout{display:grid;grid-template-columns:minmax(0,1fr) 285px;gap:18px;align-items:start}.panel{background:linear-gradient(145deg,#25272b,#202327);border:1px solid #3d4147;border-radius:19px;padding:21px}.panel h3{font-size:16px;margin-bottom:13px}.panel+.panel{margin-top:15px}.panel.slim{padding:16px}.panel-header{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:11px}.panel-header h3{margin:0}.status-note{background:#282b30;border:1px solid #4c5962;padding:12px 14px;border-radius:13px;color:#acd2da;font-size:12px;line-height:1.55}.safety{background:linear-gradient(120deg,#382d22,#2a2921);border:1px solid #785637;border-left:4px solid #e6ad67;border-radius:16px;padding:17px;color:#f1dec2}.safety.red{background:#3a2726;border-color:#90534d;border-left-color:#e29389}.safety h3{display:flex;gap:8px;align-items:center;font-size:14px;margin-bottom:10px;color:#ffcc87}.safety.red h3{color:#f3aaa0}.safety ul{padding-left:19px;font-size:12px;color:#e9d6bd;display:grid;gap:6px;margin:0}.safety.red ul{color:#f3c7c2}.field{display:flex;flex-direction:column;gap:6px;margin-bottom:14px}.field label,.field>span{font-weight:730;font-size:12px;color:#bfdce3}.field input,.field select,.field textarea{width:100%;border-radius:12px;border:1px solid #494d54;background:#181a1f;color:#eef4e6;padding:12px;min-height:43px;outline:none}.field textarea{min-height:70px;resize:vertical}.field input:focus,.field select:focus,.field textarea:focus{border-color:#97c7d2}.field-helper{color:var(--dim);font-size:11px}.amount-row{display:flex;gap:9px;align-items:center}.amount-row input{max-width:120px}.table-ingredients{width:100%;border-collapse:collapse;font-size:13px}.table-ingredients th{text-align:left;color:var(--dim);font-size:11px;letter-spacing:.02em;border-bottom:1px solid var(--line);padding:9px 6px}.table-ingredients td{padding:11px 6px;border-bottom:1px solid #3a3d42}.table-ingredients td:last-child{text-align:right;white-space:nowrap;font-weight:750}.table-ingredients th:last-child{text-align:right}.cost-value{font-size:32px;font-weight:900;letter-spacing:-.06em;color:#a9e1ee}.cost-caption{font-size:11px;color:var(--muted)}.source-links{display:grid;gap:8px;margin-top:8px}.source-links a{font-size:11px}.guide-note{border:1px solid #556571;background:#2b3039;border-radius:16px;padding:20px;line-height:1.7;color:#c8e3e9}.switcher{display:flex;background:#1c1f24;border:1px solid #494d55;border-radius:15px;padding:4px;gap:4px;margin-bottom:17px}.switcher button{flex:1;border:0;background:transparent;color:#90adb3;font-size:12px;font-weight:750;border-radius:11px;padding:11px 9px}.switcher button.active{background:#444a54;color:#c9eaf1}.step-hero{padding:21px;border:1px solid #4d5860;background:linear-gradient(120deg,#353940,#23272d);border-radius:16px;margin:9px 0 18px}.step-num{font-weight:820;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#99c5cf}.step-text{font-size:19px;font-weight:730;margin:13px 0 7px;line-height:1.45}.progress{width:100%;height:7px;background:#393d43;border-radius:999px;overflow:hidden;margin-top:14px}.progress>div{height:100%;background:#9ad2df;border-radius:999px;transition:width .3s}.steps{counter-reset:steps;list-style:none;padding:0;margin:0;display:grid;gap:10px}.steps li{display:flex;gap:13px;align-items:flex-start;background:#22252b;border:1px solid #3f454e;padding:15px;border-radius:13px;font-size:13px}.step-bubble{flex:none;width:25px;height:25px;border-radius:50%;background:#455058;color:#b6e2ec;display:grid;place-items:center;font-size:11px;font-weight:800}.steps li span:last-child{padding-top:2px}.make-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.checkline{display:flex;gap:10px;align-items:flex-start;margin:12px 0;color:#c0dce2;font-size:12px}.checkline input{accent-color:#98cdd9;width:18px;height:18px;margin:0;flex:none}.divider{height:1px;background:var(--line);margin:20px 0}.mini-card{background:#26282d;border:1px solid #40444a;padding:15px;border-radius:15px;display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:9px}.mini-card h4{font-size:13px;margin-bottom:5px}.mini-card small{color:var(--muted)}.mini-actions{display:flex;align-items:center;gap:6px}.avatar{height:48px;width:48px;border-radius:16px;background:#444a55;display:grid;place-items:center;color:#b3e6f1;font-weight:870;font-size:20px;flex:none}.profile-rows{display:grid;gap:12px}.profile-row{display:flex;align-items:center;gap:14px;padding:18px;background:#262a2f;border:1px solid #494d55;border-radius:17px}.profile-row .expand{flex:1;min-width:0}.profile-row.active{border-color:#8ebec9;background:#31363e}.help{margin-top:15px;color:var(--muted);font-size:12px;line-height:1.7}.inline-error{color:#f2a5a0;font-size:12px;margin:7px 0}.empty-state{background:#22252a;padding:36px 20px;border:1px dashed #5e6870;border-radius:19px;text-align:center}.empty-state>.icon{width:48px;height:48px;color:#8ebbc5;margin-bottom:14px}.empty-state h3{margin:0 0 8px}.empty-state p{color:var(--muted);margin:0 auto 17px;max-width:410px;font-size:13px}.stock-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.stock-item{background:#26282d;border:1px solid #41454c;border-radius:15px;padding:16px}.stock-item .title{font-weight:800;font-size:13px;margin-bottom:5px}.stock-item .nums{display:flex;gap:8px;flex-wrap:wrap;color:#a3c1c8;font-size:11px;margin:11px 0}.stock-item .num{color:#cae7ed;font-weight:800}.subnav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}.kpi-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-bottom:20px}.kpi{background:#23262b;border:1px solid #40444a;border-radius:16px;padding:17px}.kpi strong{display:block;font-size:23px;margin-bottom:4px;letter-spacing:-.05em}.kpi small{color:var(--muted)}.sources-list{display:grid;gap:10px;margin-top:20px}.sources-list a{font-size:13px;line-height:1.6}.mobile-nav{display:none}.loading{margin:80px auto;text-align:center;color:#a0c6cf}.footer{margin-top:36px;padding:20px 0;color:#88929a;font-size:11px;border-top:1px solid #31353c}
+#modal-root:empty{display:none}#modal-root{position:fixed;inset:0;z-index:100;background:#07080abc;display:grid;place-items:center;padding:18px;backdrop-filter:blur(6px)}.modal{background:#212429;border:1px solid #616a70;border-radius:23px;width:100%;max-width:520px;max-height:min(90vh,850px);overflow:auto;box-shadow:0 30px 90px #000b}.modal-head{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:22px 23px 15px}.modal-head h2{font-size:22px}.modal-body{padding:0 23px 24px}.modal-body p{color:#abc7cd;font-size:13px;line-height:1.65}.modal-actions{display:flex;gap:10px;margin-top:17px;flex-wrap:wrap}.modal-actions .btn{flex:1}#toast{position:fixed;z-index:200;bottom:105px;left:50%;transform:translateX(-50%) translateY(15px);padding:11px 16px;border:1px solid #84929b;background:#3c424a;border-radius:12px;color:#d5f2f8;box-shadow:var(--shadow);opacity:0;pointer-events:none;transition:.2s;max-width:90vw;text-align:center;font-size:13px}#toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+@media(max-width:1150px){.recipe-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.detail-layout{grid-template-columns:1fr}.detail-head{grid-template-columns:1fr 230px}.sidebar{width:210px;flex-basis:210px}.content{padding-left:25px;padding-right:25px}}
+@media(max-width:760px){body{font-size:14px}#app{display:block}.sidebar{display:none}.content{padding:16px 15px calc(100px + env(safe-area-inset-bottom))}.topbar{margin-bottom:17px;min-height:44px}.mobile-brand{display:flex}.brand-icon{width:39px;height:39px;border-radius:12px}.brand-name{font-size:16px}.brand-tag{font-size:9px}.topright .pill{display:none}.topright .small-button{height:38px;min-width:38px}.hero{grid-template-columns:1fr;min-height:275px;border-radius:23px}.hero-copy{padding:26px 23px 29px;gap:13px}.hero h1{font-size:32px;max-width:310px}.hero p{font-size:12px;max-width:250px}.hero-art{position:absolute;right:-17px;top:20px;bottom:0;width:43%;opacity:.74;pointer-events:none}.hero-art svg{min-width:200px;width:220px;height:100%;right:0}.hero-copy{width:88%}.hero-copy .btn{position:relative}.categories{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.category-card{min-height:112px;padding:14px}.category-card strong{margin-top:12px;font-size:13px}.dashboard-cards{grid-template-columns:1fr}.recipe-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.recipe-image{height:105px}.recipe-card-body{padding:12px}.recipe-card-title{font-size:13px}.recipe-card-desc{font-size:11px}.tag{font-size:9px;padding:3px 6px}.section-heading{margin-top:27px}.section-heading h2{font-size:19px}.detail-head{grid-template-columns:1fr}.detail-art{display:none}.page-title h1{font-size:28px}.detail-layout{grid-template-columns:1fr}.panel{padding:16px}.stock-grid{grid-template-columns:1fr}.mobile-nav{position:fixed;bottom:0;left:0;right:0;z-index:40;height:calc(69px + env(safe-area-inset-bottom));background:#191c21f2;border-top:1px solid #42454b;display:flex;justify-content:space-around;align-items:flex-start;padding:8px 3px env(safe-area-inset-bottom);backdrop-filter:blur(12px)}.mobile-nav button{border:0;background:transparent;color:#85a2a9;display:flex;flex-direction:column;gap:4px;align-items:center;justify-content:center;min-width:0;flex:1;font-size:9px;font-weight:800;padding:4px 0}.mobile-nav button.active{color:#a1d9e6}.mobile-nav button .icon{width:22px;height:22px}.kpi-row{gap:7px}.kpi{padding:11px}.kpi strong{font-size:19px}.kpi small{font-size:10px}.modal{max-height:89dvh}.modal-head{padding:19px 18px 12px}.modal-body{padding:0 18px 20px}#toast{bottom:90px}}
+@media(max-width:365px){.recipe-grid{grid-template-columns:1fr}.recipe-image{height:115px}.hero h1{font-size:29px}.hero-copy{width:100%}.hero-art{opacity:.4}.category-card strong{font-size:12px}.topright .small-button.profile-chip{padding:0 8px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+
+/* V1.1 — identité graphite / bleu nuit / cyan / lavande, sans aplats verts */
+body{background:radial-gradient(ellipse 620px 410px at 85% -14%,#5668a52b,transparent 77%),radial-gradient(ellipse 760px 520px at 8% 105%,#29616d12,transparent 75%),var(--bg)}
+.sidebar{background:linear-gradient(180deg,#111827,#0c121d);border-color:#293548}
+.brand-icon{background:linear-gradient(140deg,#2c708a,#3b4f8f);color:#c9f6fc;border:1px solid #638bba57;box-shadow:0 6px 18px #02071440}
+.nav-item.active{background:linear-gradient(105deg,#26364f,#27384d);color:#d7f8ff;box-shadow:inset 3px 0 0 #7fdaec}
+.nav-item:hover{background:#202e42}
+.aside-note{background:linear-gradient(135deg,#212b40,#151e2d);border-color:#364761}
+.pill{background:#1a2635;border-color:#39465b;color:#c4d6e6}
+.small-button{background:#1c283a;border-color:#384860;color:#dce8f5}
+.small-button:hover{background:#28364d}
+.hero{background:radial-gradient(circle at 86% 18%,#776ac53a,transparent 43%),linear-gradient(115deg,#1d324b 0%,#202846 54%,#15283b 100%);border-color:#4d6280;box-shadow:0 22px 64px #01071673}
+.hero::before{background:radial-gradient(circle at 23% 65%,#36bcd21a,transparent 52%)}
+.hero .eyebrow{color:#9ce9f0}.hero p{color:#c3d6e6}
+.hero h1 span{color:#B7AAFF!important}
+.hero-art svg{filter:drop-shadow(0 16px 21px #030a1970)}
+.btn-primary{background:linear-gradient(115deg,#A9F1EE,#91BFFF);border-color:#d2faff2e;color:#112035;box-shadow:0 7px 21px #49bcca24}
+.btn-primary:hover{background:linear-gradient(115deg,#C0F9F4,#B1CEFF)}
+.btn-secondary{background:#25334a;border-color:#526178;color:#eef3fc}
+.btn-ghost{border-color:#415a73;color:#9be1ee}
+.text-link{color:#A7DDEA}
+.category-card{background:linear-gradient(145deg,#1b2839,#141f2d);border-color:#37475c;box-shadow:0 12px 30px #02071128}
+.category-card:hover{border-color:#75adc6;box-shadow:0 11px 30px #1d6b9630}
+.category-card .icon{color:#89C5E3}
+.category-card:after{border-color:#8cc0ed21}
+.feature{background:linear-gradient(120deg,#1e293b,#171f30);border-color:#334156}
+.feature-icon{background:#273b52;color:#abdfea}
+.recipe-card{background:linear-gradient(155deg,#1c2938,#111c29);border-color:#34445a;box-shadow:0 8px 21px #02091530}
+.recipe-card:hover{border-color:#74b9dc;box-shadow:0 14px 26px #03091770}
+.recipe-image{background:radial-gradient(circle at 73% 34%,#6271d956,transparent 57%),linear-gradient(110deg,#253852,#1d293e)}
+.recipe-image .icon{color:#D1E5F7}
+.recipe-image.linge{background:radial-gradient(circle at 74% 28%,#91d8e34d,transparent 68%),linear-gradient(115deg,#30465b,#172a38)}
+.recipe-image.soins{background:radial-gradient(circle at 70% 35%,#c7a07c6a,transparent 68%),linear-gradient(120deg,#4b3942,#29263a)}
+.recipe-image.hygiene{background:radial-gradient(circle at 70% 35%,#8dbbc965,transparent 68%),linear-gradient(120deg,#264050,#1e293e)}
+.tag{color:#C7EAF4;background:#213C51;border-color:#3e657e}
+.tag.conditional{color:#f4d29a;background:#453727;border-color:#715d46}
+.tag.guide{color:#b6d4fb;background:#253650;border-color:#405b7c}
+.tag.pale{color:#e2d9ff;background:#363049;border-color:#554f74}
+.search-area,.panel,.metric,.mini-card,.stock-item,.kpi{border-color:#324257}
+.switcher button.active{background:linear-gradient(110deg,#2e526b,#3f4b76);color:#e4f9ff}
+.progress>div{background:linear-gradient(100deg,#83E6EB,#A8AAFF)}
+.profile-row.active{background:#242d47;border-color:#748dd0}
+.step-hero{background:linear-gradient(120deg,#22374c,#22253f);border-color:#48617c}
+.step-bubble{background:#34506e;color:#dff3ff}
+.mobile-nav{background:#101826f2;border-color:#344258}
+.mobile-nav button.active{color:#9de5ff}
+.modal{background:#182233;border-color:#526681}
+#toast{background:#263e59;border-color:#6789a8;color:#e4f5ff}
+.footer{color:#8c9aaf;border-color:#2d3a4e}
+:focus-visible{outline-color:#9ce8ee}
+
+@media(max-width:760px){.hero-art{opacity:.42;right:-28px}.hero-copy{background:linear-gradient(90deg,#1d3048b3,transparent);border-radius:22px}.hero p{color:#d6e1ed}}
+
+/* Engagement public : choix des vendeurs libre et sans commission. */
+.purchase-ethics{padding:18px 20px;border-radius:18px;border:1px solid #47637a;background:linear-gradient(125deg,#202d42,#202834);margin:8px 0 22px;color:#dceaf4;}
+.purchase-ethics-title{display:flex;align-items:center;gap:9px;font-size:15px;font-weight:800;color:#a7dff0;margin-bottom:9px;}
+.purchase-ethics p{font-size:13px;line-height:1.65;margin:6px 0;}
+.purchase-ethics .purchase-ethics-sub{font-size:12px;color:#b5c5d3;margin-top:8px;}
+@media(max-width:600px){.purchase-ethics{padding:15px 16px;}.purchase-ethics p{font-size:12px;}}
+
+/* V1.2 : matériel de préparation, sans modifier l'identité bleu nuit. */
+.equipment-panel{border-color:#47627e;background:linear-gradient(150deg,#1c293a,#15202e)}
+.equipment-panel .panel-header{flex-wrap:wrap;gap:10px}
+.equipment-intro{font-size:13px;margin:11px 0 15px;line-height:1.55}
+.equipment-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+.equipment-group{min-width:0;padding:14px;border:1px solid #395069;border-radius:15px;background:#132034}
+.equipment-group.optional{background:#17212e;border-color:#354459}
+.equipment-group h4{font-size:13px;color:#abebf3;margin:0 0 10px}
+.equipment-group.optional h4{color:#c3bafa}
+.equipment-list{list-style:none;padding:0;margin:0;display:grid;gap:9px}
+.equipment-list li{display:flex;align-items:flex-start;gap:9px;font-size:12.5px;line-height:1.48;color:#e4ebf3}
+.equipment-list .icon{flex:0 0 16px;color:#9adbe8;margin-top:1px}
+.equipment-group.optional .equipment-list .icon{color:#b6aedb}
+.equipment-container{padding:13px 15px;border-radius:13px;background:#23344b;margin-top:13px;border:1px solid #4a6380}
+.equipment-container b{display:flex;align-items:center;gap:7px;color:#b7e8ef;font-size:13px}
+.equipment-container p{font-size:12.5px;color:#e4ebf3;margin-top:7px}
+.equipment-caution{display:flex;align-items:flex-start;gap:10px;margin:12px 0;padding:12px 13px;background:#332c2c;border:1px solid #66514b;border-radius:12px;color:#f3d7c5;font-size:12.5px}
+.equipment-caution .icon{color:#f1c9a1;flex:0 0 16px}
+.equipment-panel .btn-row{margin-top:12px;margin-bottom:8px}
+@media(max-width:720px){.equipment-grid{grid-template-columns:1fr}.equipment-group{padding:12px}.equipment-panel .panel-header h3{font-size:15px}}
+
+/* V1.3 — Guides séparés, palette bleue inchangée */
+.guide-entry{border:1px solid #4b6785;background:linear-gradient(135deg,#1e3044,#20263e);border-radius:18px;padding:17px;display:flex;gap:16px;align-items:center;justify-content:space-between}
+.guide-entry h3,.guide-entry b{color:#d1eff4}.guide-entry p{font-size:12.5px;color:#c6d4e1;line-height:1.5;margin:7px 0 0}
+.compact-guide{margin:0 0 18px}.guide-suggestion{margin-top:14px;margin-bottom:14px}
+@media(max-width:700px){.guide-entry{flex-direction:column;align-items:stretch}.guide-entry .btn{align-self:start}}
+
+/* Conseils d’achat neutres : lisibles sans alourdir les cartes. */
+.purchase-hint {font-size:12px;line-height:1.55;color:#b8ced9;margin:8px 0 12px;}
+
+ </style>
+ <title>CJAJLK Nature V1.5 — Le naturel au quotidien</title>
+</head>
+<body>
+ <div id="app"><div class="loading">CJAJLK Nature…</div></div>
+ <div id="modal-root"></div>
+ <div id="toast" role="status" aria-live="polite"></div>
+ <script>
+/* CJAJLK Nature V1.5 — catalogue enrichi : 46 méthodes et 6 guides. Prix purement indicatifs modifiables. */
+window.NATURE_DATA = {
+ ingredients: [
+  {id:'eau', name:'Eau', unit:'ml', pack:1000, price:0.004, note:'Eau du robinet ; coût indicatif.',buyTip:"À trouver : robinet domestique ; utiliser de l’eau potable pour les surfaces alimentaires."},
+  {id:'savon_noir',name:'Savon noir ménager liquide',unit:'ml',pack:1000,price:8, note:'Choisir une formule ménagère, jamais un cosmétique.',buyTip:"À chercher : rayon entretien de grandes surfaces, drogueries, magasins bio. Choisir « savon noir ménager ». "},
+  {id:'vinaigre',name:'Vinaigre blanc ménager',unit:'ml',pack:1000,price:1.6,note:'Acide. Jamais avec eau de Javel ; éviter pierre naturelle.',buyTip:"À chercher : rayon entretien ou droguerie ; vérifier concentration et compatibilité des surfaces."},
+  {id:'bicarbonate',name:'Bicarbonate de soude ménager',unit:'g',pack:1000,price:4,note:'Ne pas confondre avec cristaux de soude.',buyTip:"À chercher : rayon entretien ou magasin de bricolage. Qualité ménagère, ne pas confondre avec les cristaux de soude."},
+  {id:'marseille',name:'Savon de Marseille en copeaux sans parfum',unit:'g',pack:500,price:6.5,note:'Vérifier la composition et les recommandations machine.',buyTip:"À chercher : rayon lessive, savon de Marseille en coopérative ou droguerie ; vérifier composition et absence de parfum."},
+  {id:'cristaux',name:'Cristaux de soude (carbonate de sodium)',unit:'g',pack:500,price:3,note:'Irritant ; porter des gants, éviter les poussières.',buyTip:"À chercher : droguerie ou rayon entretien. Produit irritant, respecter l’étiquette."},
+  {id:'karite',name:'Beurre de karité cosmétique sans parfum',unit:'g',pack:100,price:8,note:'Vérifier les allergies et la date de péremption.',buyTip:"À chercher : magasin cosmétique ou parapharmacie ; qualité cosmétique, composition et traçabilité lisibles."},
+  {id:'tournesol',name:'Huile de tournesol cosmétique ou alimentaire fraîche',unit:'ml',pack:1000,price:4,note:'Pas d’ajout d’eau ; surveiller odeur et rancissement.',buyTip:"À chercher : rayon alimentaire ou cosmétique ; huile récente, sans parfum et adaptée à l’usage prévu."},
+  {id:'cire',name:'Cire d’abeille cosmétique',unit:'g',pack:100,price:5,note:'Dérivé apicole : vérifier les sensibilités.',buyTip:"À chercher : boutiques cosmétiques, droguerie ou apiculteur ; choisir une cire de qualité cosmétique."},
+  {id:'avoine',name:'Flocons d’avoine nature finement mixés',unit:'g',pack:500,price:2,note:'Ne pas utiliser si allergie connue à l’avoine.',buyTip:"À chercher : rayon céréales / épicerie ; flocons nature sans additifs, selon les allergies."},
+  {id:'citrique',name:'Acide citrique ménager',unit:'g',pack:500,price:5,note:'Irritant pour les yeux ; à manipuler avec précaution.'}
+ ],
+ sources: [
+  {id:'ademe', name:'ADEME – Ingrédients de base pour le ménage',url:'https://agirpourlatransition.ademe.fr/particuliers/amenager-maison/entretenir/ingredients-base-menage-ecologique',buyTip:"À chercher : rayon entretien ou droguerie ; acide citrique ménager, étiquetage clair."},
+  {id:'ademe-sec',name:'ADEME – Précautions avec les produits ménagers',url:'https://agirpourlatransition.ademe.fr/particuliers/amenager-maison/entretenir/precaution-produits-menagers'},
+  {id:'smitom',name:'SMITOM-LOMBRIC – Lessive au savon de Marseille',url:'https://www.lombric.com/reduire-mes-dechets/tutos-et-recettes/lessive-maison/'},
+  {id:'dgccrf',name:'DGCCRF – Sécurité des produits cosmétiques',url:'https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/les-produits-cosmetiques'},
+  {id:'ameli',name:'Assurance Maladie – Hygiène bucco-dentaire',url:'https://www.ameli.fr/assure/sante/bons-gestes/quotidien/brosser-dents'},
+  {id:'anses',name:'ANSES – Précautions avec les huiles essentielles',url:'https://vigilanses.anses.fr/fr/node/2146'},
+  {id:'ademe-air',name:'ADEME – Qualité de l’air et ménage sans parfums',url:'https://www.ademe.fr/presse/communique-national/qualiteair-interieur-3-questions-a-isabelle-augeven-bour/'},
+  {id:'anses-hygiene',name:'ANSES – Hygiène domestique (nettoyage et désinfection)',url:'https://www.anses.fr/fr/system/files/MIC2012sa0005Fi.pdf'}
+ ],
+ recipes: [
+  {
+   id:'sols',equipment:{"essential":["Seau propre d’au moins 5 L","Doseur gradué pour mesurer 15 ml","Serpillière ou balai à franges adapté au sol"],"optional":["Gants de ménage si peau sensible ou contact prolongé","Petite cuillère ou agitateur réservé au ménage"],"container":"Le seau sert directement à la préparation. Aucun flacon de conservation : solution à jeter après usage.","note":"Ne préparez pas de stock : le mélange dilué est destiné à un lavage immédiat."}, title:'Sols au savon noir', category:'maison', type:'recette', icon:'floor', level:'Facile', minutes:5,
+   desc:'Un seau de lavage sans parfum ajouté, pour surfaces compatibles.', base:5000, yieldUnit:'ml',
+   ingredients:[['eau',5000],['savon_noir',15]], comparatorUnit:'5 L', comparison:0,
+   steps:['Verser {{eau}} d’eau tiède dans un seau propre.','Ajouter {{savon_noir}} de savon noir ménager.','Remuer doucement, laver avec une serpillière propre et respecter le rinçage indiqué pour le sol.','Vider le seau après le ménage ; ne pas conserver la solution diluée.'],
+   safety:['Tester sur une zone discrète ; vérifier la notice du revêtement.','Ne pas utiliser sur bois non protégé, surfaces huilées ou matériaux incompatibles.','Ce mélange nettoie mais ne désinfecte pas. Ne jamais ajouter d’autres produits.'],
+   storage:'À utiliser immédiatement ; jeter le reste.', source:['ademe','ademe-sec'], tags:['Économique','Sans parfum'], sensitivity:'house'
+  },
+  {
+   id:'cuisine',equipment:{"essential":["Pichet ou récipient propre d’au moins 500 ml","Doseur gradué (petits volumes, environ 5 ml)","Lavette propre ou chiffon microfibre réservé au ménage"],"optional":["Petit flacon verseur propre, pour transporter le mélange pendant le ménage","Entonnoir réservé au ménage"],"container":"Pichet ou flacon verseur de 500 ml, réservé au ménage et étiqueté. Ne pas stocker le reste.","note":"Évitez la pulvérisation dans l’air ou vers le visage ; appliquez au chiffon et rincez les zones en contact alimentaire."},title:'Nettoyant cuisine minute', category:'maison',type:'recette',icon:'spray',level:'Facile',minutes:4,desc:'Pour surfaces lavables, hors matériaux délicats.',base:500,yieldUnit:'ml',
+   ingredients:[['eau',500],['savon_noir',5]],steps:['Verser l’eau dans un récipient propre.','Ajouter le savon noir puis mélanger sans faire mousser.','Appliquer avec une lavette ; rincer à l’eau potable les surfaces en contact avec les aliments.','Jeter ce qui reste après le ménage.'],
+   safety:['Essayer sur une petite zone avant usage.','Ne pas utiliser sur écrans, bois brut ou matériaux incompatibles.','Nettoyage seulement, pas de désinfection.'],storage:'À préparer pour l’usage immédiat.',source:['ademe','ademe-sec'],tags:['Sans parfum','Simple'],sensitivity:'house'
+  },
+  {
+   id:'vitres',equipment:{"essential":["Pichet ou petit récipient propre d’au moins 500 ml","Doseur gradué pour 50 ml de vinaigre","Deux chiffons propres non pelucheux (application et séchage)"],"optional":["Petit flacon pulvérisateur de 500 ml compatible avec le vinaigre, réservé au ménage","Entonnoir réservé au ménage"],"container":"Pichet ou spray compatible, propre et étiqueté, utilisé immédiatement ; jeter le mélange restant.","note":"Si vous utilisez un spray, pulvérisez sur le chiffon plutôt que dans l’air ; jamais sur un écran ou près du visage."},title:'Vitres au vinaigre dilué',category:'maison',type:'recette',icon:'window',level:'Facile',minutes:4,desc:'Pour vitres ordinaires compatibles.',base:500,yieldUnit:'ml',
+   ingredients:[['eau',450],['vinaigre',50]],steps:['Verser l’eau dans un récipient propre.','Ajouter le vinaigre blanc ménager sans mélanger à d’autres produits.','Appliquer sur un chiffon adapté, nettoyer la vitre et essuyer.','Rincer le matériel et jeter le mélange restant.'],
+   safety:['Jamais avec de l’eau de Javel, même après usage récent sans rinçage.','Éviter pierre naturelle, écrans, surfaces traitées ou joints sensibles.','Tester une petite zone ; aérer la pièce.'],storage:'À préparer pour un usage immédiat.',source:['ademe','ademe-sec'],tags:['Petit budget'],sensitivity:'house'
+  },
+  {
+   id:'detartrage',equipment:{"essential":["Récipient propre d’au moins 400 ml","Verre doseur pour l’eau et le vinaigre","Chiffon doux ou éponge adaptée","Gants de ménage pour éviter un contact prolongé"],"optional":["Petite brosse souple si l’objet le permet"],"container":"Bol ou pichet utilisé sur le moment ; aucun stockage de la solution préparée.","note":"Vérifiez les recommandations du fabricant : le vinaigre peut abîmer certains matériaux et appareils."},title:'Détartrage d’un récipient compatible',category:'maison',type:'recette',icon:'drop',level:'Facile',minutes:8,desc:'Vinaigre dilué contre les dépôts calcaires légers.',base:400,yieldUnit:'ml',
+   ingredients:[['eau',300],['vinaigre',100]],steps:['Vérifier que le fabricant de l’objet autorise l’utilisation de vinaigre dilué.','Mélanger l’eau et le vinaigre dans un récipient adapté.','Appliquer brièvement sur la zone entartrée, sans laisser sécher.','Rincer abondamment à l’eau claire et sécher.'],
+   safety:['Ne jamais mélanger avec Javel, détachants ou autres produits.','Interdit sur marbre, pierre calcaire, surfaces acidophobes ou appareil dont la notice l’exclut.','Ne pas utiliser pour le détartrage médical ou les appareils de santé.'],storage:'Préparation minute ; jeter le reste.',source:['ademe','ademe-sec'],tags:['Anticalcaire'],sensitivity:'house'
+  },
+  {
+   id:'pate',equipment:{"essential":["Petit bol propre","Balance de cuisine pour mesurer les grammes","Cuillère ou petite spatule","Chiffon ou éponge douce non abrasive"],"optional":["Gants de ménage si peau fragile"],"container":"Bol de préparation uniquement : ne pas mettre en pot pour conserver.","note":"À utiliser immédiatement. Tester l’abrasion sur une zone cachée et jeter le reste."},title:'Pâte nettoyante au bicarbonate',category:'maison',type:'recette',icon:'bowl',level:'Facile',minutes:3,desc:'Petite quantité pour nettoyage ponctuel de surfaces résistantes.',base:75,yieldUnit:'g',
+   ingredients:[['bicarbonate',50],['eau',25]],steps:['Mettre {{bicarbonate}} de bicarbonate dans un bol.','Ajouter progressivement {{eau}} d’eau jusqu’à obtenir une pâte.','Essayer sur une zone invisible puis frotter délicatement avec un chiffon doux.','Rincer soigneusement puis sécher ; jeter le reste.'],
+   safety:['L’effet abrasif peut rayer certaines surfaces.','Éviter aluminium, surfaces fragiles et revêtements sensibles.','Ne pas associer à du vinaigre ou à un autre nettoyant.'],storage:'À utiliser aussitôt.',source:['ademe','ademe-sec'],tags:['2 ingrédients'],sensitivity:'house'
+  },
+  {
+   id:'odeur',equipment:{"essential":["Coupelle stable, sèche, clairement identifiable","Balance de cuisine pour 50 g de bicarbonate"],"optional":["Petit récipient stable avec protection contre les renversements"],"container":"Coupelle à placer hors de portée des enfants et des animaux, sans contact avec les aliments.","note":"Ne pas utiliser un spray : le bicarbonate reste sec dans sa coupelle."},title:'Absorbeur d’odeurs pour poubelle',category:'maison',type:'recette',icon:'jar',level:'Facile',minutes:2,desc:'Petite coupelle sèche de bicarbonate, hors de portée.',base:50,yieldUnit:'g',
+   ingredients:[['bicarbonate',50]],steps:['Verser {{bicarbonate}} de bicarbonate sec dans une coupelle stable.','Placer la coupelle dans un endroit sec et inaccessible aux enfants et animaux.','Remplacer si humide, souillé ou inefficace.','Jeter le produit usagé ; laver la coupelle.'],
+   safety:['Ne remplace pas le nettoyage de la poubelle.','Ne pas laisser accessible aux enfants ou animaux.','Ne jamais mélanger avec des produits de désinfection.'],storage:'Conserver uniquement au sec ; remplacer s’il devient humide.',source:['ademe'],tags:['Sans parfum'],sensitivity:'house'
+  },
+  {
+   id:'vaisselle',equipment:{"essential":["Porte-savon qui laisse sécher le savon","Éponge ou brosse à vaisselle propre","Eau potable pour un rinçage abondant"],"optional":["Gants de vaisselle en cas de mains sensibles"],"container":"Pas de bouteille à préparer : garder le savon solide au sec entre deux usages.","note":"Une passoire ou un flacon spray n’est pas nécessaire pour cette méthode."},title:'Vaisselle au savon de Marseille',category:'maison',type:'recette',icon:'dish',level:'Facile',minutes:2,desc:'Méthode à la demande, sans bouteille de liquide dilué à conserver.',base:5,yieldUnit:'g',
+   ingredients:[['marseille',5]],steps:['Humidifier une éponge ou une brosse à vaisselle propre.','Prélever une petite quantité de savon de Marseille adapté à cet usage.','Laver la vaisselle, puis rincer abondamment à l’eau potable.','Laisser sécher le savon et l’éponge séparément.'],
+   safety:['Vérifier que le savon choisi est adapté au lavage de la vaisselle.','Attention aux résidus sur verrerie et aux surfaces délicates.','Utiliser une brosse propre ; ne pas stocker un mélange aqueux artisanal.'],storage:'Le savon solide se conserve selon sa propre étiquette.',source:['ademe'],tags:['Zéro mélange'],sensitivity:'house'
+  },
+  {
+   id:'lessive',equipment:{"essential":["Récipient résistant à la chaleur, de volume suffisant, réservé à l’entretien","Doseur gradué pour l’eau","Balance de cuisine et cuillère de dosage réservées à cette préparation","Spatule ou cuillère longue dédiée au ménage","Bidon propre avec bouchon, adapté au volume et clairement étiqueté","Gants de protection et lunettes contre les projections"],"optional":["Entonnoir à large ouverture dédié au ménage pour remplir le bidon","Passoire très fine dédiée au ménage si des résidus de copeaux restent visibles ; ne jamais verser de particules dans la machine","Étiquettes autocollantes et feutre indélébile"],"container":"Bidon solide, fermé et étiqueté « LESSIVE » ; jamais une bouteille de boisson. Garder hors de portée des enfants.","note":"Ne réutilisez pas pour cuisiner les ustensiles qui ont été en contact avec les cristaux de soude. Ne filtrez qu’à température sûre, sans éclaboussures."},title:'Lessive au savon de Marseille (essai)',category:'linge',type:'recette',icon:'laundry',level:'Intermédiaire',minutes:20,desc:'Petite préparation inspirée d’une recette de collectivité, à tester prudemment.',base:1000,yieldUnit:'ml',
+   ingredients:[['eau',1000],['marseille',50],['bicarbonate',30],['cristaux',30]],steps:['Vérifier la notice de votre machine et la composition du savon avant de commencer.','Chauffer l’eau sans ébullition ; retirer du feu.','Incorporer les copeaux de savon en mélangeant jusqu’à dissolution.','Ajouter avec précaution le bicarbonate, puis les cristaux de soude ; éviter les poussières et les projections.','Laisser refroidir, transvaser dans un bidon propre étiqueté ; agiter doucement avant chaque usage.','Tester sur une petite charge de linge robuste et surveiller résidus et état de la machine.'],
+   safety:['Porter des gants pour manipuler les cristaux de soude et éviter l’inhalation des poussières.','Ne convient pas aux lainages, à la soie ni nécessairement aux machines ; respecter leurs notices.','Les recettes au savon peuvent laisser des dépôts : commencer par une dose faible et interrompre en cas de résidus.','Ne pas ajouter d’huiles essentielles ou de produits blanchissants ; tenir loin des enfants.','La stabilité microbiologique et la durée de conservation ne sont pas établies : fabriquer une petite quantité, ne pas garder longtemps.','Pour peau sensible : commencer par une petite charge, bien rincer le linge puis surveiller une éventuelle réaction cutanée ; ne jamais appliquer la lessive concentrée sur la peau.'],
+   storage:'Conservation non validée : faire une petite quantité, surveiller aspect/odeur et jeter au moindre changement.',source:['smitom','ademe-sec'],tags:['Recette pilote','Sans parfum'],sensitivity:'laundry'
+  },
+  {
+   id:'detach',equipment:{"essential":["Savon de Marseille adapté au linge","Petit récipient d’eau ou robinet","Chiffon propre pour l’essai sur une couture"],"optional":["Petite brosse textile très souple si l’étiquette du vêtement l’autorise","Gants si peau sensible"],"container":"Pas de flacon nécessaire : utiliser directement le savon sur la tache.","note":"Tester d’abord sur un endroit discret et respecter les consignes du vêtement."},title:'Prétraitement des taches au savon',category:'linge',type:'recette',icon:'shirt',level:'Facile',minutes:5,desc:'Un geste localisé avant le lavage habituel.',base:2,yieldUnit:'g',
+   ingredients:[['marseille',2]],steps:['Vérifier les indications de lavage du textile.','Tester sur une couture discrète.','Humidifier légèrement la tache et frotter très doucement avec un peu de savon.','Laisser agir quelques minutes sans laisser sécher puis rincer et laver selon l’étiquette.'],
+   safety:['Éviter laine, soie et tissus délicats sans confirmation de compatibilité.','Ne pas frotter fortement : risque de décoloration ou d’usure.','Ce traitement ne garantit pas le retrait de toutes les taches.'],storage:'Usage immédiat.',source:['ademe'],tags:['Petit budget'],sensitivity:'laundry'
+  },
+  {
+   id:'baume',equipment:{"essential":["Petit pot cosmétique propre, parfaitement sec et fermable (environ 50 ml)","Récipient résistant à la chaleur pour bain-marie","Casserole et eau pour le bain-marie (sans contact avec le produit)","Balance de précision pour les ingrédients solides","Doseur pour 10 ml d’huile et petite spatule propre","Étiquette : ingrédients et date de fabrication"],"optional":["Petite spatule souple pour transférer le baume","Thermomètre de cuisine propre pour mieux éviter la surchauffe"],"container":"Petit pot cosmétique sec et opaque si possible, avec couvercle. Ne pas ajouter d’eau.","note":"Le matériel et le pot doivent être très propres et totalement secs. Tester sur une petite zone de peau saine avant un usage plus large."},title:'Baume mains sans eau',category:'soins',type:'recette',icon:'cream',level:'Intermédiaire',minutes:15,desc:'Préparation courte à base de matières grasses, sans parfum.',base:40,yieldUnit:'g',
+   ingredients:[['karite',30],['tournesol',10]],steps:['Nettoyer et sécher soigneusement le matériel et un petit pot.','Faire ramollir doucement {{karite}} de karité au bain-marie tiède, sans le surchauffer.','Retirer du feu, incorporer {{tournesol}} d’huile de tournesol et mélanger.','Transvaser dans le pot parfaitement sec et laisser prendre.','Étiqueter avec ingrédients et date de préparation.'],
+   safety:['Ne pas utiliser en cas d’allergie à un composant, sur eczéma actif, lésion ou infection.','Effectuer un essai prudent sur une petite zone de peau saine ; observer 24 à 48 h.','Un test sans réaction ne garantit pas l’absence d’allergie.','Ne pas introduire d’eau dans le pot ; jeter si odeur ou aspect changent.'],storage:'Aucune durée sûre universelle : suivre les dates des matières premières, conserver au sec/frais, jeter au moindre changement.',source:['dgccrf','anses'],tags:['Sans eau','Sans parfum'],sensitivity:'skin'
+  },
+  {
+   id:'levres',equipment:{"essential":["Petit pot cosmétique propre, parfaitement sec et fermable (environ 20 ml)","Bol résistant à la chaleur pour bain-marie","Casserole pour bain-marie","Balance de précision, idéalement au gramme ou mieux","Doseur pour 5 ml d’huile et petite spatule propre","Étiquette : ingrédients et date"],"optional":["Petit bec verseur ou mini spatule pour remplir le pot sans renverser"],"container":"Petit pot à baume lèvres, fermé et parfaitement sec ; ne pas utiliser de spray.","note":"Ne pas appliquer sur lèvres abîmées ou irritées. Les composants doivent être compatibles avec l’usage cosmétique."},title:'Baume à lèvres sans parfum',category:'soins',type:'recette',icon:'lip',level:'Intermédiaire',minutes:15,desc:'Baume anhydre pour lèvres intactes, sans huiles essentielles.',base:20,yieldUnit:'g',
+   ingredients:[['karite',10],['cire',5],['tournesol',5]],steps:['Nettoyer puis sécher soigneusement le petit pot et les ustensiles.','Faire fondre doucement {{cire}} de cire avec {{karite}} de karité au bain-marie, sans surchauffer.','Hors du feu, ajouter {{tournesol}} d’huile de tournesol et mélanger.','Verser dans le pot sec, laisser refroidir et étiqueter.'],
+   safety:['Éviter si allergie au karité, à la cire d’abeille ou aux autres composants.','Ne pas appliquer sur lèvres lésées, infectées ou très irritées.','Tester prudemment une petite quantité ; un test négatif ne garantit pas l’absence d’allergie.','Prévenir les brûlures lors de la fonte ; aucun arôme ni huile essentielle.'],storage:'Suivre la date limite des matières premières ; au sec, sans eau ; jeter si altération.',source:['dgccrf'],tags:['3 ingrédients','Sans parfum'],sensitivity:'skin'
+  },
+  {
+   id:'huilecorps',equipment:{"essential":["Petit flacon cosmétique propre, complètement sec, de 30 à 50 ml","Doseur gradué permettant de mesurer 30 ml","Bouchon étanche et étiquette avec la date"],"optional":["Mini entonnoir sec et propre","Flacon-pompe adapté aux huiles pour doser sans toucher le contenu"],"container":"Petit flacon opaque ou à conserver à l’abri de la lumière. Pour ce produit, pas de spray aérosol.","note":"Éviter toute entrée d’eau dans le flacon. Surveiller l’odeur de rancissement et jeter si le produit change."},title:'Huile de corps simple',category:'soins',type:'recette',icon:'bottle',level:'Facile',minutes:2,desc:'Un seul ingrédient pour une application légère sur peau intacte.',base:30,yieldUnit:'ml',
+   ingredients:[['tournesol',30]],steps:['Prendre un flacon propre et totalement sec.','Verser {{tournesol}} d’huile fraîche et étiqueter.','Appliquer quelques gouttes sur une zone de peau saine puis étaler.','Refermer pour éviter poussière et humidité.'],
+   safety:['Éviter visage acnéique et zones inflammatoires si le produit aggrave les symptômes.','Ne pas appliquer sur lésions ou eczéma actif sans conseil médical.','Tester sur une petite zone de peau saine avant une application plus large.','Arrêter en cas d’irritation ; ne pas ajouter d’huiles essentielles.'],storage:'Conserver selon l’étiquette de l’huile, à l’abri de chaleur et lumière.',source:['dgccrf'],tags:['1 ingrédient','Sans parfum'],sensitivity:'skin'
+  },
+  {
+   id:'masque',equipment:{"essential":["Balance de cuisine pour l’avoine","Petit moulin ou mixeur propre et sec pour réduire les flocons","Petit bol propre et cuillère","Doseur pour 15 ml d’eau"],"optional":["Passoire très fine ou petit tamis propre pour obtenir une poudre d’avoine plus homogène","Bandeau pour dégager les cheveux"],"container":"Bol de préparation seulement. À utiliser aussitôt et jeter entièrement le reste : pas de pot de conservation.","note":"La passoire très fine sert ici à tamiser l’avoine SÈCHE. Ne pas conserver le masque une fois l’eau ajoutée."},title:'Masque minute à l’avoine',category:'soins',type:'recette',icon:'bowl',level:'Facile',minutes:6,desc:'Préparation aqueuse à usage unique sur peau saine uniquement.',base:35,yieldUnit:'g',
+   ingredients:[['avoine',20],['eau',15]],steps:['Réduire {{avoine}} de flocons d’avoine nature en poudre fine avec du matériel propre.','Ajouter {{eau}} d’eau juste avant l’application pour former une pâte souple.','Appliquer une fine couche sur peau saine et intacte en évitant yeux et bouche.','Rincer délicatement après quelques minutes sans laisser sécher complètement.','Jeter immédiatement toute pâte restante.'],
+   safety:['Ne pas utiliser en cas d’allergie à l’avoine, d’eczéma actif ou de peau lésée.','Tester sur une petite zone et arrêter si irritation ; ce n’est pas un traitement dermatologique.','Ne jamais conserver ce mélange avec de l’eau.'],storage:'À utiliser immédiatement, ne jamais stocker.',source:['dgccrf'],tags:['Minute','Sans parfum'],sensitivity:'skin'
+  },
+  {
+   id:'hotte', equipment:{essential:['Bol ou pichet de 350 ml réservé au ménage','Doseur gradué pour 5 ml','Chiffon microfibre propre','Chiffon humide pour rincer'], optional:['Gants de ménage','Brosse souple si le fabricant l’autorise'],container:'Dans un bol : préparation minute, sans stockage.',note:'Débrancher la hotte et intervenir uniquement sur surfaces froides et non électriques.'},
+   title:'Dégraissage extérieur de hotte',category:'maison',type:'recette',icon:'spray',level:'Facile',minutes:8,desc:'Nettoyage doux de l’extérieur d’une hotte compatible.',base:305,yieldUnit:'ml',
+   ingredients:[['eau',300],['savon_noir',5]],steps:['Couper l’alimentation de la hotte et attendre le refroidissement.','Mélanger {{eau}} d’eau tiède et {{savon_noir}} de savon noir dans un récipient propre.','Passer un chiffon à peine humide sur les parties extérieures autorisées par la notice.','Essuyer avec un chiffon humidifié à l’eau claire puis sécher. Jeter la solution restante.'],
+   safety:['Ne jamais pulvériser directement sur un appareil électrique, une commande ou un moteur.','Vérifier la notice pour inox, aluminium ou revêtements fragiles ; tester une zone discrète.','Ce nettoyage ne remplace pas le nettoyage des filtres selon la notice et ne désinfecte pas.'], storage:'Préparation minute à jeter après usage.',source:['ademe','ademe-sec'],tags:['Dégraissant','Sans parfum'],sensitivity:'house'
+  },
+  {
+   id:'bacpoubelle',equipment:{essential:['Seau ou bac propre de 1 L','Doseur gradué pour 10 ml','Brosse dédiée au bac à déchets','Gants de ménage','Accès à de l’eau claire pour rincer'],optional:['Chiffon de séchage réservé au ménage'],container:'Mélange temporaire dans le seau ; ne rien conserver en flacon.',note:'Vider le bac avant de commencer, ne pas transférer le produit dans un récipient alimentaire.'},
+   title:'Lavage d’un bac à poubelle',category:'maison',type:'recette',icon:'bowl',level:'Facile',minutes:10,desc:'Éliminer les salissures et odeurs courantes d’un bac lavable.',base:1010,yieldUnit:'ml',
+   ingredients:[['eau',1000],['savon_noir',10]],steps:['Vider le bac et retirer les déchets solides.','Mélanger {{eau}} d’eau tiède avec {{savon_noir}} de savon noir ménager.','Frotter les surfaces lavables avec une brosse réservée à cet usage.','Rincer abondamment, vider l’eau sale selon les règles locales et laisser sécher avant de remettre un sac.'],
+   safety:['Garder à l’écart de la zone de préparation des aliments.','Ne pas ajouter d’eau de Javel ni d’autre détergent.','Ce lavage ne garantit pas une désinfection ; porter des gants en cas de contact avec déchets souillés.'],storage:'Usage immédiat ; jeter le reste.',source:['ademe','ademe-sec'],tags:['Hygiène du bac','Simple'],sensitivity:'house'
+  },
+  {
+   id:'frigoodeur',equipment:{essential:['Petite coupelle stable, sèche et propre','Balance de cuisine pour 40 g','Étiquette indiquant de ne pas consommer'],optional:['Petit récipient stable anti-renversement'],container:'Coupelle sèche à poser sans contact direct avec les aliments.',note:'Placer hors d’atteinte des jeunes enfants ; jeter et remplacer si humide ou sali.'},
+   title:'Coupelle anti-odeurs au réfrigérateur',category:'maison',type:'recette',icon:'jar',level:'Facile',minutes:2,desc:'Une coupelle sèche pour aider à limiter les odeurs légères.',base:40,yieldUnit:'g',
+   ingredients:[['bicarbonate',40]],steps:['Vérifier que le réfrigérateur est propre et rechercher la source éventuelle d’une mauvaise odeur.','Placer {{bicarbonate}} de bicarbonate sec dans une coupelle stable.','Poser la coupelle sans contact avec les aliments.','Remplacer si elle est humide, sale ou ne remplit plus son rôle ; jeter le contenu usagé.'],
+   safety:['La coupelle n’assainit pas un réfrigérateur et ne remplace ni le nettoyage ni la conservation correcte des aliments.','Ne pas verser le bicarbonate sur les aliments ; ne pas laisser les enfants jouer avec.','En cas d’odeur persistante, vérifier les aliments avariés et l’état de l’appareil.'],storage:'À utiliser sec ; remplacer si humide ou souillé.',source:['ademe'],tags:['Sans parfum','Une matière'],sensitivity:'house'
+  },
+  {
+   id:'huilecheveux',equipment:{essential:['Petit verre ou coupelle parfaitement propre et sec','Doseur précis pour 10 ml','Serviette destinée à protéger les vêtements'],optional:['Peigne à dents larges propre'],container:'Coupelle de préparation utilisée immédiatement ; aucun flacon à conserver.',note:'Appliquer uniquement sur les longueurs, jamais sur le cuir chevelu irrité ou lésé ; attention au sol glissant.'},
+   title:'Soin avant-shampoing pour les longueurs',category:'hygiene',type:'recette',icon:'shampoo',level:'Facile',minutes:5,desc:'Très petite quantité d’huile sans parfum sur les pointes sèches ; ne lave pas les cheveux.',base:10,yieldUnit:'ml',
+   ingredients:[['tournesol',10]],steps:['Verser {{tournesol}} d’huile de tournesol fraîche dans une coupelle propre et sèche.','Essayer une goutte sur une petite mèche, loin du cuir chevelu.','Appliquer progressivement sur les longueurs et les pointes uniquement ; ne pas en mettre sur le visage ni les racines.','Laver les cheveux avec un shampoing habituel adapté, puis rincer jusqu’à élimination de l’huile.'],
+   safety:['Ce soin gras n’est pas un shampoing et ne traite aucune affection du cuir chevelu.','Éviter totalement en cas d’allergie connue ou sur peau lésée, irritée, avec eczéma actif.','Éviter yeux, visage et sol de douche qui pourrait devenir glissant ; arrêter si réaction.'],storage:'Préparation minute ; jeter le surplus de la coupelle.',source:['dgccrf'],tags:['Sans parfum','Avant-shampoing'],sensitivity:'skin'
+  },
+  {
+  "id": "frigo_lavage",
+  "title": "Nettoyage des clayettes du réfrigérateur",
+  "category": "maison",
+  "icon": "jar",
+  "minutes": 12,
+  "desc": "Nettoyage de parties amovibles lavables, avec rinçage soigneux.",
+  "ingredients": [
+    [
+      "eau",
+      1000
+    ],
+    [
+      "savon_noir",
+      5
+    ]
+  ],
+  "steps": [
+    "Éteindre ou sécuriser l’appareil si sa notice l’exige, puis sortir les aliments au frais.",
+    "Préparer {{eau}} d’eau tiède et {{savon_noir}} de savon noir dans une bassine.",
+    "Laver les clayettes amovibles compatibles avec une lavette propre.",
+    "Rincer à l’eau potable, sécher complètement et replacer les éléments. Jeter le bain de lavage."
+  ],
+  "safety": [
+    "Ne jamais introduire la solution dans les ouvertures, circuits électriques ou joints fragiles.",
+    "Ne pas confondre nettoyage et désinfection ; en cas de souillure particulière suivre les recommandations du fabricant.",
+    "Ne mélanger aucun produit, et ne pas garder de mélange dilué."
+  ],
+  "tags": [
+    "Cuisine",
+    "Rinçage"
+  ],
+  "storage": "Usage immédiat ; jeter le mélange.",
+  "source": [
+    "ademe",
+    "ademe-sec"
+  ],
+  "type": "recette",
+  "level": "Facile",
+  "yieldUnit": "ml",
+  "base": 1005,
+  "equipment": {
+    "essential": [
+      "Bassine de 2 L réservée au ménage",
+      "Doseur gradué pour 5 ml",
+      "Lavette propre et chiffon de séchage"
+    ],
+    "optional": [
+      "Gants de ménage",
+      "Petite brosse douce compatible avec les clayettes"
+    ],
+    "container": "Bassine utilisée immédiatement ; aucun flacon à conserver.",
+    "note": "Rincer à l’eau potable toutes les surfaces en contact avec les aliments."
+  },
+  "sensitivity": "house"
+},
+  {
+  "id": "douche_paroi",
+  "title": "Traces calcaires sur paroi de douche",
+  "category": "maison",
+  "icon": "shower",
+  "minutes": 7,
+  "desc": "Essai sur verre non traité et surfaces explicitement compatibles.",
+  "ingredients": [
+    [
+      "eau",
+      400
+    ],
+    [
+      "vinaigre",
+      100
+    ]
+  ],
+  "steps": [
+    "Vérifier la notice de la paroi : ne pas utiliser sur pierre naturelle, joints fragiles ou traitement anticalcaire.",
+    "Mélanger {{eau}} d’eau et {{vinaigre}} de vinaigre blanc dans un bol.",
+    "Appliquer avec une lavette sur une petite zone, sans pulvériser dans l’air.",
+    "Rincer tout de suite et sécher avec une microfibre ; jeter le reste."
+  ],
+  "safety": [
+    "Ne jamais utiliser après un produit chloré ou à base de Javel sans rinçage complet.",
+    "Un vinaigre acide peut attaquer certains traitements de verre, joints, pierres ou métaux.",
+    "Cette méthode est un essai de nettoyage, pas un désinfectant."
+  ],
+  "tags": [
+    "Salle de bains",
+    "Anticalcaire"
+  ],
+  "storage": "Usage immédiat.",
+  "source": [
+    "ademe",
+    "ademe-sec"
+  ],
+  "type": "recette",
+  "level": "Facile",
+  "yieldUnit": "ml",
+  "base": 500,
+  "equipment": {
+    "essential": [
+      "Bol ou pichet de 600 ml",
+      "Doseur gradué de 100 ml",
+      "Chiffon doux et microfibre sèche"
+    ],
+    "optional": [
+      "Gants ménagers"
+    ],
+    "container": "Bol utilisé immédiatement, pas de préparation en bouteille à garder.",
+    "note": "Tester seulement sur une petite zone parfaitement compatible."
+  },
+  "sensitivity": "house"
+},
+  {
+  "id": "lavabo",
+  "title": "Lavabo lavable au savon noir",
+  "category": "maison",
+  "icon": "drop",
+  "minutes": 6,
+  "desc": "Nettoyage doux d’un lavabo compatible, sans anticalcaire.",
+  "ingredients": [
+    [
+      "eau",
+      500
+    ],
+    [
+      "savon_noir",
+      5
+    ]
+  ],
+  "steps": [
+    "Vérifier la compatibilité du lavabo et de la robinetterie.",
+    "Verser {{eau}} d’eau et {{savon_noir}} de savon noir dans un petit récipient.",
+    "Nettoyer avec une éponge non abrasive, en évitant les pièces fragiles.",
+    "Rincer complètement à l’eau claire puis sécher ; jeter la solution."
+  ],
+  "safety": [
+    "Ne pas utiliser sur une matière dont la notice exclut les détergents.",
+    "Un mélange savonneux ne détartre pas et ne désinfecte pas.",
+    "Éviter tout mélange avec d’autres produits ménagers."
+  ],
+  "tags": [
+    "Salle de bains",
+    "Sans parfum"
+  ],
+  "storage": "Utiliser immédiatement.",
+  "source": [
+    "ademe",
+    "ademe-sec"
+  ],
+  "type": "recette",
+  "level": "Facile",
+  "yieldUnit": "ml",
+  "base": 505,
+  "equipment": {
+    "essential": [
+      "Récipient gradué de 600 ml",
+      "Éponge non abrasive réservée au ménage",
+      "Chiffon de séchage"
+    ],
+    "optional": [
+      "Gants de ménage"
+    ],
+    "container": "Préparation minute dans le récipient ; aucun stockage.",
+    "note": "Matériel ménager séparé des accessoires de toilette."
+  },
+  "sensitivity": "house"
+},
+  {
+  "id": "plaque_froide",
+  "title": "Plaque de cuisson froide : dégraissage doux",
+  "category": "maison",
+  "icon": "floor",
+  "minutes": 7,
+  "desc": "Pour l’extérieur des plaques autorisées par le fabricant.",
+  "ingredients": [
+    [
+      "eau",
+      300
+    ],
+    [
+      "savon_noir",
+      3
+    ]
+  ],
+  "steps": [
+    "Éteindre la plaque et attendre qu’elle soit complètement froide.",
+    "Mélanger {{eau}} d’eau et {{savon_noir}} de savon noir dans un bol.",
+    "Nettoyer la surface au chiffon à peine humide sans pénétrer dans les commandes ni ouvertures.",
+    "Rincer au chiffon propre légèrement humide, sécher et jeter le reste."
+  ],
+  "safety": [
+    "Ne jamais asperger ni inonder un appareil électrique.",
+    "La notice prime : la méthode ne convient pas à tous les revêtements, notamment certaines vitrocéramiques.",
+    "Éviter les éponges abrasives et ne pas confondre avec un nettoyage d’entretien de four pyrolyse."
+  ],
+  "tags": [
+    "Cuisine",
+    "Dégraissant"
+  ],
+  "storage": "À utiliser sans stockage.",
+  "source": [
+    "ademe",
+    "ademe-sec"
+  ],
+  "type": "recette",
+  "level": "Facile",
+  "yieldUnit": "ml",
+  "base": 303,
+  "equipment": {
+    "essential": [
+      "Petit bol de 350 ml",
+      "Petite seringue doseuse ou doseur pour 3 ml",
+      "Deux chiffons doux et secs"
+    ],
+    "optional": [
+      "Gants de ménage"
+    ],
+    "container": "Bol utilisé immédiatement, aucun spray.",
+    "note": "Appareil éteint, froid, sans contact avec éléments électriques."
+  },
+  "sensitivity": "house"
+},
+  {
+  "id": "evier_inox",
+  "title": "Évier en inox : lavage doux",
+  "category": "maison",
+  "icon": "dish",
+  "minutes": 6,
+  "desc": "Nettoyage courant de l’inox non traité.",
+  "ingredients": [
+    [
+      "eau",
+      500
+    ],
+    [
+      "savon_noir",
+      5
+    ]
+  ],
+  "steps": [
+    "Vérifier que la surface est bien en inox compatible.",
+    "Préparer {{eau}} d’eau avec {{savon_noir}} de savon noir.",
+    "Passer une éponge non abrasive dans le sens du brossage de l’inox.",
+    "Rincer soigneusement à l’eau potable puis essuyer pour limiter les traces."
+  ],
+  "safety": [
+    "Ne pas utiliser sur un métal ou un revêtement différent sans accord du fabricant.",
+    "Éviter poudres abrasives et laine d’acier qui peuvent marquer la surface.",
+    "Ce lavage n’est pas une désinfection."
+  ],
+  "tags": [
+    "Cuisine",
+    "Inox"
+  ],
+  "storage": "Préparation minute.",
+  "source": [
+    "ademe",
+    "ademe-sec"
+  ],
+  "type": "recette",
+  "level": "Facile",
+  "yieldUnit": "ml",
+  "base": 505,
+  "equipment": {
+    "essential": [
+      "Bol gradué de 600 ml",
+      "Éponge douce non abrasive",
+      "Chiffon microfibre sec"
+    ],
+    "optional": [
+      "Gants de ménage"
+    ],
+    "container": "Pas de conservation : préparer dans un bol.",
+    "note": "Rincer les surfaces en contact avec la vaisselle ou les aliments."
+  },
+  "sensitivity": "house"
+},
+  {
+  "id": "carrelage_mural",
+  "title": "Carrelage mural lavable",
+  "category": "maison",
+  "icon": "floor",
+  "minutes": 10,
+  "desc": "Lavage de carreaux émaillés compatibles, avec rinçage.",
+  "ingredients": [
+    [
+      "eau",
+      1000
+    ],
+    [
+      "savon_noir",
+      5
+    ]
+  ],
+  "steps": [
+    "Vérifier que le revêtement est lavable et n’est pas en pierre naturelle ou carreau poreux sensible.",
+    "Préparer {{eau}} d’eau tiède et {{savon_noir}} de savon noir dans un seau.",
+    "Essuyer les carreaux à l’aide d’une lavette douce en évitant les prises et commandes.",
+    "Rincer puis sécher ; jeter le liquide après utilisation."
+  ],
+  "safety": [
+    "Éviter joints friables et infiltrations ; en cas de moisissures récurrentes traiter la cause de l’humidité.",
+    "Ne pas pulvériser près de prises ou appareils électriques.",
+    "Ne pas ajouter de Javel, vinaigre ou autres produits."
+  ],
+  "tags": [
+    "Salle de bains",
+    "Carrelage"
+  ],
+  "storage": "Jeter après usage.",
+  "source": [
+    "ademe",
+    "ademe-sec"
+  ],
+  "type": "recette",
+  "level": "Facile",
+  "yieldUnit": "ml",
+  "base": 1005,
+  "equipment": {
+    "essential": [
+      "Petit seau de 2 L",
+      "Doseur gradué",
+      "Lavette souple",
+      "Chiffon de séchage"
+    ],
+    "optional": [
+      "Gants ménagers"
+    ],
+    "container": "Dans un petit seau ; jeter après ménage.",
+    "note": "Ne pas employer sur prises, boîtiers ou matériaux qui ne supportent pas l’eau."
+  },
+  "sensitivity": "house"
+},
+  {
+  "id": "mobilier_jardin",
+  "title": "Mobilier de jardin en plastique",
+  "category": "maison",
+  "icon": "home",
+  "minutes": 15,
+  "desc": "Nettoyage de mobilier lavable et stable à l’eau.",
+  "ingredients": [
+    [
+      "eau",
+      1000
+    ],
+    [
+      "savon_noir",
+      10
+    ]
+  ],
+  "steps": [
+    "Brosser à sec feuilles, poussières et terre sans les souffler dans l’air.",
+    "Mélanger {{eau}} d’eau et {{savon_noir}} de savon noir dans un seau.",
+    "Laver les surfaces de plastique compatibles avec une éponge douce.",
+    "Rincer à l’eau claire, laisser sécher et jeter la solution."
+  ],
+  "safety": [
+    "Essayer dans un coin caché ; éviter bois non traité, peinture fragile et textiles.",
+    "Le sol peut devenir glissant ; empêcher animaux et enfants d’accéder au seau.",
+    "Ne pas mélanger à de l’eau de Javel ou un autre détergent."
+  ],
+  "tags": [
+    "Extérieur",
+    "Sans parfum"
+  ],
+  "storage": "Usage immédiat.",
+  "source": [
+    "ademe",
+    "ademe-sec"
+  ],
+  "type": "recette",
+  "level": "Facile",
+  "yieldUnit": "ml",
+  "base": 1010,
+  "equipment": {
+    "essential": [
+      "Seau de 2 L",
+      "Brosse douce ou éponge non abrasive",
+      "Doseur gradué"
+    ],
+    "optional": [
+      "Gants de ménage",
+      "Chiffon de séchage"
+    ],
+    "container": "Seau temporaire, sans flacon de stockage.",
+    "note": "Vider l’eau sale selon les consignes locales, pas dans les massifs."
+  },
+  "sensitivity": "house"
+},
+  {
+  "id": "facades_meubles",
+  "title": "Façades de meubles stratifiés",
+  "category": "maison",
+  "icon": "home",
+  "minutes": 8,
+  "desc": "Nettoyer les surfaces stratifiées lavables sans les détremper.",
+  "ingredients": [
+    [
+      "eau",
+      500
+    ],
+    [
+      "savon_noir",
+      3
+    ]
+  ],
+  "steps": [
+    "Lire la notice : le bois brut, les vernis fragiles et les matériaux poreux sont exclus.",
+    "Préparer {{eau}} d’eau et {{savon_noir}} de savon noir.",
+    "Humidifier légèrement un chiffon, nettoyer une petite zone en évitant chants et charnières.",
+    "Passer un chiffon légèrement humide puis sécher aussitôt. Jeter le reste."
+  ],
+  "safety": [
+    "Jamais d’inondation : l’eau peut faire gonfler les panneaux de meubles.",
+    "Ne pas pulvériser sur charnières ou commandes électriques.",
+    "Essayer sur une zone discrète et éviter les surfaces non compatibles."
+  ],
+  "tags": [
+    "Mobilier",
+    "Doux"
+  ],
+  "storage": "À utiliser sans stockage.",
+  "source": [
+    "ademe",
+    "ademe-sec"
+  ],
+  "type": "recette",
+  "level": "Facile",
+  "yieldUnit": "ml",
+  "base": 503,
+  "equipment": {
+    "essential": [
+      "Bol de 550 ml",
+      "Petit doseur pour 3 ml",
+      "Deux chiffons doux propres"
+    ],
+    "optional": [
+      "Gants si peau fragile"
+    ],
+    "container": "Bol minute. Aucune bouteille de solution conservée.",
+    "note": "Attention aux placages, vernis et matériaux absorbants."
+  },
+  "sensitivity": "house"
+},
+  {
+  "id": "brosses_menage",
+  "title": "Lavage des brosses de ménage",
+  "category": "maison",
+  "icon": "bowl",
+  "minutes": 12,
+  "desc": "Retirer les salissures des brosses lavables et laisser sécher.",
+  "ingredients": [
+    [
+      "eau",
+      1000
+    ],
+    [
+      "savon_noir",
+      5
+    ]
+  ],
+  "steps": [
+    "Enlever à sec les saletés et cheveux de la brosse, avec des gants si besoin.",
+    "Mettre {{eau}} d’eau et {{savon_noir}} de savon noir dans une bassine réservée au ménage.",
+    "Brosser et laver les parties autorisées par le fabricant.",
+    "Rincer soigneusement, égoutter, sécher à l’air libre et jeter l’eau."
+  ],
+  "safety": [
+    "Cette opération lave les brosses mais ne les désinfecte pas.",
+    "Remplacer les brosses en mauvais état ou contaminées plutôt que les conserver.",
+    "Ne pas immerger les parties bois ou motorisées si la notice l’interdit."
+  ],
+  "tags": [
+    "Matériel",
+    "Nettoyage"
+  ],
+  "storage": "Jeter la solution immédiatement.",
+  "source": [
+    "ademe",
+    "ademe-sec"
+  ],
+  "type": "recette",
+  "level": "Facile",
+  "yieldUnit": "ml",
+  "base": 1005,
+  "equipment": {
+    "essential": [
+      "Bassine de 2 L réservée au ménage",
+      "Gants de ménage",
+      "Petit doseur gradué",
+      "Support d’égouttage"
+    ],
+    "optional": [
+      "Petite brosse de nettoyage séparée"
+    ],
+    "container": "Bain de lavage temporaire ; pas de solution stockée.",
+    "note": "Ne pas réutiliser cette bassine pour les soins de la peau."
+  },
+  "sensitivity": "house"
+},
+  {
+  "id": "lavage_main_coton",
+  "title": "Lavage à la main de coton résistant",
+  "category": "linge",
+  "icon": "shirt",
+  "minutes": 15,
+  "desc": "Petite bassine pour vêtements lavables au savon, puis rinçage abondant.",
+  "ingredients": [
+    [
+      "eau",
+      3000
+    ],
+    [
+      "marseille",
+      5
+    ]
+  ],
+  "steps": [
+    "Vérifier l’étiquette : réserver cette méthode au coton résistant lavable à la main.",
+    "Mettre {{eau}} d’eau tiède dans une bassine puis y dissoudre soigneusement {{marseille}} de copeaux de savon de Marseille.",
+    "Laver doucement une petite pièce sans trop frotter puis rincer plusieurs fois à l’eau claire.",
+    "Presser sans tordre et sécher selon l’étiquette ; jeter le bain de lavage."
+  ],
+  "safety": [
+    "Ne pas utiliser sur laine, soie, tissus techniques, teintes instables ou textiles indiquant nettoyage à sec.",
+    "Un savon peut laisser des résidus : rincer abondamment et arrêter si inconfort cutané.",
+    "Ne jamais utiliser de cristaux de soude dans cette recette destinée à une petite lessive manuelle."
+  ],
+  "tags": [
+    "Coton",
+    "À la main"
+  ],
+  "storage": "Usage immédiat.",
+  "source": [
+    "ademe",
+    "ademe-sec"
+  ],
+  "type": "recette",
+  "level": "Facile",
+  "yieldUnit": "ml",
+  "base": 3005,
+  "equipment": {
+    "essential": [
+      "Bassine de 4 L",
+      "Balance pour mesurer 5 g de savon",
+      "Eau claire pour plusieurs rinçages",
+      "Gants si peau sensible"
+    ],
+    "optional": [
+      "Filet de lavage pour petites pièces"
+    ],
+    "container": "Bassine temporaire ; solution non conservée.",
+    "note": "Ne jamais transvaser dans un flacon de boisson."
+  },
+  "sensitivity": "laundry"
+},
+  {
+  "id": "tache_terre",
+  "title": "Tache de terre sur tissu robuste",
+  "category": "linge",
+  "icon": "shirt",
+  "minutes": 8,
+  "desc": "Brosser la terre sèche avant un prétraitement très local.",
+  "ingredients": [
+    [
+      "marseille",
+      3
+    ]
+  ],
+  "steps": [
+    "Laisser sécher totalement la terre sur le vêtement puis brosser doucement à l’extérieur.",
+    "Vérifier l’étiquette et tester le savon de Marseille sur une couture cachée.",
+    "Avec un peu d’eau, appliquer {{marseille}} de savon sur la tache sans frotter agressivement.",
+    "Rincer et laver selon l’étiquette du textile ; ne pas ajouter de produits chimiques."
+  ],
+  "safety": [
+    "Ne pas brosser le daim, les textiles délicats ou les traitements imperméables fragiles.",
+    "Éviter de respirer la poussière si la terre est très sèche ; brosser doucement.",
+    "Ne pas utiliser sur tissus pour lesquels le fabricant déconseille le savon."
+  ],
+  "tags": [
+    "Taches",
+    "Avant lavage"
+  ],
+  "storage": "Préparation locale à usage immédiat.",
+  "source": [
+    "ademe",
+    "ademe-sec"
+  ],
+  "type": "recette",
+  "level": "Facile",
+  "yieldUnit": "g",
+  "base": 3,
+  "equipment": {
+    "essential": [
+      "Brosse textile souple",
+      "Savon de Marseille adapté au linge",
+      "Point d’eau et chiffon propre"
+    ],
+    "optional": [
+      "Gants si peau réactive"
+    ],
+    "container": "Aucune préparation à garder en flacon.",
+    "note": "Brosser uniquement quand la terre est sèche, sans abîmer les fibres."
+  },
+  "sensitivity": "laundry"
+},
+  {
+  "id": "soin_cuticules",
+  "title": "Soin léger des cuticules",
+  "category": "soins",
+  "icon": "bottle",
+  "minutes": 3,
+  "desc": "Très peu d’huile sur le contour d’ongles sains et non irrités.",
+  "ingredients": [
+    [
+      "tournesol",
+      5
+    ]
+  ],
+  "steps": [
+    "Laver puis sécher les mains et s’assurer qu’aucune cuticule n’est blessée ou infectée.",
+    "Déposer {{tournesol}} d’huile fraîche dans une petite coupelle parfaitement propre et sèche.",
+    "Appliquer seulement quelques gouttes au contour d’ongles intacts, en évitant la peau lésée.",
+    "Essuyer tout excédent et jeter l’huile restée dans la coupelle."
+  ],
+  "safety": [
+    "Ne traite pas les infections ou inflammations des ongles ; consulter en cas de rougeur douloureuse ou de pus.",
+    "Éviter en cas d’allergie connue ; un essai local ne garantit pas l’absence de réaction.",
+    "Attention : l’huile peut rendre certains objets glissants."
+  ],
+  "tags": [
+    "Ongles",
+    "Sans parfum"
+  ],
+  "storage": "Préparation minute : ne pas conserver la coupelle.",
+  "source": [
+    "dgccrf"
+  ],
+  "sensitivity": "skin",
+  "type": "recette",
+  "level": "Facile",
+  "yieldUnit": "ml",
+  "base": 5,
+  "equipment": {
+    "essential": [
+      "Petite coupelle complètement sèche",
+      "Doseur précis pour 5 ml",
+      "Papier ou tissu propre pour l’excédent"
+    ],
+    "optional": [
+      "Mini-pipette propre dédiée au soin"
+    ],
+    "container": "Coupelle utilisée immédiatement, sans flacon partagé.",
+    "note": "Réservé aux ongles et aux peaux sains ; ne pas appliquer en cas d’eczéma actif."
+  }
+},
+  {
+  "id": "talons_karite",
+  "title": "Soin des talons intacts au karité",
+  "category": "soins",
+  "icon": "cream",
+  "minutes": 4,
+  "desc": "Une petite application de beurre de karité cosmétique pur.",
+  "ingredients": [
+    [
+      "karite",
+      10
+    ]
+  ],
+  "steps": [
+    "Examiner les talons : ne pas appliquer sur crevasse ouverte, inflammation ou peau infectée.",
+    "Prélever {{karite}} de karité cosmétique dans une coupelle propre avec une spatule sèche.",
+    "Ramollir entre les doigts propres puis appliquer une couche fine sur la peau intacte.",
+    "Essuyer l’excédent et mettre des chaussettes propres si souhaité. Jeter tout reste manipulé."
+  ],
+  "safety": [
+    "Éviter en cas de sensibilité connue au produit ; faire un essai limité sur peau saine.",
+    "Ne traite pas les crevasses profondes, l’eczéma ou les infections ; demander conseil si la peau est lésée.",
+    "Le sol peut devenir glissant après application ; ne pas marcher pieds nus juste après."
+  ],
+  "tags": [
+    "Pieds",
+    "Sans eau"
+  ],
+  "storage": "Ne conserver que le produit d’origine selon sa notice.",
+  "source": [
+    "dgccrf"
+  ],
+  "sensitivity": "skin",
+  "type": "recette",
+  "level": "Facile",
+  "yieldUnit": "g",
+  "base": 10,
+  "equipment": {
+    "essential": [
+      "Petit pot d’origine du karité cosmétique",
+      "Spatule propre et sèche",
+      "Petite coupelle sèche"
+    ],
+    "optional": [
+      "Chaussettes propres"
+    ],
+    "container": "Conserver seulement le karité d’origine selon son étiquette ; ne pas remettre de produit manipulé dans le pot.",
+    "note": "Cette fiche décrit un geste de soin simple, pas une crème formulée en laboratoire."
+  }
+},
+  {
+    "id": "miroir_eau",
+    "title": "Miroir : eau et microfibre",
+    "category": "maison",
+    "type": "recette",
+    "icon": "window",
+    "level": "Facile",
+    "minutes": 3,
+    "desc": "Nettoyage léger sans parfum ni produit supplémentaire.",
+    "base": 100,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        100
+      ]
+    ],
+    "steps": [
+      "Humidifier légèrement une microfibre propre avec {{eau}} d’eau.",
+      "Essuyer le miroir, sans détremper ses bords.",
+      "Terminer avec une seconde microfibre propre et sèche."
+    ],
+    "safety": [
+      "Ne pas laisser l’eau pénétrer dans le cadre ou derrière le tain du miroir.",
+      "Pour miroir chauffant ou traité, suivre la notice.",
+      "Nettoyage seul, pas de désinfection."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe-air",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Sans détergent",
+      "Petit budget"
+    ],
+    "sensitivity": "house",
+    "equipment": {
+      "essential": [
+        "Deux microfibres propres, une humide et une sèche",
+        "Petit récipient d’eau potable"
+      ],
+      "optional": [
+        "Raclette de vitre adaptée et propre"
+      ],
+      "container": "Aucun contenant de stockage ; l’eau est utilisée immédiatement.",
+      "note": "Ne pas utiliser d’éponge abrasive ni trop mouiller les bords."
+    }
+  },
+  {
+    "id": "poignees_portes",
+    "title": "Poignées et interrupteurs : chiffon doux",
+    "category": "maison",
+    "type": "recette",
+    "icon": "home",
+    "level": "Facile",
+    "minutes": 7,
+    "desc": "Dépoussiérer les zones fréquemment touchées sans pulvériser.",
+    "base": 252,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        250
+      ],
+      [
+        "savon_noir",
+        2
+      ]
+    ],
+    "steps": [
+      "Débrancher ou couper le courant si la notice le recommande ; ne jamais mouiller les mécanismes.",
+      "Préparer {{eau}} d’eau et {{savon_noir}} de savon noir dans un bol.",
+      "Passer un chiffon à peine humide sur les surfaces compatibles, sans pénétration de liquide.",
+      "Essuyer avec un linge humidifié à l’eau claire puis sécher complètement."
+    ],
+    "safety": [
+      "Ne jamais pulvériser sur prises, interrupteurs ou mécanismes électriques.",
+      "Ne garantit pas une désinfection ; respecter la notice et tester un endroit discret."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Surfaces fréquemment touchées",
+      "Sans spray"
+    ],
+    "sensitivity": "house",
+    "equipment": {
+      "essential": [
+        "Bol dédié au ménage",
+        "Petit doseur gradué",
+        "Deux microfibres dont une presque sèche"
+      ],
+      "optional": [
+        "Gants si peau sensible"
+      ],
+      "container": "Bol utilisé pour la session uniquement.",
+      "note": "Ne tremper ni interrupteur ni poignée électrique ; très peu de liquide."
+    }
+  },
+  {
+    "id": "plinthes",
+    "title": "Plinthes lavables : entretien doux",
+    "category": "maison",
+    "type": "recette",
+    "icon": "floor",
+    "level": "Facile",
+    "minutes": 10,
+    "desc": "Nettoyer des plinthes résistantes et peintures compatibles.",
+    "base": 1005,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        1000
+      ],
+      [
+        "savon_noir",
+        5
+      ]
+    ],
+    "steps": [
+      "Dépoussiérer les plinthes avec un chiffon sec.",
+      "Mélanger {{eau}} d’eau tiède et {{savon_noir}} de savon noir ménager.",
+      "Passer une lavette essorée sur une petite zone d’essai puis continuer si le revêtement résiste.",
+      "Essuyer puis sécher ; vider le récipient après usage."
+    ],
+    "safety": [
+      "Éviter bois brut, plinthes gonflées ou peintures fragiles.",
+      "Ne pas mouiller les jointures ni laisser la solution stagner."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Entretien courant",
+      "Maison"
+    ],
+    "sensitivity": "house",
+    "equipment": {
+      "essential": [
+        "Seau ou bassine de 2 L",
+        "Chiffon sec et lavette humide",
+        "Doseur gradué"
+      ],
+      "optional": [
+        "Brosse souple pour les angles"
+      ],
+      "container": "Dans la bassine, sans mise en bouteille.",
+      "note": "Utiliser un linge bien essoré pour limiter l’humidité."
+    }
+  },
+  {
+    "id": "joints_ceramique",
+    "title": "Joints de carrelage : brossage doux",
+    "category": "maison",
+    "type": "recette",
+    "icon": "bowl",
+    "level": "Facile",
+    "minutes": 12,
+    "desc": "Retirer les salissures ordinaires sur joints minéraux compatibles.",
+    "base": 255,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        250
+      ],
+      [
+        "savon_noir",
+        5
+      ]
+    ],
+    "steps": [
+      "Préparer {{eau}} d’eau tiède et {{savon_noir}} de savon noir dans une coupelle.",
+      "Brosser délicatement une petite zone test de joint à l’aide d’une brosse souple.",
+      "Rincer avec un chiffon humide à l’eau claire.",
+      "Sécher et renouveler uniquement si nécessaire."
+    ],
+    "safety": [
+      "Ne traite pas les moisissures et ne désinfecte pas ; en cas de moisissure persistante, rechercher la cause d’humidité.",
+      "Ne pas abraser joints friables, silicone ou pierres sensibles.",
+      "Ne jamais mélanger des produits de nettoyage."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Salle de bains",
+      "Brosse douce"
+    ],
+    "sensitivity": "house",
+    "equipment": {
+      "essential": [
+        "Bol ou petit seau",
+        "Brosse à poils souples réservée aux joints",
+        "Chiffon humide pour le rinçage"
+      ],
+      "optional": [
+        "Gants de ménage"
+      ],
+      "container": "Bol pour une seule utilisation.",
+      "note": "Éviter les brosses métalliques et les joints dégradés."
+    }
+  },
+  {
+    "id": "baignoire_email",
+    "title": "Baignoire compatible : lavage doux",
+    "category": "maison",
+    "type": "recette",
+    "icon": "drop",
+    "level": "Facile",
+    "minutes": 8,
+    "desc": "Lavage courant d’une baignoire lavable sans détartrant acide.",
+    "base": 1005,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        1000
+      ],
+      [
+        "savon_noir",
+        5
+      ]
+    ],
+    "steps": [
+      "Vérifier la compatibilité du matériau et préparer {{eau}} d’eau tiède avec {{savon_noir}} de savon noir.",
+      "Nettoyer doucement avec une lavette non abrasive.",
+      "Rincer abondamment à l’eau claire.",
+      "Sécher les rebords et vider la bassine."
+    ],
+    "safety": [
+      "Émail ancien, acrylique et revêtements antidérapants exigent des précautions spécifiques : suivre la notice.",
+      "Attention au risque de glissade ; bien rincer toute trace savonneuse.",
+      "Ne pas mélanger avec du détartrant, de l’eau de Javel ou d’autres produits."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Salle de bains",
+      "Sans acide"
+    ],
+    "sensitivity": "house",
+    "equipment": {
+      "essential": [
+        "Petite bassine",
+        "Lavette douce non abrasive",
+        "Doseur de 5 ml"
+      ],
+      "optional": [
+        "Gants de ménage"
+      ],
+      "container": "À utiliser dans la bassine puis jeter.",
+      "note": "Rincer soigneusement pour éviter un fond glissant."
+    }
+  },
+  {
+    "id": "microondes",
+    "title": "Micro-ondes : nettoyage intérieur à froid",
+    "category": "maison",
+    "type": "recette",
+    "icon": "bowl",
+    "level": "Facile",
+    "minutes": 9,
+    "desc": "Entretien simple d’une cavité compatible, appareil débranché.",
+    "base": 503,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        500
+      ],
+      [
+        "savon_noir",
+        3
+      ]
+    ],
+    "steps": [
+      "Débrancher l’appareil et attendre qu’il soit froid.",
+      "Mélanger {{eau}} d’eau et {{savon_noir}} de savon noir dans un récipient.",
+      "Sur les parois compatibles, passer une lavette légèrement humide sans toucher les aérations ni les composants sensibles.",
+      "Rincer au chiffon humidifié d’eau potable, puis sécher avant de rebrancher."
+    ],
+    "safety": [
+      "Ne jamais mettre le récipient ou la préparation en chauffe pour ce nettoyage.",
+      "Ne pas arroser les commandes, ouïes ou composants ; respecter la notice.",
+      "Ce procédé ne désinfecte pas."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Cuisine",
+      "Appareil électrique"
+    ],
+    "sensitivity": "house",
+    "equipment": {
+      "essential": [
+        "Bol de préparation",
+        "Doseur gradué",
+        "Deux lavettes propres non abrasives"
+      ],
+      "optional": [
+        "Gants de ménage"
+      ],
+      "container": "Solution minute, sans stockage.",
+      "note": "Nettoyer appareil froid et débranché ; ne pas chauffer le mélange."
+    }
+  },
+  {
+    "id": "grilles_four",
+    "title": "Grilles de four amovibles : lavage doux",
+    "category": "maison",
+    "type": "recette",
+    "icon": "bowl",
+    "level": "Facile",
+    "minutes": 15,
+    "desc": "Lavage ponctuel de grilles compatibles, entièrement refroidies.",
+    "base": 1010,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        1000
+      ],
+      [
+        "savon_noir",
+        10
+      ]
+    ],
+    "steps": [
+      "Retirer la grille seulement lorsque le four est froid et éteint.",
+      "Préparer {{eau}} d’eau tiède et {{savon_noir}} de savon noir dans une bassine.",
+      "Nettoyer la grille avec une brosse douce ou un chiffon sur un support protégé.",
+      "Rincer complètement puis sécher avant remise en place."
+    ],
+    "safety": [
+      "Suivre la notice du four ; ne pas abîmer un traitement antiadhésif ou chromé.",
+      "Ne jamais appliquer de produit sur les résistances ou parties électriques.",
+      "Porter des gants en cas de bords métalliques coupants."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Four",
+      "Dégraissage doux"
+    ],
+    "sensitivity": "house",
+    "equipment": {
+      "essential": [
+        "Grande bassine adaptée à la grille",
+        "Doseur gradué",
+        "Brosse douce et éponge non abrasive"
+      ],
+      "optional": [
+        "Gants de protection adaptés"
+      ],
+      "container": "Bain de lavage à éliminer après usage.",
+      "note": "Ne pas employer de laine d’acier sur grille traitée."
+    }
+  },
+  {
+    "id": "carafe_verre",
+    "title": "Carafe en verre : traces de calcaire",
+    "category": "maison",
+    "type": "recette",
+    "icon": "drop",
+    "level": "Facile",
+    "minutes": 8,
+    "desc": "Détartrage ponctuel de verre ordinaire, sans décor fragile.",
+    "base": 500,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        400
+      ],
+      [
+        "vinaigre",
+        100
+      ]
+    ],
+    "steps": [
+      "Vérifier que la carafe n’a ni décor métallique, ni cristal, ni revêtement sensible.",
+      "Mélanger {{eau}} d’eau et {{vinaigre}} de vinaigre blanc dans la carafe.",
+      "Laisser agir brièvement sur les traces légères, sans bouchon hermétique.",
+      "Vider, rincer plusieurs fois à l’eau potable puis sécher."
+    ],
+    "safety": [
+      "Jamais avec eau de Javel ou autre nettoyant, même utilisé juste avant sans rinçage.",
+      "Ne pas utiliser sur cristal, pierres décoratives, métaux ni matériaux incompatibles.",
+      "Rincer minutieusement avant utilisation alimentaire."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Anticalcaire",
+      "Verre"
+    ],
+    "sensitivity": "house",
+    "equipment": {
+      "essential": [
+        "Verre doseur",
+        "Carafe en verre ordinaire compatible",
+        "Accès à l’eau potable pour rinçage"
+      ],
+      "optional": [
+        "Brosse souple pour carafe"
+      ],
+      "container": "Mélanger dans la carafe, ne pas stocker.",
+      "note": "N’utiliser qu’un vinaigre ménager dilué, de concentration usuelle et clairement étiquetée."
+    }
+  },
+  {
+    "id": "tasse_ceramique",
+    "title": "Tasse en céramique : traces de thé",
+    "category": "maison",
+    "type": "recette",
+    "icon": "bowl",
+    "level": "Facile",
+    "minutes": 7,
+    "desc": "Retrait doux des taches superficielles sur céramique non décorée.",
+    "base": 20,
+    "yieldUnit": "g",
+    "ingredients": [
+      [
+        "bicarbonate",
+        10
+      ],
+      [
+        "eau",
+        10
+      ]
+    ],
+    "steps": [
+      "Mettre {{bicarbonate}} de bicarbonate de soude ménager et {{eau}} d’eau dans une coupelle.",
+      "Déposer une petite noisette de pâte sur la trace avec une éponge douce.",
+      "Frotter sans insister ; rincer très abondamment à l’eau potable.",
+      "Sécher et jeter le reste de la pâte."
+    ],
+    "safety": [
+      "Ne pas utiliser sur décors peints, dorures, matériau poreux ou émail abîmé.",
+      "Le bicarbonate est légèrement abrasif : tester sans frotter fortement.",
+      "Bicarbonate ménager uniquement pour nettoyer, jamais à consommer."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Tasse",
+      "Bicarbonate"
+    ],
+    "sensitivity": "house",
+    "equipment": {
+      "essential": [
+        "Balance de cuisine",
+        "Petit bol",
+        "Éponge douce non abrasive"
+      ],
+      "optional": [
+        "Gants pour peau sensible"
+      ],
+      "container": "Pâte faite sur place ; ne pas conserver.",
+      "note": "Rinçage alimentaire minutieux après usage."
+    }
+  },
+  {
+    "id": "planche_plastique",
+    "title": "Planche à découper en plastique : lavage",
+    "category": "maison",
+    "type": "recette",
+    "icon": "bowl",
+    "level": "Facile",
+    "minutes": 8,
+    "desc": "Nettoyage courant d’une planche lavable, après utilisation.",
+    "base": 503,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        500
+      ],
+      [
+        "savon_noir",
+        3
+      ]
+    ],
+    "steps": [
+      "Retirer les résidus alimentaires.",
+      "Mélanger {{eau}} d’eau tiède et {{savon_noir}} de savon noir dans une bassine.",
+      "Nettoyer la planche plastique intacte avec une lavette propre.",
+      "Rincer abondamment à l’eau potable et laisser sécher complètement."
+    ],
+    "safety": [
+      "Ne pas confondre lavage et désinfection ; suivre les exigences d’hygiène alimentaire, surtout après viande crue.",
+      "Une planche profondément rayée doit être remplacée.",
+      "Éviter les produits parfumés ; ne pas mélanger plusieurs nettoyants."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "anses-hygiene",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Cuisine",
+      "Rinçage obligatoire"
+    ],
+    "sensitivity": "house",
+    "equipment": {
+      "essential": [
+        "Bassine et lavette propres",
+        "Doseur gradué",
+        "Zone de séchage propre"
+      ],
+      "optional": [
+        "Brosse souple réservée aux planches"
+      ],
+      "container": "Préparer le bain puis jeter après usage.",
+      "note": "Pour une utilisation alimentaire, bien éliminer tout résidu de savon."
+    }
+  },
+  {
+    "id": "peigne_plastique",
+    "title": "Peignes en plastique : lavage des résidus",
+    "category": "hygiene",
+    "type": "recette",
+    "icon": "shampoo",
+    "level": "Facile",
+    "minutes": 8,
+    "desc": "Entretien d’accessoires capillaires lavables, sans soin appliqué sur la peau.",
+    "base": 503,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        500
+      ],
+      [
+        "marseille",
+        3
+      ]
+    ],
+    "steps": [
+      "Retirer les cheveux retenus par le peigne.",
+      "Mélanger {{eau}} d’eau tiède avec {{marseille}} de copeaux de savon de Marseille sans parfum, complètement dissous.",
+      "Nettoyer le peigne plastique avec une petite brosse douce.",
+      "Rincer abondamment puis sécher avant réutilisation."
+    ],
+    "safety": [
+      "Ne pas immerger un accessoire en bois, électrique ou comportant de la colle.",
+      "Ne pas utiliser pour traiter une infestation de poux ou une infection.",
+      "Ne pas appliquer le bain préparé sur cuir chevelu ou visage."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Accessoires",
+      "Sans parfum"
+    ],
+    "sensitivity": "house",
+    "equipment": {
+      "essential": [
+        "Petit bol",
+        "Brosse souple dédiée",
+        "Doseur/mini-balance pour savon"
+      ],
+      "optional": [
+        "Petite passoire pour retenir les débris avant élimination"
+      ],
+      "container": "Bol, utilisé pendant le nettoyage puis jeté.",
+      "note": "Bien dissoudre les copeaux, rincer puis sécher entièrement."
+    }
+  },
+  {
+    "id": "brosse_maquillage",
+    "title": "Pinceaux cosmétiques synthétiques : rinçage",
+    "category": "hygiene",
+    "type": "recette",
+    "icon": "sparkles",
+    "level": "Facile",
+    "minutes": 12,
+    "desc": "Nettoyage limité des manches et fibres compatibles, sans désinfection.",
+    "base": 252,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        250
+      ],
+      [
+        "marseille",
+        2
+      ]
+    ],
+    "steps": [
+      "Vérifier la notice du pinceau et exclure les modèles non lavables.",
+      "Dissoudre {{marseille}} de savon de Marseille sans parfum dans {{eau}} d’eau tiède.",
+      "Laver doucement uniquement les poils synthétiques, en gardant la virole et le manche aussi secs que possible.",
+      "Rincer abondamment les fibres puis laisser sécher à plat, sans humidifier la colle."
+    ],
+    "safety": [
+      "Ne pas partager le matériel entre personnes en cas d’infection cutanée ou oculaire.",
+      "Ce lavage ne constitue pas une stérilisation ; remplacer un accessoire abîmé ou présentant une odeur suspecte.",
+      "Ne pas immerger les manches ou tremper la colle ; suivre les recommandations de la marque."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Accessoires beauté",
+      "Entretien"
+    ],
+    "sensitivity": "house",
+    "equipment": {
+      "essential": [
+        "Petit bol",
+        "Serviette propre pour séchage à plat",
+        "Balance précise"
+      ],
+      "optional": [
+        "Tapis silicone souple dédié aux pinceaux"
+      ],
+      "container": "Préparation minute ; jeter l’eau de lavage.",
+      "note": "Éviter un stockage humide des pinceaux."
+    }
+  },
+  {
+    "id": "chaussures_toile",
+    "title": "Chaussures en toile : nettoyage localisé",
+    "category": "linge",
+    "type": "recette",
+    "icon": "shirt",
+    "level": "Facile",
+    "minutes": 12,
+    "desc": "Pour les zones textiles lavables, sans tremper la chaussure entière.",
+    "base": 503,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        500
+      ],
+      [
+        "marseille",
+        3
+      ]
+    ],
+    "steps": [
+      "Dépoussiérer les chaussures sèches.",
+      "Dissoudre {{marseille}} de savon de Marseille dans {{eau}} d’eau tiède.",
+      "Faire un essai discret puis tamponner délicatement une petite zone avec un chiffon.",
+      "Retirer les résidus avec un linge humide et laisser sécher à l’air loin d’une source de chaleur."
+    ],
+    "safety": [
+      "Ne pas employer sur cuir, daim, tissu imperméabilisé ou chaussure non lavable.",
+      "Une humidification importante peut décoller les semelles et décolorer les tissus.",
+      "Essayer sur une zone cachée et ne pas promettre un détachage complet."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Textile",
+      "Chaussures"
+    ],
+    "sensitivity": "laundry",
+    "equipment": {
+      "essential": [
+        "Bol de préparation",
+        "Chiffon doux et brosse souple",
+        "Balance pour 3 g de savon"
+      ],
+      "optional": [
+        "Vieux chiffon de protection"
+      ],
+      "container": "Bol temporaire, pas de conservation.",
+      "note": "Ne pas immerger la chaussure ; respecter la notice."
+    }
+  },
+  {
+    "id": "lacets_coton",
+    "title": "Lacets en coton blanc : lavage à la main",
+    "category": "linge",
+    "type": "recette",
+    "icon": "shirt",
+    "level": "Facile",
+    "minutes": 10,
+    "desc": "Petit bain de lavage pour lacets ordinaires amovibles.",
+    "base": 503,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        500
+      ],
+      [
+        "marseille",
+        3
+      ]
+    ],
+    "steps": [
+      "Retirer les lacets des chaussures.",
+      "Préparer {{eau}} d’eau tiède avec {{marseille}} de savon de Marseille sans parfum dissous.",
+      "Laver les lacets coton lavables doucement et sans brossage brutal.",
+      "Rincer jusqu’à disparition du savon et laisser sécher complètement."
+    ],
+    "safety": [
+      "Éviter lacets en cuir, matières teintes fragiles ou modèles avec traitement spécifique.",
+      "Laver séparément des tissus susceptibles de déteindre.",
+      "En cas de peau très sensible, bien rincer avant réutilisation."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Petit linge",
+      "Sans parfum"
+    ],
+    "sensitivity": "laundry",
+    "equipment": {
+      "essential": [
+        "Petit récipient",
+        "Doseur et mini-balance",
+        "Linge propre pour séchage"
+      ],
+      "optional": [
+        "Brosse souple"
+      ],
+      "container": "Bain de lavage à jeter après usage.",
+      "note": "Laisser sécher à l’air libre, ne pas conserver la solution."
+    }
+  },
+  {
+    "id": "sac_coton",
+    "title": "Sac réutilisable en coton : lavage manuel",
+    "category": "linge",
+    "type": "recette",
+    "icon": "shirt",
+    "level": "Facile",
+    "minutes": 15,
+    "desc": "Nettoyage occasionnel d’un sac textile explicitement lavable.",
+    "base": 2005,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        2000
+      ],
+      [
+        "marseille",
+        5
+      ]
+    ],
+    "steps": [
+      "Vérifier l’étiquette de lavage et vider complètement le sac.",
+      "Dissoudre {{marseille}} de copeaux de savon de Marseille dans {{eau}} d’eau tiède.",
+      "Laver délicatement l’intérieur et l’extérieur du sac en coton résistant.",
+      "Rincer soigneusement puis sécher entièrement avant de ranger."
+    ],
+    "safety": [
+      "Ne pas utiliser sur sac plastifié, collé, cuir ou avec impression fragile.",
+      "Ce lavage ne désinfecte pas ; ne pas mélanger avec désinfectants ou Javel.",
+      "Un sac transportant de la viande crue souillée peut nécessiter des mesures d’hygiène adaptées."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "ademe",
+      "ademe-sec"
+    ],
+    "tags": [
+      "Réutilisable",
+      "Coton"
+    ],
+    "sensitivity": "laundry",
+    "equipment": {
+      "essential": [
+        "Bassine d’au moins 3 L",
+        "Balance pour copeaux",
+        "Espace de séchage propre"
+      ],
+      "optional": [
+        "Gants ménagers si nécessaires"
+      ],
+      "container": "Bassine uniquement, usage immédiat.",
+      "note": "Ne pas ranger le sac humide."
+    }
+  },
+  {
+    "id": "tapette_inox",
+    "title": "Écumoire inox : entretien courant",
+    "category": "maison",
+    "type": "recette",
+    "icon": "bowl",
+    "level": "Facile",
+    "minutes": 7,
+    "desc": "Nettoyage d’un ustensile amovible en inox compatible.",
+    "base": 503,
+    "yieldUnit": "ml",
+    "ingredients": [
+      [
+        "eau",
+        500
+      ],
+      [
+        "marseille",
+        3
+      ]
+    ],
+    "steps": [
+      "Retirer les résidus alimentaires de l’ustensile refroidi.",
+      "Dissoudre {{marseille}} de savon de Marseille dans {{eau}} d’eau tiède.",
+      "Laver toutes les surfaces avec une éponge douce adaptée à l’inox.",
+      "Rincer abondamment à l’eau potable et laisser sécher."
+    ],
+    "safety": [
+      "Ne pas utiliser sur accessoires électriques ou à poignées en matériaux fragiles.",
+      "Une éponge abrasive peut rayer l’inox poli.",
+      "Ce mélange ne désinfecte pas ; respecter les exigences d’hygiène alimentaire."
+    ],
+    "storage": "Usage immédiat ; jeter la solution restante.",
+    "source": [
+      "anses-hygiene",
+      "ademe"
+    ],
+    "tags": [
+      "Cuisine",
+      "Inox"
+    ],
+    "sensitivity": "house",
+    "equipment": {
+      "essential": [
+        "Bol ou bassine",
+        "Éponge douce",
+        "Doseur et balance"
+      ],
+      "optional": [
+        "Chiffon de séchage"
+      ],
+      "container": "Préparation à jeter après le lavage.",
+      "note": "Ne pas utiliser sur revêtements antiadhésifs endommagés."
+    }
+  },
+  {
+    "id": "desinfection",
+    "title": "Nettoyer n’est pas désinfecter",
+    "category": "maison",
+    "type": "guide",
+    "icon": "shield",
+    "tags": [
+      "Désinfection",
+      "Hygiène",
+      "Microbes"
+    ],
+    "desc": "Quand un produit ménager maison ne suffit pas.",
+    "guide": "Le vinaigre, le bicarbonate et le savon noir servent surtout à nettoyer. Ils ne doivent pas être présentés comme des désinfectants validés. En cas de vomissements, diarrhée, maladie contagieuse, souillure biologique ou recommandation sanitaire particulière, appliquer un protocole adapté et choisir un produit autorisé pour cet usage. Ne jamais mélanger des produits, surtout Javel et vinaigre.",
+    "safety": [
+      "Ne jamais mélanger de Javel avec du vinaigre, des acides, de l’ammoniaque ou un autre produit.",
+      "Ne pas chercher à fabriquer des désinfectants maison à base de mélanges chimiques.",
+      "Nettoyer et rincer les surfaces alimentaires ; respecter les notices et recommandations sanitaires."
+    ],
+    "source": [
+      "anses-hygiene",
+      "ademe-sec"
+    ],
+    "sensitivity": "none"
+  },
+  {
+   id:'gel',title:'Gel douche : choisir une base sûre',category:'hygiene',type:'guide',icon:'shower',desc:'Comprendre les bases lavantes sans parfum et leurs limites.',
+   guide:'Pour la V1, aucune recette de gel douche aqueux conservé n’est proposée. Les produits contenant de l’eau exigent une maîtrise du pH, des conservateurs et une vérification de la stabilité microbiologique. Choisir une base lavante prête à l’emploi adaptée à sa peau et suivre sa notice, sans dilution ni ajout improvisé.',
+   safety:['Peau atopique ou eczéma : demander conseil au professionnel de santé ; privilégier les formules adaptées sans parfum.','Toujours tester prudemment un nouveau produit, sauf allergie connue : dans ce cas, l’éviter.'],source:['dgccrf'],sensitivity:'skin'
+  },
+  {
+   id:'shampoing',tags:['Shampooing','Cheveux'],title:'Shampoing : formulation en étude',category:'hygiene',type:'guide',icon:'shampoo',desc:'Pourquoi une base adaptée vaut mieux qu’un mélange improvisé.',
+   guide:'Un shampoing efficace doit nettoyer sans agresser le cuir chevelu et rester microbiologiquement sûr. La V1 propose un guide de choix d’un shampoing sans parfum approprié, plutôt qu’une préparation maison non évaluée. Nous ajouterons des recettes après vérification de formulation et conservation.',
+   safety:['En cas de dermatite, de cuir chevelu lésé ou d’allergie, demander conseil avant un nouveau soin.','Ne pas verser de vinaigre pur ni d’huiles essentielles sur le cuir chevelu.'],source:['dgccrf','anses'],sensitivity:'skin'
+  },
+  {
+   id:'deo',title:'Déodorant : précautions',category:'hygiene',type:'guide',icon:'bottle',desc:'Éviter les recettes irritantes au bicarbonate sur les aisselles.',
+   guide:'La peau des aisselles est fragile, particulièrement après le rasage. Les recettes riches en bicarbonate et huiles essentielles peuvent être irritantes. Pour cette V1, privilégier un déodorant sans parfum prêt à l’emploi, choisi selon ses sensibilités. Une formule maison sera ajoutée uniquement si elle est suffisamment documentée.',
+   safety:['Ne pas appliquer de produit irritant après rasage ou sur peau abîmée.','Un test cutané local n’exclut pas une allergie ultérieure.'],source:['anses','dgccrf'],sensitivity:'skin'
+  },
+  {
+   id:'dentifrice',title:'Dentifrice : garder le fluor',category:'hygiene',type:'guide',icon:'tooth',desc:'Un dentifrice maison ne remplace pas un dentifrice fluoré.',
+   guide:'Pour protéger l’émail et prévenir les caries, l’Assurance Maladie recommande un dentifrice fluoré adapté à l’âge. Les mélanges maison au bicarbonate, charbon ou huiles essentielles ne sont pas des substituts démontrés. Nous n’en proposons pas comme dentifrices alternatifs.',
+   safety:['Respecter les recommandations de fluor selon l’âge.','Demander conseil au dentiste en cas de risque particulier de caries.'],source:['ameli'],sensitivity:'none'
+  },
+  {
+   id:'solaire',tags:['Crème solaire','UV','SPF'],title:'Protection solaire : pas de recette maison',category:'soins',type:'guide',icon:'sun',desc:'Une protection UV efficace nécessite des tests spécialisés.',
+   guide:'Nous ne proposons aucune crème solaire faite maison. Un indice SPF ne peut pas être déterminé par intuition ; utiliser une protection solaire commercialisée et testée, choisie selon sa peau et les conditions d’exposition.',
+   safety:['Ne pas utiliser une huile ou un mélange maison comme protection UV.'],source:['dgccrf'],sensitivity:'skin'
+  }
+ ]
+};
+
+ </script>
+ <script>
+/* CJAJLK Nature — V1 locale autonome. Aucun envoi de données. */
+(()=>{'use strict';
+const DB=window.NATURE_DATA, KEY='cjajlk-nature-v1-local';
+const glyph={leaf:'<path d="M20 4c-9 0-15 5-15 12a4 4 0 0 0 4 4c7 0 12-6 11-16Z"/><path d="M4 21c4-7 8-10 13-12"/>',home:'<path d="m3 10 9-7 9 7v10H3z"/><path d="M9 20v-7h6v7"/>',book:'<path d="M12 6a8 8 0 0 0-9-1v14a8 8 0 0 1 9 1 8 8 0 0 1 9-1V5a8 8 0 0 0-9 1Z"/><path d="M12 6v14"/>',flask:'<path d="M9 3h6M10 3v6l-6 9a2 2 0 0 0 2 3h12a2 2 0 0 0 2-3l-6-9V3"/><path d="M7 16h10"/>',box:'<path d="m12 2 9 5-9 5-9-5zM3 7v10l9 5 9-5V7M12 12v10"/>',users:'<circle cx="9" cy="8" r="3"/><path d="M3 20v-3a6 6 0 0 1 12 0v3M17 5a3 3 0 0 1 0 6m1 3a5 5 0 0 1 3 5v1"/>',settings:'<path d="M12 3v3m0 12v3M3 12h3m12 0h3M5.6 5.6l2.1 2.1m8.6 8.6 2.1 2.1M18.4 5.6l-2.1 2.1m-8.6 8.6-2.1 2.1"/><circle cx="12" cy="12" r="4"/>',arrow:'<path d="M5 12h14m-6-6 6 6-6 6"/>',back:'<path d="M19 12H5m6 6-6-6 6-6"/>',check:'<path d="m4 12 5 5L20 6"/>',plus:'<path d="M12 5v14M5 12h14"/>',search:'<circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/>',drop:'<path d="M12 2c-4 6-8 10-8 14a8 8 0 0 0 16 0c0-4-4-8-8-14Z"/>',shirt:'<path d="m8 3-5 3-2 6 5 2 1-3v10h10V11l1 3 5-2-2-6-5-3a4 4 0 0 1-8 0Z"/>',sparkles:'<path d="m12 2 2 7 7 3-7 2-2 8-2-8-7-2 7-3z"/>',warning:'<path d="M10 4 2 19a2 2 0 0 0 2 3h16a2 2 0 0 0 2-3L14 4a2 2 0 0 0-4 0Z"/><path d="M12 10v5m0 3v.2"/>',shield:'<path d="M12 2 4 5v6c0 6 3 9 8 11 5-2 8-5 8-11V5z"/><path d="m9 12 2 2 4-4"/>',clock:'<circle cx="12" cy="12" r="9"/><path d="M12 7v6l4 2"/>',wallet:'<rect x="2" y="5" width="20" height="15" rx="3"/><path d="M2 9h20m-5 6h2"/>',trash:'<path d="M3 6h18M8 6V4h8v2m3 0-1 15H6L5 6m5 4v7m4-7v7"/>',bookmark:'<path d="M6 3h12v19l-6-4-6 4z"/>',edit:'<path d="m3 17 1 4 4-1L20 8l-4-4L3 17Z"/><path d="m14 6 4 4"/>',download:'<path d="M12 3v12m-5-5 5 5 5-5M4 17v4h16v-4"/>',upload:'<path d="M12 21V9m-5 5 5-5 5 5M4 7V3h16v4"/>',close:'<path d="M5 5 19 19M19 5 5 19"/>',list:'<path d="M8 5h13M8 12h13M8 19h13M3 5h.1M3 12h.1M3 19h.1"/>',shopping:'<path d="m3 4 2 2 3 12h12l2-9H6"/><circle cx="10" cy="21" r="1"/><circle cx="18" cy="21" r="1"/>',info:'<circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7v.2"/>',calendar:'<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4m10-4v4M3 10h18"/>',floor:'<path d="M4 5h16v14H4zM4 12h16M11 5v7m6 0v7M8 12v7"/>',spray:'<path d="M10 5h7l3 2v3h-3l-2-2h-5M9 5V3h4M8 10h9l2 11H6l2-11ZM4 9l-2 1"/>',window:'<rect x="4" y="3" width="16" height="18" rx="1"/><path d="M12 3v18M4 12h16"/>',bowl:'<path d="M3 12h18c0 5-4 9-9 9S3 17 3 12ZM5 8h14M9 3v2m6-2v2"/>',jar:'<rect x="5" y="7" width="14" height="15" rx="3"/><path d="M4 4h16v3H4zM9 12h6"/>',dish:'<ellipse cx="12" cy="14" rx="9" ry="7"/><path d="M6 14c1-3 11-3 12 0M12 7V3"/>',laundry:'<rect x="3" y="2" width="18" height="20" rx="2"/><circle cx="12" cy="14" r="5"/><path d="M6 6h1m3 0h1"/>',cream:'<path d="M5 9h14l-1 12H6L5 9ZM8 5h8v4M9 3h6"/>',lip:'<path d="M9 3h6v8H9zM8 11h8v10H8zM9 15h6"/>',bottle:'<path d="M9 3h6v4H9zM7 7h10v14H7zM10 11h4v6h-4z"/>',shower:'<path d="M5 19V8a5 5 0 0 1 10 0v1m-4 0h8v3h-8zM12 16v1m4-1v1m4-1v1"/>',shampoo:'<path d="M9 2h6v5H9zM8 7h8l3 14H5zM8 12h8"/>',tooth:'<path d="M7 3c-5 1-5 6-3 10l3 8c2 2 3-4 5-8 2 4 3 10 5 8l3-8c2-4 2-9-3-10-3-1-4 1-5 1s-2-2-5-1Z"/>',sun:'<circle cx="12" cy="12" r="5"/><path d="M12 1v3m0 16v3M1 12h3m16 0h3M4 4l2 2m12 12 2 2M20 4l-2 2M6 18l-2 2"/>'};
+const icon=(n,cls='')=>`<span class="icon ${cls}" aria-hidden="true"><svg viewBox="0 0 24 24">${glyph[n]||glyph.leaf}</svg></span>`;
+const esc=x=>String(x??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+const norm=x=>String(x??'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+const money=x=>(Number(x)||0).toLocaleString('fr-FR',{style:'currency',currency:'EUR',maximumFractionDigits:2});
+const fmt=x=>(Number(x)||0).toLocaleString('fr-FR',{maximumFractionDigits:1});
+const day=x=>new Date(x).toLocaleDateString('fr-FR',{day:'2-digit',month:'short',year:'numeric'});
+const defaultState=()=>({version:1,profiles:[],activeProfileId:null,mode:'guide',favorites:[],inventory:{},prices:{},batches:[],comparisons:{}});
+let state=defaultState();
+try{const found=JSON.parse(localStorage.getItem(KEY)||'null');if(found&&found.version===1)state={...defaultState(),...found};}catch(e){console.warn('Sauvegarde locale invalide',e)}
+function persist(){try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){toast('Sauvegarde impossible : stockage du navigateur indisponible.')}}
+const categories=[['all','Tout voir','book'],['soins','Beauté & soins','sparkles'],['hygiene','Hygiène','drop'],['linge','Lessive & linge','shirt'],['maison','Entretien maison','home']];
+let ui={page:'home',category:'all',search:'',owned:false,favoritesOnly:false,selectedId:null,quantity:null,step:0,safeChecked:false,productsTab:'stock',recipeSavedReturn:'recipes',sourceTab:'all',guideSearch:''};
+const ing=id=>DB.ingredients.find(x=>x.id===id);
+const recipe=id=>DB.recipes.find(x=>x.id===id);
+const active=()=>state.profiles.find(x=>x.id===state.activeProfileId)||null;
+const recipeCost=(r,scale=1)=>r.ingredients?r.ingredients.reduce((s,[id,qty])=>{const v=ing(id);if(!v)return s;const price=Number(state.prices[id]??v.price);return s+qty*scale/v.pack*(Number.isFinite(price)?Math.max(0,price):0)},0):0;
+const pricePack=id=>{const a=ing(id);return Number(state.prices[id]??a.price)};
+const stock=id=>Number(state.inventory[id]||0);
+const scaleFor=r=>r?.type==='recette'&&ui.quantity?Number(ui.quantity)/r.base:1;
+const missing=r=>r.ingredients?.filter(([id,n])=>stock(id)+.001<n*scaleFor(r))||[];
+const allOwned=r=>r.type==='recette'&&r.ingredients.every(([id,n])=>stock(id)+.001>=n);
+function profileRisk(r){const p=active();if(!['skin','laundry'].includes(r.sensitivity))return {level:'none',txt:''};if(!p)return r.sensitivity==='skin'?{level:'setup',txt:'Créez un profil avant toute fabrication de soin.'}:{level:'none',txt:''};const allerg=norm(p.allergies).split(/[,;\n\/]+/).map(x=>x.trim()).filter(x=>x.length>=3&& !['aucune','aucun','non','rien','inconnue','inconnu'].includes(x));const hit=(r.ingredients||[]).map(([id])=>ing(id).name).filter(name=>allerg.some(a=>norm(name).includes(a)));if(hit.length)return{level:'stop',txt:`Allergie ou sensibilité déclarée pouvant concerner : ${hit.join(', ')}. Ne pas utiliser cette recette sans avis adapté.`};const issues=p.issues||[];if(r.sensitivity==='laundry'&&(issues.length||p.skin==='sensible'))return{level:'caution',txt:'Peau sensible : essayer d’abord une petite charge de linge, bien rincer et surveiller d’éventuelles irritations. Ne pas appliquer la lessive concentrée sur la peau.'};if(issues.includes('eczema')||issues.includes('psoriasis')||issues.includes('lesion'))return{level:'caution',txt:'Profil signalant un trouble cutané : ne pas utiliser sur peau lésée ou en poussée ; demander conseil à un professionnel avant de tester.'};if(issues.length||p.skin==='sensible')return{level:'caution',txt:'Peau sensible : vérifier attentivement les ingrédients et demander conseil en cas de doute.'};return{level:'ok',txt:'Aucune incompatibilité détectée à partir de vos déclarations. Cela ne garantit pas l’absence de réaction.'};}
+function personalizedAdvice(r){const p=active();if(!p)return '';if(r.category==='hygiene'&&r.id==='shampoing'&&p.hair==='sensibles')return 'Cuir chevelu sensible déclaré : choisir une formule douce sans parfum, avec conseil professionnel en cas de lésions.';if(r.sensitivity!=='skin'||r.type==='guide')return '';const advice={'sèche':'Peau sèche déclarée : un soin gras peut être confortable mais peut également irriter ; testez prudemment sur peau saine.','grasse':'Peau grasse déclarée : prudence avec les préparations grasses, particulièrement près du visage ou de zones acnéiques.','mixte':'Peau mixte déclarée : éviter d’appliquer un baume riche sur les zones grasses du visage.','sensible':'Peau sensible déclarée : n’essayez pas de préparation sur peau irritée ou lésée.','normale':'Même sur peau normale, une réaction cutanée reste possible.'};return advice[p.skin]||'Type de peau non défini : vérifiez les ingrédients et les précautions.'}
+function navButton(page,label,symbol,cls='nav-item'){return `<button class="${cls} ${ui.page===page||(page==='recipes'&&(ui.page==='detail'||ui.page==='guides'))?'active':''}" type="button" data-action="go" data-page="${page}">${icon(symbol)}<span>${label}</span></button>`}
+function header(){const p=active();const mark=`<div class="brand-icon">${icon('leaf','lg')}</div><div><div class="brand-name">CJAJLK Nature</div><div class="brand-tag">LE NATUREL AU QUOTIDIEN</div></div>`;return `<aside class="sidebar"><div class="brand">${mark}</div><nav class="side-nav" aria-label="Navigation principale">${navButton('home','Accueil','home')}${navButton('recipes','Recettes','book')}${navButton('fabricate','Fabriquer','flask')}${navButton('products','Mes produits','box')}${navButton('profiles','Profils','users')}</nav><div class="side-bottom"><div class="aside-note">${icon('shield')}<strong> Le naturel, avec prudence.</strong><p>Des ingrédients simples, des dosages clairs et des avertissements visibles à chaque étape.</p></div><button class="aside-link" data-action="go" data-page="settings">${icon('settings','sm')} Réglages & sources</button><div class="subtle" style="font-size:10px;padding:10px">V1.4 · Données enregistrées sur cet appareil</div></div></aside><main class="content"><header class="topbar"><div class="mobile-brand brand">${mark}</div><div class="topright"><span class="pill small">${icon('leaf','sm')} <span>Recettes sans parfum ajouté</span></span><button class="small-button profile-chip" data-action="go" data-page="profiles" aria-label="Ouvrir les profils">${icon('users','sm')} <span>${esc(p?.name||'Créer profil')}</span></button><button class="small-button" data-action="go" data-page="settings" aria-label="Réglages">${icon('settings','sm')}</button></div></header>`;}
+function bottom(){return `</main><nav class="mobile-nav" aria-label="Navigation mobile">${navButton('home','Accueil','home','mobile-item')}${navButton('recipes','Recettes','book','mobile-item')}${navButton('fabricate','Fabriquer','flask','mobile-item')}${navButton('products','Mes produits','box','mobile-item')}${navButton('profiles','Profils','users','mobile-item')}</nav>`;}
+function heroArt(){return `<svg viewBox="0 0 330 285" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><linearGradient id="glass" x1="0" x2="1"><stop stop-color="#95c0bf" stop-opacity=".55"/><stop offset=".55" stop-color="#bce7e7" stop-opacity=".2"/><stop offset="1" stop-color="#4d8793" stop-opacity=".6"/></linearGradient><linearGradient id="amber" x1="0" x2="1"><stop stop-color="#cc9c59"/><stop offset=".5" stop-color="#855d36"/><stop offset="1" stop-color="#dfad65"/></linearGradient><linearGradient id="cream" x1="0" x2="1"><stop stop-color="#f3e9c8"/><stop offset="1" stop-color="#c2d3e2"/></linearGradient></defs><ellipse cx="178" cy="261" rx="148" ry="19" fill="#071522" opacity=".5"/><path d="M70 234c-29-63-17-139 30-184 5 51 13 68 27 94-9-54 19-103 57-130 11 80-24 148-66 216" fill="#667f89" opacity=".48"/><path d="M203 233c10-64 55-134 101-158-9 67-34 104-69 151" fill="#79909d" opacity=".38"/><path d="M100 246C79 203 60 186 36 172c5 45 17 62 48 79" fill="#9eb2ba" opacity=".35"/><rect x="141" y="65" width="92" height="185" rx="23" fill="url(#amber)" stroke="#eec98a" stroke-opacity=".45" stroke-width="2"/><rect x="167" y="43" width="39" height="28" rx="4" fill="#b79768"/><rect x="171" y="28" width="32" height="18" rx="4" fill="#d6d8b2"/><path d="M187 29V13h56" stroke="#e0e6c7" stroke-width="9" stroke-linecap="round"/><path d="M247 13v14" stroke="#e0e6c7" stroke-width="6" stroke-linecap="round"/><rect x="149" y="124" width="76" height="79" rx="8" fill="url(#cream)"/><path d="M178 154c-3-16 6-24 22-27-3 15-10 27-22 27Z" fill="#4e8996"/><path d="M181 151c3 12 9 20 18 25" stroke="#4e8996" stroke-width="2" fill="none"/><text x="187" y="184" font-size="8" font-family="sans-serif" text-anchor="middle" font-weight="bold" fill="#466b7e">NATURE</text><rect x="62" y="146" width="86" height="105" rx="14" fill="url(#glass)" stroke="#a9ced1" stroke-opacity=".45" stroke-width="2"/><rect x="70" y="137" width="69" height="15" rx="4" fill="#d9d3b4"/><rect x="78" y="175" width="55" height="47" rx="5" fill="#e0e7d0" opacity=".85"/><path d="M104 188c-7-8-6-14 5-21 5 12 0 18-5 21Z" fill="#639ba0"/><text x="106" y="206" font-size="8" font-family="sans-serif" font-weight="bold" fill="#648c9c" text-anchor="middle">SOIN</text><circle cx="278" cy="221" r="31" fill="#d6c7a0" opacity=".7"/><path d="M278 200c-12 6-13 21 0 37 13-16 12-31 0-37Z" fill="#739da2"/></svg>`;}
+function recipeCard(r){const guide=r.type==='guide',risk=profileRisk(r);const cost=guide?'Conseils & sécurité':`Dès ${money(recipeCost(r))}*`;return `<button class="recipe-card" type="button" data-action="open-recipe" data-id="${r.id}" data-category="${r.category}" data-search="${esc(norm([r.title,r.desc,r.category,...(r.tags||[])].join(' ')))}" data-owned="${allOwned(r)}"><div class="recipe-image ${r.category}">${icon(r.icon)}</div><div class="recipe-card-body"><div class="badge-list">${guide?'<span class="tag guide">Guide</span>':`<span class="tag">${esc(r.level)}</span>`}${(r.tags||[]).slice(0,1).map(t=>`<span class="tag ${t==='Recette pilote'?'conditional':''}">${esc(t)}</span>`).join('')}</div><div class="recipe-card-title">${esc(r.title)}</div><p class="recipe-card-desc">${esc(r.desc)}</p><div class="meta-row"><span>${esc(cost)}</span><span>${icon(guide?'info':'clock','sm')} ${guide?'À lire':r.minutes+' min'}</span></div>${risk.level==='stop'?'<span class="tag conditional">Allergie à vérifier</span>':''}</div></button>`;}
+const catIcon={soins:'sparkles',hygiene:'drop',linge:'shirt',maison:'home'};
+function home(){const p=active();const n=state.batches.length;const spent=state.batches.reduce((s,b)=>s+b.cost,0);const saved=state.batches.reduce((s,b)=>s+(b.comparison!=null?b.comparison-b.cost:0),0);return `<section class="hero"><div class="hero-copy"><span class="eyebrow">VOTRE ATELIER AU NATUREL</span><h1>Des gestes simples.<br>Un quotidien <span style="color:#B7AAFF">plus doux.</span></h1><p>Fabriquez, comparez les coûts et prenez soin de votre maison avec des ingrédients simples et des précautions claires.</p><div class="btn-row"><button class="btn btn-primary" data-action="go" data-page="recipes">Explorer les recettes ${icon('arrow','sm')}</button><button class="btn btn-secondary" data-action="go" data-page="fabricate">Fabriquer</button></div></div><div class="hero-art">${heroArt()}</div></section>
+ ${!p?`<div class="feature" style="margin-bottom:20px"><div class="feature-icon">${icon('users','lg')}</div><div style="flex:1"><h3>Une application adaptée à votre famille</h3><p>Avant les soins pour la peau, créez votre profil : type de peau, eczéma, allergies et préférences.</p><button class="btn tiny btn-primary" style="margin-top:12px" data-action="profile-modal">Créer mon profil</button></div></div>`:p.issues?.length?`<div class="safety" style="margin-bottom:20px"><h3>${icon('shield')} Profil ${esc(p.name)} : vigilance cutanée</h3><div style="font-size:12px">Les soins proposés ne sont pas des traitements. Ne pas utiliser de recettes sur une peau lésée ou lors d’une poussée d’eczéma ; demander conseil à un professionnel.</div></div>`:''}
+ <div class="section-heading"><h2>Que souhaitez-vous fabriquer ?</h2></div><div class="categories">${categories.slice(1).map(([id,label,sym])=>`<button class="category-card" data-action="go-category" data-category="${id}">${icon(sym,'lg')}<strong>${label}</strong><small>${DB.recipes.filter(r=>r.category===id&&r.type==='recette').length} recettes</small></button>`).join('')}</div>
+ <div class="feature guide-entry" style="margin-top:18px;margin-bottom:16px"><div class="feature-icon">${icon('shield','lg')}</div><div style="flex:1"><h3>Conseils & sécurité</h3><p>Protection solaire, shampoings, dentifrices : comprendre pourquoi certaines préparations maison ne sont pas proposées.</p><button class="btn tiny btn-secondary" style="margin-top:10px" data-action="go" data-page="guides">Lire les guides ${icon('arrow','sm')}</button></div></div>
+ <div class="section-heading"><h2>À découvrir</h2><button class="text-link" data-action="go" data-page="recipes">Voir tout ${icon('arrow','sm')}</button></div><div class="recipe-grid">${['lessive','baume','sols'].map(id=>recipeCard(recipe(id))).join('')}</div>
+ <div class="section-heading"><h2>Votre atelier en chiffres</h2></div><div class="dashboard-cards"><div class="feature"><div class="feature-icon">${icon('wallet','lg')}</div><div style="flex:1"><h3>Mes économies</h3><p>Vos comparaisons sont calculées uniquement quand vous renseignez un prix réel du commerce.</p><div class="metrics"><div class="metric"><div class="value">${money(saved)}</div><div class="label">Économies estimées*</div></div><div class="metric"><div class="value">${n}</div><div class="label">Fabrications suivies</div></div></div></div></div><div class="feature"><div class="feature-icon">${icon('leaf','lg')}</div><div><h3>Mes ingrédients</h3><p>${DB.ingredients.filter(a=>stock(a.id)>0).length} ingrédient(s) actuellement en stock. Ajoutez vos quantités pour voir les recettes réalisables.</p><button class="btn tiny btn-secondary" style="margin-top:15px" data-action="go" data-page="products">Gérer mon placard ${icon('arrow','sm')}</button></div></div></div><p class="help">*Coûts de recettes estimés selon des prix d’exemple modifiables. Aucune économie n’est supposée sans comparaison réelle.</p>`;}
+function recipes(){const real=DB.recipes.filter(r=>r.type==='recette');const rs=real.filter(r=>ui.category==='all'||r.category===ui.category);return `<div class="page-title"><div><span class="eyebrow">LE CARNET DE L'ATELIER</span><h1>Les recettes</h1><p>Uniquement des préparations réalisables, avec ingrédients, matériel, précautions et coûts indicatifs.</p></div><span class="pill small">${real.length} recettes</span></div>
+ <div class="guide-entry compact-guide"><div>${icon('shield','sm')} <b>Conseils & sécurité</b><p>Les fiches informatives ne sont plus mélangées aux recettes.</p></div><button class="btn tiny btn-secondary" data-action="go" data-page="guides">Voir les ${DB.recipes.filter(r=>r.type==='guide').length} guides ${icon('arrow','sm')}</button></div>
+ <label class="search-area">${icon('search')}<input id="catalog-search" type="search" placeholder="Rechercher : lessive, soin, vitres..." aria-label="Rechercher les recettes" value="${esc(ui.search)}"></label><div class="filters">${categories.map(([id,name])=>`<button class="chip ${ui.category===id?'active':''}" data-action="filter" data-category="${id}">${name}</button>`).join('')}<button class="chip ${ui.owned?'active':''}" data-action="toggle-owned">${icon('check','sm')} Avec mon placard</button><button class="chip ${ui.favoritesOnly?'active':''}" data-action="toggle-favorites-filter">${icon('bookmark','sm')} Mes favoris</button></div><p class="muted" id="results-count" style="font-size:12px;margin-bottom:13px"></p><div class="recipe-grid" id="catalog-grid">${rs.map(recipeCard).join('')}</div><div id="guide-search-suggestion" class="guide-entry guide-suggestion hide"></div><div id="catalog-empty" class="empty hide">Aucune recette ne correspond à votre recherche. Modifiez les filtres ou consultez les guides de précaution.</div>`;}
+function guides(){const gs=DB.recipes.filter(r=>r.type==='guide');return `<div class="page-title"><div><span class="eyebrow">INFORMATION ET PRÉVENTION</span><h1>Conseils & sécurité</h1><p>Pourquoi certaines préparations ne sont pas proposées, et quelles solutions privilégier.</p></div><span class="pill small">${gs.length} guides</span></div><button class="back" data-action="go" data-page="recipes">${icon('back','sm')} Retour aux recettes</button><div class="guide-entry compact-guide"><div>${icon('shield','sm')} <b>Les guides ne sont pas des recettes</b><p>Aucun ingrédient à peser ni produit à fabriquer ici. Ce sont des informations de prudence.</p></div></div><label class="search-area">${icon('search')}<input type="search" id="guide-search" value="${esc(ui.guideSearch)}" placeholder="Chercher : solaire, déodorant, shampoing..." aria-label="Rechercher les guides"></label><p class="muted" id="guides-count" style="font-size:12px;margin-bottom:13px"></p><div id="guide-grid" class="recipe-grid">${gs.map(recipeCard).join('')}</div><div id="guides-empty" class="empty hide">Aucun guide ne correspond à la recherche.</div>`;}
+function filterGuideCards(){const cards=[...document.querySelectorAll('#guide-grid .recipe-card')];let n=0;cards.forEach(card=>{const r=recipe(card.dataset.id);const ok=norm([r.title,r.desc,r.category,...(r.tags||[])].join(' ')).includes(norm(ui.guideSearch));card.classList.toggle('hide',!ok);if(ok)n++;});const el=document.getElementById('guides-count');if(el)el.textContent=n+' guide'+(n>1?'s':'')+' affiché'+(n>1?'s':'');document.getElementById('guides-empty')?.classList.toggle('hide',n>0);}
+function safetyBox(r, risk){const arr=[...r.safety];return `<div class="safety ${risk.level==='stop'?'red':''}"><h3>${icon('warning','sm')} ${risk.level==='stop'?'Incompatibilité possible':'Précautions indispensables'}</h3>${risk.level!=='none'?`<p style="font-size:12px;font-weight:750;margin-bottom:11px">${esc(risk.txt)}</p>`:''}<ul>${arr.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`;}
+function sourcesLinks(r){return r.source.map(id=>DB.sources.find(x=>x.id===id)).filter(Boolean).map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.name)} ↗</a>`).join('');}
+function ingredientsList(r,scale){const rows=r.ingredients.map(([id,qty])=>{const a=ing(id),required=qty*scale,available=stock(id),ok=available+.001>=required;return `<tr><td><b>${esc(a.name)}</b><br><small class="muted">Placard : ${fmt(available)} ${a.unit} ${ok?'✓':'· manque '+fmt(Math.max(0,required-available))+' '+a.unit}</small></td><td>${fmt(required)} ${a.unit}</td></tr>`;});return `<table class="table-ingredients"><thead><tr><th>Ingrédient</th><th>Quantité</th></tr></thead><tbody>${rows.join('')}</tbody></table>`}
+function equipmentPanel(r){
+ const eq=r.equipment;if(!eq)return '';
+ const lines=arr=>arr.map(x=>`<li>${icon('check','sm')}<span>${esc(x)}</span></li>`).join('');
+ return `<div class="panel equipment-panel" style="margin-top:15px">
+ <div class="panel-header"><h3>${icon('box','sm')} Matériel à prévoir</h3><span class="pill small">Avant de commencer</span></div>
+ <p class="muted equipment-intro">Voici les ustensiles et contenants utiles pour cette recette. Inutile d’acheter du matériel si vous avez déjà un équivalent adapté, propre et sûr.</p>
+ <div class="equipment-grid"><section class="equipment-group"><h4>Indispensable</h4><ul class="equipment-list">${lines(eq.essential||[])}</ul></section>
+ ${(eq.optional||[]).length?`<section class="equipment-group optional"><h4>Facultatif / pratique</h4><ul class="equipment-list">${lines(eq.optional)}</ul></section>`:''}</div>
+ <div class="equipment-container"><b>${icon('jar','sm')} Contenant et rangement</b><p>${esc(eq.container)}</p></div>
+ ${eq.note?`<div class="equipment-caution">${icon('info','sm')}<span>${esc(eq.note)}</span></div>`:''}
+ <div class="btn-row"><button class="btn tiny btn-secondary" data-action="copy-equipment">${icon('shopping','sm')} Copier la liste du matériel</button></div>
+ <small class="field-helper">Le coût affiché pour une recette porte sur les ingrédients, pas sur l’achat de ce matériel.</small>
+ </div>`;
+}
+function stepText(r,raw){const sc=scaleFor(r);return String(raw).replace(/\{\{([a-z_]+)\}\}/g,(m,id)=>{const row=r.ingredients.find(x=>x[0]===id),a=ing(id);return row&&a?fmt(row[1]*sc)+' '+a.unit:m;});}
+function stepsContent(r){const total=r.steps.length,step=Math.max(0,Math.min(total-1,ui.step));if(state.mode==='guide')return `<div class="step-hero"><div class="step-num">Étape ${step+1} sur ${total}</div><div class="step-text">${esc(stepText(r,r.steps[step]))}</div><div class="progress"><div style="width:${(step+1)/total*100}%"></div></div></div><div class="make-actions"><button class="btn btn-secondary" data-action="step-prev" ${step===0?'disabled':''}>${icon('back','sm')} Précédent</button>${step<total-1?`<button class="btn btn-primary" data-action="step-next">Suivant ${icon('arrow','sm')}</button>`:`<button class="btn btn-primary" data-action="finish">${icon('check','sm')} Terminer la fabrication</button>`}</div>`;return `<ol class="steps">${r.steps.map((st,i)=>`<li><span class="step-bubble">${i+1}</span><span>${esc(stepText(r,st))}</span></li>`).join('')}</ol><div class="make-actions"><button class="btn btn-primary" data-action="finish">${icon('check','sm')} Terminer la fabrication</button></div>`;}
+function detail(){const r=recipe(ui.selectedId);if(!r)return recipes();const risk=profileRisk(r),isGuide=r.type==='guide',scale=scaleFor(r),qty=ui.quantity||r.base;return `<button class="back" data-action="go" data-page="${isGuide?'guides':'recipes'}">${icon('back','sm')} ${isGuide?'Retour aux conseils':'Retour aux recettes'}</button><div class="detail-head"><div><span class="eyebrow">${esc(categories.find(c=>c[0]===r.category)?.[1]||'Atelier')}</span><h1 style="margin-top:8px">${esc(r.title)}</h1><p>${esc(r.desc)}</p><div class="badge-list" style="margin-top:14px">${isGuide?'<span class="tag guide">Guide de précaution</span>':`<span class="tag">${esc(r.level)}</span><span class="tag">${r.minutes} min environ</span>`}${(r.tags||[]).map(t=>`<span class="tag pale">${esc(t)}</span>`).join('')}</div></div><div class="detail-art">${icon(r.icon)}</div></div><div class="detail-layout"><div>${isGuide?`<div class="guide-note"><div class="eyebrow" style="margin-bottom:9px">INFORMATION & CONSEILS</div>${esc(r.guide)}</div>`:`<div class="panel"><div class="panel-header"><h3>${icon('flask','sm')} Votre fabrication</h3><span class="pill small">${fmt(qty)} ${r.yieldUnit}</span></div><div class="field"><label for="recipe-qty">Quantité à préparer (${r.yieldUnit})</label><div class="amount-row"><input id="recipe-qty" type="number" min="1" max="50000" step="1" value="${qty}"><button class="small-button" data-action="set-quantity" data-factor="0.5">½</button><button class="small-button" data-action="set-quantity" data-factor="1">×1</button><button class="small-button" data-action="set-quantity" data-factor="2">×2</button></div><small class="field-helper">Les doses du tableau et celles des étapes se recalculent ensemble. Adaptez le volume du récipient et du matériel au besoin.</small></div>${ingredientsList(r,scale)}<div class="divider"></div><div class="panel-header"><div><span class="eyebrow">COÛT ESTIMÉ DES INGRÉDIENTS</span><div class="cost-value">${money(recipeCost(r,scale))}</div><div class="cost-caption">Prix indicatifs, modifiables dans « Mes produits » ; emballage/énergie non compris.</div></div></div><div class="btn-row" style="margin-top:15px"><button class="btn tiny btn-ghost" data-action="copy-shopping">${icon('shopping','sm')} Copier les ingrédients manquants</button><button class="btn tiny btn-secondary" data-action="go" data-page="products">${icon('edit','sm')} Ajuster mes prix</button></div></div>`}
+ ${!isGuide?equipmentPanel(r):''}
+ <div class="panel" style="margin-top:15px"><h3>${icon('shield','sm')} Sécurité avant utilisation</h3>${safetyBox(r,risk)}${personalizedAdvice(r)?`<div class="status-note" style="margin-top:12px"><b>Conseil pour ${esc(active()?.name||'votre profil')} :</b> ${esc(personalizedAdvice(r))}</div>`:''}<div class="status-note" style="margin-top:12px"><b>Conservation :</b> ${esc(isGuide?'Consulter la notice du produit du commerce.':r.storage)}</div></div>${!isGuide?`<div class="panel" style="margin-top:15px"><div class="panel-header"><h3>${icon('list','sm')} Fabriquer votre produit</h3><span class="pill small">${state.mode==='guide'?'Guidé':'Fiche complète'}</span></div><div class="switcher" role="group" aria-label="Mode de fabrication"><button class="${state.mode==='guide'?'active':''}" data-action="choose-mode" data-mode="guide">${icon('arrow','sm')} Pas à pas</button><button class="${state.mode==='fiche'?'active':''}" data-action="choose-mode" data-mode="fiche">${icon('list','sm')} Fiche complète</button></div>${risk.level==='stop'?`<div class="safety red"><h3>${icon('warning','sm')} Fabrication bloquée</h3>Une allergie déclarée peut correspondre à un ingrédient de cette recette. Cette V1 bloque son lancement par précaution.</div>`:risk.level==='setup'?`<div class="status-note">Renseignez un profil avant de fabriquer un produit destiné à la peau.</div><button style="margin-top:12px" class="btn btn-primary" data-action="profile-modal">${icon('users','sm')} Créer mon profil</button>`:`<label class="checkline"><input id="safety-check" type="checkbox" ${ui.safeChecked?'checked':''}><span>J’ai lu les précautions, vérifié les ingrédients et je respecterai les limites de cette recette.</span></label><div id="make-steps">${ui.safeChecked?stepsContent(r):'<div class="status-note">Cochez la confirmation pour accéder aux étapes de fabrication.</div>'}</div>`}</div>`:''}</div>
+ <div><div class="panel slim"><h3>${icon('info','sm')} À savoir</h3><p class="muted" style="font-size:12px">${isGuide?'Cette fiche est informative et ne propose pas de préparation artisanale.':'Recette pilote pour usage domestique, non certifiée en laboratoire. Adaptez uniquement la quantité, pas la composition.'}</p><div class="divider"></div><h3>Sources utiles</h3><div class="source-links">${sourcesLinks(r)}</div></div><div class="panel slim" style="margin-top:15px"><h3>${icon('bookmark','sm')} Mes favoris</h3><button class="btn btn-secondary wide" data-action="toggle-fav" data-id="${r.id}">${icon('bookmark','sm')} ${state.favorites.includes(r.id)?'Retirer des favoris':'Ajouter aux favoris'}</button></div></div></div>`;}
+function fabricate(){const r=recipe(ui.selectedId);return `<div class="page-title"><div><span class="eyebrow">VOTRE ÉTABLI</span><h1>Fabriquer</h1><p>${r&&r.type==='recette'?'La recette est prête à être suivie.':'Choisissez une recette pour démarrer votre fabrication.'}</p></div></div>${r&&r.type==='recette'?`<div class="feature" style="margin-bottom:19px"><div class="feature-icon">${icon(r.icon)}</div><div style="flex:1"><h3>${esc(r.title)}</h3><p>Deux modes disponibles : guidage pas à pas ou fiche complète. Votre choix est mémorisé.</p><button class="btn btn-primary tiny" data-action="go-detail" data-id="${r.id}" style="margin-top:12px">Ouvrir la fabrication ${icon('arrow','sm')}</button></div></div>`:''}<div class="section-heading"><h2>Choisir un produit</h2></div><div class="recipe-grid">${DB.recipes.filter(x=>x.type==='recette').map(recipeCard).join('')}</div>`;}
+function productView(){const n=DB.ingredients.filter(a=>stock(a.id)>0).length,total=state.batches.length;const totalCost=state.batches.reduce((s,b)=>s+b.cost,0);const savings=state.batches.filter(b=>b.comparison!=null).reduce((s,b)=>s+(b.comparison-b.cost),0);
+return `<div class="page-title"><div><span class="eyebrow">VOTRE ATELIER PERSONNEL</span><h1>Mes produits</h1><p>Votre placard, vos prix réels et vos fabrications.</p></div></div><div class="purchase-ethics" role="note" aria-label="Notre engagement sur le choix des magasins"><div class="purchase-ethics-title">${icon('shield','sm')} Achats libres, conseils indépendants</div><p><strong>CJAJLK Nature ne perçoit aucune commission</strong> sur vos achats et ne propose aucun placement de magasin rémunéré. <strong>Aucun vendeur n’est imposé</strong> : vous restez libre de choisir le magasin, le site ou le producteur que vous préférez.</p><p class="purchase-ethics-sub">La future rubrique « Où acheter ? » présentera des options à titre informatif, avec des critères transparents (prix, quantité, qualité et disponibilité), jamais des recommandations payées. Les achats se feront hors de l’application.</p></div><div class="kpi-row"><div class="kpi"><strong>${n}</strong><small>Ingrédients en stock</small></div><div class="kpi"><strong>${total}</strong><small>Fabrications</small></div><div class="kpi"><strong>${money(totalCost)}</strong><small>Coût fabriqué estimé</small></div></div><div class="subnav"><button class="chip ${ui.productsTab==='stock'?'active':''}" data-action="products-tab" data-tab="stock">${icon('box','sm')} Mon placard</button><button class="chip ${ui.productsTab==='history'?'active':''}" data-action="products-tab" data-tab="history">${icon('calendar','sm')} Fabrications</button><button class="chip ${ui.productsTab==='savings'?'active':''}" data-action="products-tab" data-tab="savings">${icon('wallet','sm')} Économies</button></div>${ui.productsTab==='stock'?`<div class="section-heading"><h2>Ingrédients et prix</h2></div><p class="muted" style="margin-bottom:17px;font-size:12px">Les prix affichés au départ sont des exemples, pas des prix du marché vérifiés. Saisissez vos vrais prix de paquet et quantités pour fiabiliser les calculs.</p><div class="stock-grid">${DB.ingredients.map(a=>`<div class="stock-item"><div class="title">${esc(a.name)}</div><div class="nums"><span>Stock : <span class="num">${fmt(stock(a.id))} ${a.unit}</span></span><span>Prix : <span class="num">${money(pricePack(a.id))} / ${a.pack} ${a.unit}</span></span></div><p class="purchase-hint">${esc(a.buyTip||'Choisissez un magasin de votre choix ; vérifier la qualité et les instructions.')}</p><button class="btn btn-secondary tiny" data-action="stock-modal" data-id="${a.id}">${icon('edit','sm')} Modifier</button></div>`).join('')}</div>`:ui.productsTab==='history'?`${state.batches.length?`<div class="profile-rows">${[...state.batches].reverse().map(b=>{const r=recipe(b.recipeId);return `<div class="mini-card"><div><h4>${esc(r?.title||'Recette supprimée')}</h4><small>${day(b.date)} · ${fmt(b.quantity)} ${esc(b.unit)} · ${money(b.cost)}${b.comparison!=null?' · Réf. commerce '+money(b.comparison):''}</small></div><button class="small-button" aria-label="Supprimer cette fabrication" data-action="delete-batch" data-id="${esc(b.id)}">${icon('trash','sm')}</button></div>`}).join('')}</div>`:`<div class="empty-state">${icon('calendar','lg')}<h3>Pas encore de fabrication</h3><p>Terminez une recette et enregistrez-la : elle apparaîtra ici avec son coût et sa date.</p><button class="btn btn-primary" data-action="go" data-page="fabricate">Choisir une recette</button></div>`}`:`<div class="panel"><h3>Comparaison de vos coûts</h3><div class="metrics"><div class="metric"><div class="value">${money(totalCost)}</div><div class="label">Coût total des ingrédients</div></div><div class="metric"><div class="value">${money(savings)}</div><div class="label">Écart commerce estimé</div></div></div><p class="help">L’écart peut être négatif. Il n’est calculé que pour les fabrications avec un prix de commerce réellement renseigné par vous. Il exclut le temps, l’énergie et l’emballage.</p></div>`}`;}
+function profiles(){const p=active();return `<div class="page-title"><div><span class="eyebrow">ADAPTÉ À CHACUN</span><h1>Profils familiaux</h1><p>Peau, allergies, sensibilités et préférences de fabrication.</p></div><button class="btn btn-primary" data-action="profile-modal">${icon('plus','sm')} Ajouter un profil</button></div><div class="safety" style="margin-bottom:20px"><h3>${icon('shield','sm')} Confidentialité</h3><div style="font-size:12px">Ces informations de sensibilité cutanée sont enregistrées uniquement dans le stockage de ce navigateur, sur cet appareil. Elles ne sont pas envoyées à un serveur. Évitez les appareils partagés.</div></div>${!state.profiles.length?`<div class="empty-state">${icon('users','lg')}<h3>Créons votre premier profil</h3><p>Il permettra d'afficher les avertissements adaptés avant les soins de la peau.</p><button class="btn btn-primary" data-action="profile-modal">Commencer</button></div>`:`<div class="profile-rows">${state.profiles.map(x=>`<div class="profile-row ${p?.id===x.id?'active':''}"><div class="avatar">${esc((x.name||'?')[0].toUpperCase())}</div><div class="expand"><h3>${esc(x.name)}</h3><small class="muted">Peau : ${esc(x.skin||'non précisée')} · ${x.issues?.length?esc(x.issues.join(', ')):'aucune sensibilité déclarée'}</small><div class="badge-list" style="margin-top:7px">${p?.id===x.id?'<span class="tag">Profil actif</span>':''}${x.allergies?'<span class="tag conditional">Allergies déclarées</span>':''}</div></div><div class="mini-actions"><button class="small-button" data-action="select-profile" data-id="${x.id}" aria-label="Choisir ce profil" ${p?.id===x.id?'disabled':''}>${icon('check','sm')}</button><button class="small-button" data-action="profile-modal" data-id="${x.id}" aria-label="Modifier le profil">${icon('edit','sm')}</button><button class="small-button" data-action="delete-profile" data-id="${x.id}" aria-label="Supprimer le profil">${icon('trash','sm')}</button></div></div>`).join('')}</div>`}<p class="help">Les informations ne sont pas un diagnostic. Elles servent à signaler des risques, pas à certifier une recette « compatible » ou « sans allergène ».</p>`;}
+function settings(){return `<div class="page-title"><div><span class="eyebrow">V1.5 — PARAMÈTRES</span><h1>Réglages & sources</h1><p>Vos données restent sur votre appareil.</p></div></div><div class="purchase-ethics" role="note" aria-label="Notre engagement sur le choix des magasins"><div class="purchase-ethics-title">${icon('shield','sm')} Achats libres, conseils indépendants</div><p><strong>CJAJLK Nature ne perçoit aucune commission</strong> sur vos achats et ne propose aucun placement de magasin rémunéré. <strong>Aucun vendeur n’est imposé</strong> : vous restez libre de choisir le magasin, le site ou le producteur que vous préférez.</p><p class="purchase-ethics-sub">La future rubrique « Où acheter ? » présentera des options à titre informatif, avec des critères transparents (prix, quantité, qualité et disponibilité), jamais des recommandations payées. Les achats se feront hors de l’application.</p></div><div class="panel"><h3>Mes données locales</h3><p class="muted">L'application ne nécessite ni compte ni serveur. Vous pouvez conserver une sauvegarde JSON de votre placard, de vos profils et de votre historique, ou la réimporter sur un autre appareil.</p><div class="btn-row" style="margin-top:17px"><button class="btn btn-secondary" data-action="export">${icon('download','sm')} Exporter mes données</button><button class="btn btn-ghost" data-action="import">${icon('upload','sm')} Importer une sauvegarde</button></div><input class="hide" type="file" accept="application/json,.json" id="import-input" aria-label="Fichier de sauvegarde JSON"><div class="divider"></div><h3>Mode de fabrication favori</h3><div class="switcher" style="margin-top:12px"><button data-action="choose-mode" data-mode="guide" class="${state.mode==='guide'?'active':''}">Pas à pas</button><button data-action="choose-mode" data-mode="fiche" class="${state.mode==='fiche'?'active':''}">Fiche complète</button></div><p class="help">Les deux modes utilisent la même recette et les mêmes consignes de sécurité.</p></div><div class="panel" style="margin-top:15px"><h3>Sources consultées</h3><p class="muted">Liens d'information et de prudence. Les recettes de soin sont des exemples de formulation artisanale, non certifiés par ces organismes.</p><div class="sources-list">${DB.sources.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.name)} ↗</a>`).join('')}</div></div><div class="panel" style="margin-top:15px"><h3>À propos de la V1</h3><p class="muted">Cette version présente 46 recettes ou méthodes de préparation et une rubrique distincte de guides de précaution. Elle ne remplace pas l'avis d'un professionnel de santé, d'un fabricant de machine ou les consignes de sécurité des matières premières. Les prix initiaux sont indicatifs. Les recettes contenant de l'eau destinées à la peau ne sont pas proposées faute de validation microbiologique.</p><div class="divider"></div><button class="btn btn-danger" data-action="reset">${icon('trash','sm')} Effacer toutes mes données locales</button></div>`;}
+function render(scroll=false){const views={home,recipes,guides,fabricate,products:productView,profiles,detail,settings};document.getElementById('app').innerHTML=header()+(views[ui.page]||home)()+`<footer class="footer">CJAJLK Nature V1.5 · 46 recettes et méthodes · Naturel ne signifie pas sans risque · Données enregistrées localement selon le navigateur.</footer>`+bottom();if(ui.page==='recipes')filterCards();if(ui.page==='guides')filterGuideCards();if(scroll)window.scrollTo({top:0,behavior:'instant'});}
+function filterCards(){const cards=[...document.querySelectorAll('#catalog-grid .recipe-card')];let shown=0;cards.forEach(card=>{const r=recipe(card.dataset.id);const visible=(ui.category==='all'||r.category===ui.category)&&norm([r.title,r.desc,r.category,...(r.tags||[])].join(' ')).includes(norm(ui.search))&&(!ui.owned||allOwned(r))&&(!ui.favoritesOnly||state.favorites.includes(r.id));card.classList.toggle('hide',!visible);if(visible)shown++});const el=document.getElementById('results-count');if(el)el.textContent=shown+' recette'+(shown>1?'s':'')+' affichée'+(shown>1?'s':'');document.getElementById('catalog-empty')?.classList.toggle('hide',shown>0);const suggestion=document.getElementById('guide-search-suggestion');if(suggestion){const q=norm(ui.search);const found=q.length>=3?DB.recipes.filter(r=>r.type==='guide'&&norm([r.title,r.desc,...(r.tags||[])].join(' ')).includes(q)):[];suggestion.classList.toggle('hide',!found.length);if(found.length)suggestion.innerHTML=`<div>${icon('info','sm')} <b>Pas une recette, mais un guide disponible</b><p>${found.map(r=>esc(r.title)).join(' · ')}</p></div><button class="btn tiny btn-secondary" data-action="open-guide-search">Lire le conseil ${icon('arrow','sm')}</button>`;}}
+let timeoutToast=null;function toast(t){const el=document.getElementById('toast');el.textContent=t;el.classList.add('show');clearTimeout(timeoutToast);timeoutToast=setTimeout(()=>el.classList.remove('show'),2900)}
+function goto(page,scroll=true){ui.page=page;render(scroll)}
+function openRecipe(id){const r=recipe(id);if(!r)return;ui.selectedId=id;ui.quantity=r.base;ui.step=0;ui.safeChecked=false;ui.page='detail';render(true)}
+function modal(title,body){document.getElementById('modal-root').innerHTML=`<div class="modal" role="dialog" aria-modal="true" aria-label="${esc(title)}"><div class="modal-head"><h2>${esc(title)}</h2><button class="small-button" data-modal-action="close" aria-label="Fermer">${icon('close','sm')}</button></div><div class="modal-body">${body}</div></div>`;document.querySelector('#modal-root .modal input:not([type=checkbox]),#modal-root .modal select')?.focus();}
+function closeModal(){document.getElementById('modal-root').innerHTML=''}
+function profileModal(id){const p=state.profiles.find(x=>x.id===id),issues=p?.issues||[];const issueList=[['eczema','Eczéma'],['psoriasis','Psoriasis'],['acne','Acné'],['rougeur','Rougeurs ou irritations'],['lesion','Peau lésée actuellement']];modal(p?'Modifier le profil':'Nouveau profil',`<form id="profile-form" data-id="${esc(id||'')}"><div class="field"><label for="p-name">Prénom ou surnom *</label><input id="p-name" name="name" maxlength="36" required value="${esc(p?.name||'')}"></div><div class="field"><label for="p-skin">Type de peau</label><select id="p-skin" name="skin">${['inconnue','normale','sèche','grasse','mixte','sensible'].map(n=>`<option value="${n}" ${p?.skin===n?'selected':''}>${n[0].toUpperCase()+n.slice(1)}</option>`).join('')}</select></div><div class="field"><span>Problèmes ou sensibilités (facultatif)</span>${issueList.map(([val,label])=>`<label class="checkline"><input type="checkbox" name="issue" value="${val}" ${issues.includes(val)?'checked':''}> ${label}</label>`).join('')}</div><div class="field"><label for="p-allergy">Allergies ou ingrédients à éviter</label><textarea id="p-allergy" name="allergies" placeholder="Ex. : karité, cire d'abeille, avoine (séparer par une virgule)">${esc(p?.allergies||'')}</textarea><span class="field-helper">La détection est indicative : vérifiez toujours tous les ingrédients.</span></div><div class="field"><label for="p-hair">Cheveux / cuir chevelu</label><select id="p-hair" name="hair">${['non précisé','normaux','secs','gras','sensibles'].map(n=>`<option ${p?.hair===n?'selected':''}>${n}</option>`).join('')}</select></div><label class="checkline"><input type="checkbox" name="fragrance" ${p?.fragrance!==false?'checked':''}><span>Je préfère les produits sans parfum.</span></label><p style="margin:12px 0">Ces données sont stockées localement dans ce navigateur. Elles n'établissent aucun diagnostic et ne garantissent aucune compatibilité.</p><div class="modal-actions"><button type="button" class="btn btn-secondary" data-modal-action="close">Annuler</button><button class="btn btn-primary" type="submit">${p?'Enregistrer':'Créer le profil'}</button></div></form>`)}
+function stockModal(id){const a=ing(id);if(!a)return;modal('Mettre à jour mon placard',`<form id="stock-form" data-id="${a.id}"><h3 style="margin-bottom:12px">${esc(a.name)}</h3><div class="field"><label for="stock-qty">Quantité actuellement disponible (${a.unit})</label><input id="stock-qty" name="stock" required type="number" min="0" step="0.1" value="${stock(id)}"></div><div class="field"><label for="stock-price">Prix de votre paquet de ${a.pack} ${a.unit} (€)</label><input id="stock-price" name="price" required type="number" min="0" max="10000" step="0.01" value="${pricePack(id)}"></div><p>${esc(a.note)}</p><div class="modal-actions"><button type="button" data-modal-action="close" class="btn btn-secondary">Annuler</button><button class="btn btn-primary" type="submit">Enregistrer</button></div></form>`)}
+function finishModal(){const r=recipe(ui.selectedId);if(!r||r.type==='guide')return;const risk=profileRisk(r);if(risk.level==='stop'||risk.level==='setup'||!ui.safeChecked)return toast('Vérifiez le profil et les précautions avant de terminer.');const sc=scaleFor(r);const enough=r.ingredients.every(([id,qty])=>stock(id)+.001>=qty*sc);const cost=recipeCost(r,sc);modal('Enregistrer la fabrication',`<form id="finish-form"><p><b>${esc(r.title)}</b> — ${fmt(ui.quantity)} ${r.yieldUnit}</p><div class="panel slim" style="margin:13px 0"><div class="eyebrow">Coût ingrédients estimé</div><div class="cost-value">${money(cost)}</div></div><div class="field"><label for="comparison">Prix du produit du commerce équivalent pour cette quantité (€), facultatif</label><input id="comparison" name="comparison" type="number" min="0" step="0.01" placeholder="Ex. : 3,50" value="${esc(state.comparisons[r.id]??'')}"><small class="field-helper">Aucune économie n'est calculée sans votre référence.</small></div><label class="checkline"><input name="subtract" type="checkbox" ${enough?'checked':'disabled'}><span>Déduire les quantités utilisées de mon placard ${enough?'':'(stock insuffisant)'}</span></label><p>Enregistrez seulement une préparation effectivement réalisée. Pour une recette à usage immédiat, ne stockez pas les restes.</p><div class="modal-actions"><button class="btn btn-secondary" type="button" data-modal-action="close">Annuler</button><button class="btn btn-primary" type="submit">Enregistrer</button></div></form>`);}
+function deleteConfirm(what,id){const isP=what==='profile';modal(isP?'Supprimer le profil ?':'Supprimer la fabrication ?',`<p>Cette suppression efface définitivement ${isP?'les données du profil sélectionné':'cette ligne de votre historique'} du navigateur.</p><div class="modal-actions"><button type="button" class="btn btn-secondary" data-modal-action="close">Annuler</button><button type="button" class="btn btn-danger" data-modal-action="confirm-delete" data-what="${what}" data-id="${id}">Supprimer</button></div>`)}
+async function copyText(s){try{if(navigator.clipboard&&window.isSecureContext){await navigator.clipboard.writeText(s)}else{const el=document.createElement('textarea');el.value=s;document.body.appendChild(el);el.select();document.execCommand('copy');el.remove()}toast('Liste copiée.')}catch(e){modal('Liste à copier',`<textarea style="width:100%;min-height:170px" readonly>${esc(s)}</textarea>`);}}
+function exportData(){const payload={app:'CJAJLK Nature',exportedAt:new Date().toISOString(),...state};const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='CJAJLK_Nature_sauvegarde_'+new Date().toISOString().slice(0,10)+'.json';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),3000);toast('Sauvegarde téléchargée.');}
+function importData(file){if(!file||file.size>2e6)return toast('Fichier absent ou trop volumineux (limite 2 Mo).');const reader=new FileReader();reader.onload=()=>{try{const val=JSON.parse(String(reader.result));if(val.app!=='CJAJLK Nature'||val.version!==1||!Array.isArray(val.profiles)||!Array.isArray(val.batches)||!Array.isArray(val.favorites)||typeof val.inventory!=='object'||typeof val.prices!=='object')throw Error('Format incompatible');if(!confirm('Importer cette sauvegarde et remplacer toutes les données locales actuelles ?'))return;state={...defaultState(),...val};delete state.app;delete state.exportedAt;persist();ui={...ui,page:'home',selectedId:null};render(true);toast('Sauvegarde importée.')}catch(e){toast('Ce fichier n’est pas une sauvegarde CJAJLK Nature V1 valide.')}};reader.readAsText(file)}
+// Event delegation: UI uses the same handler on desktop and mobile.
+document.addEventListener('click',e=>{const b=e.target.closest('[data-action]');if(!b||!document.getElementById('app').contains(b))return;const a=b.dataset.action,id=b.dataset.id;
+ switch(a){
+ case 'go':goto(b.dataset.page);break;
+ case 'go-category':ui.category=b.dataset.category;ui.search='';goto('recipes');break;
+ case 'open-guide-search':ui.guideSearch=ui.search;goto('guides');break;
+ case 'open-recipe':openRecipe(id);break;
+ case 'go-detail':openRecipe(id);break;
+ case 'filter':ui.category=b.dataset.category;render();break;
+ case 'toggle-owned':ui.owned=!ui.owned;render();break;
+ case 'toggle-favorites-filter':ui.favoritesOnly=!ui.favoritesOnly;render();break;
+ case 'toggle-fav':state.favorites=state.favorites.includes(id)?state.favorites.filter(x=>x!==id):[...state.favorites,id];persist();render();toast('Favoris mis à jour.');break;
+ case 'set-quantity':{const r=recipe(ui.selectedId);ui.quantity=Math.max(1,Math.round(r.base*Number(b.dataset.factor)));ui.step=0;render();break}
+ case 'choose-mode':state.mode=b.dataset.mode;persist();ui.step=0;render();break;
+ case 'step-next':ui.step=Math.min(recipe(ui.selectedId).steps.length-1,ui.step+1);render();break;
+ case 'step-prev':ui.step=Math.max(0,ui.step-1);render();break;
+ case 'finish':finishModal();break;
+ case 'profile-modal':profileModal(id);break;
+ case 'stock-modal':stockModal(id);break;
+ case 'select-profile':state.activeProfileId=id;persist();render();toast('Profil actif mis à jour.');break;
+ case 'delete-profile':deleteConfirm('profile',id);break;
+ case 'delete-batch':deleteConfirm('batch',id);break;
+ case 'products-tab':ui.productsTab=b.dataset.tab;render();break;
+ case 'copy-equipment':{const r=recipe(ui.selectedId);if(!r||!r.equipment)break;
+ const eq=r.equipment;
+ copyText('CJAJLK Nature — matériel à prévoir pour '+r.title+'\n\nIndispensable :\n'+eq.essential.map(x=>'• '+x).join('\n')+'\n\nFacultatif :\n'+(eq.optional?.length?eq.optional.map(x=>'• '+x).join('\n'):'Aucun')+'\n\nContenant : '+eq.container+'\n\nPrécaution : '+eq.note+'\n\nLe prix de la recette ne comprend pas le matériel.');break}
+ case 'copy-shopping':{const r=recipe(ui.selectedId);const list=missing(r);copyText(list.length?'CJAJLK Nature — ingrédients à acheter pour '+r.title+' ('+fmt(ui.quantity)+' '+r.yieldUnit+')\n'+list.map(([id,n])=>{const a=ing(id);return '• '+a.name+' : '+fmt(Math.max(0,n*scaleFor(r)-stock(id)))+' '+a.unit}).join('\n'):'Tous les ingrédients nécessaires sont disponibles dans votre placard.');break}
+ case 'export':exportData();break;
+ case 'import':document.getElementById('import-input')?.click();break;
+ case 'reset':modal('Effacer mes données ?',`<p>Cette action supprimera vos profils, allergies enregistrées, stocks, prix et historique de ce navigateur. Elle est irréversible sans sauvegarde préalable.</p><div class="modal-actions"><button class="btn btn-secondary" data-modal-action="close">Annuler</button><button class="btn btn-danger" data-modal-action="confirm-reset">Effacer</button></div>`);break;
+ }
+});
+document.getElementById('modal-root').addEventListener('click',e=>{if(e.target.id==='modal-root'){closeModal();return}const b=e.target.closest('[data-modal-action]');if(!b)return;switch(b.dataset.modalAction){case 'close':closeModal();break;case 'confirm-reset':localStorage.removeItem(KEY);state=defaultState();ui={...ui,page:'home',selectedId:null};closeModal();render(true);toast('Données locales effacées.');break;case 'confirm-delete':if(b.dataset.what==='profile'){state.profiles=state.profiles.filter(p=>p.id!==b.dataset.id);if(state.activeProfileId===b.dataset.id)state.activeProfileId=state.profiles[0]?.id||null;}else{state.batches=state.batches.filter(p=>p.id!==b.dataset.id)}persist();closeModal();render();toast('Élément supprimé.');break;}});
+document.addEventListener('change',e=>{if(e.target.id==='recipe-qty'){const r=recipe(ui.selectedId),v=Number(e.target.value);if(!Number.isFinite(v)||v<1||v>50000)return toast('Quantité entre 1 et 50 000.');ui.quantity=v;ui.step=0;render();}if(e.target.id==='safety-check'){ui.safeChecked=!!e.target.checked;render();}if(e.target.id==='import-input')importData(e.target.files[0]);});
+document.addEventListener('input',e=>{if(e.target.id==='catalog-search'){ui.search=e.target.value;filterCards();}if(e.target.id==='guide-search'){ui.guideSearch=e.target.value;filterGuideCards();}});
+document.addEventListener('submit',e=>{if(!['profile-form','stock-form','finish-form'].includes(e.target.id))return;e.preventDefault();const f=e.target,fd=new FormData(f);
+ if(f.id==='profile-form'){const name=String(fd.get('name')||'').trim().slice(0,36);if(!name)return toast('Indiquez un prénom ou surnom.');const id=f.dataset.id||('p-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2,6));const p={id,name,skin:String(fd.get('skin')||'inconnue'),issues:fd.getAll('issue').map(String),allergies:String(fd.get('allergies')||'').trim().slice(0,400),hair:String(fd.get('hair')||''),fragrance:fd.has('fragrance')};const index=state.profiles.findIndex(x=>x.id===id);if(index>=0)state.profiles[index]=p;else state.profiles.push(p);state.activeProfileId=id;persist();closeModal();render();toast('Profil enregistré.');}
+ if(f.id==='stock-form'){const id=f.dataset.id,q=Number(fd.get('stock')),price=Number(fd.get('price'));if(!Number.isFinite(q)||q<0||!Number.isFinite(price)||price<0)return toast('Quantités ou prix incorrects.');state.inventory[id]=q;state.prices[id]=price;persist();closeModal();render();toast('Placard mis à jour.');}
+ if(f.id==='finish-form'){const r=recipe(ui.selectedId),sc=scaleFor(r),raw=String(fd.get('comparison')||'').trim().replace(',','.');const comp=raw===''?null:Number(raw);if(comp!==null&&(!Number.isFinite(comp)||comp<0))return toast('Prix commerce incorrect.');const batch={id:'b-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2,6),recipeId:r.id,profileId:active()?.id||null,date:new Date().toISOString(),quantity:ui.quantity,unit:r.yieldUnit,cost:recipeCost(r,sc),comparison:comp};state.batches.push(batch);if(state.batches.length>1000)state.batches=state.batches.slice(-1000);if(fd.has('subtract'))r.ingredients.forEach(([id,qty])=>{state.inventory[id]=Math.max(0,stock(id)-qty*sc)});if(comp!==null)state.comparisons[r.id]=comp;persist();closeModal();ui.productsTab='history';goto('products');toast('Fabrication enregistrée !');}
+ });
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
+render();if(false&&'serviceWorker'in navigator&&location.protocol!=='file:'&& (location.protocol==='https:'||location.hostname==='localhost'||location.hostname==='127.0.0.1'))navigator.serviceWorker.register('./sw.js').catch(e=>console.warn('Mode hors ligne non activé',e));
+})();
+
+ </script>
+</body>
+</html>
